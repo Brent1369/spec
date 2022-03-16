@@ -1,0 +1,7 @@
+13:28:27 **** Clean-only build of configuration Debug for project xilinxproject ****
+make clean 
+rm -rf  ./src/SparkFun_AS7265X.o ./src/helloworld.o ./src/platform.o  ./src/SparkFun_AS7265X.d ./src/helloworld.d ./src/platform.d  xilinxproject.elf.size  xilinxproject.elf
+' '
+
+13:28:27 Build Finished (took 134ms)
+

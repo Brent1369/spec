@@ -1,0 +1,103 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Mar 11 12:46:52 2022
+# Process ID: 22704
+# Current directory: C:/Users/vreys/OneDrive/school/SystemOnChip/Spectroscopy/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20844 C:\Users\vreys\OneDrive\school\SystemOnChip\Spectroscopy\project_1\project_1.xpr
+# Log file: C:/Users/vreys/OneDrive/school/SystemOnChip/Spectroscopy/project_1/vivado.log
+# Journal file: C:/Users/vreys/OneDrive/school/SystemOnChip/Spectroscopy/project_1\vivado.jou
+# Running On: Brent_laptop, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 16904 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vreys/OneDrive/school/SystemOnChip/Spectroscopy/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/vreys/OneDrive/school/SystemOnChip/Spectroscopy/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+delete_bd_objs [get_bd_intf_nets ps7_0_axi_periph_M01_AXI] [get_bd_nets axi_timer_0_interrupt] [get_bd_cells axi_timer_0]
+connect_bd_net [get_bd_pins axi_iic_0/iic2intc_irpt] [get_bd_pins processing_system7_0/IRQ_F2P]
+make_wrapper -files [get_files C:/Users/vreys/OneDrive/school/SystemOnChip/Spectroscopy/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+reset_run synth_1
+reset_run design_1_processing_system7_0_0_synth_1
+reset_run design_1_xbar_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+write_hw_platform -fixed -include_bit -force -file C:/Users/vreys/OneDrive/school/SystemOnChip/Spectroscopy/project_1/icr_wrapper.xsa
+open_bd_design {C:/Users/vreys/OneDrive/school/SystemOnChip/Spectroscopy/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+startgroup
+set_property -dict [list CONFIG.C_SCL_INERTIAL_DELAY {5} CONFIG.C_SDA_INERTIAL_DELAY {5}] [get_bd_cells axi_iic_0]
+endgroup
+make_wrapper -files [get_files C:/Users/vreys/OneDrive/school/SystemOnChip/Spectroscopy/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+reset_run synth_1
+reset_run design_1_axi_iic_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+close_design
+write_hw_platform -fixed -include_bit -force -file C:/Users/vreys/OneDrive/school/SystemOnChip/Spectroscopy/project_1/isrIntertialDelay.xsa
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_intc:4.1 axi_intc_0
+endgroup
+set_property location {2 404 -405} [get_bd_cells axi_intc_0]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_intc_0/s_axi} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_intc_0/s_axi]
+startgroup
+delete_bd_objs [get_bd_intf_nets processing_system7_0_M_AXI_GP0] [get_bd_intf_nets ps7_0_axi_periph_M01_AXI] [get_bd_intf_nets processing_system7_0_FIXED_IO] [get_bd_intf_nets axi_iic_0_IIC] [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_intf_nets processing_system7_0_DDR]
+delete_bd_objs [get_bd_nets processing_system7_0_FCLK_RESET0_N] [get_bd_nets rst_ps7_0_100M_peripheral_aresetn] [get_bd_nets processing_system7_0_FCLK_CLK0] [get_bd_nets axi_iic_0_iic2intc_irpt]
+delete_bd_objs [get_bd_intf_ports DDR] [get_bd_intf_ports FIXED_IO] [get_bd_intf_ports i2c]
+delete_bd_objs [get_bd_cells ps7_0_axi_periph]
+delete_bd_objs [get_bd_cells processing_system7_0] [get_bd_cells axi_iic_0] [get_bd_cells axi_intc_0] [get_bd_cells rst_ps7_0_100M]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_iic:2.1 axi_iic_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_intc:4.1 axi_intc_0
+endgroup
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Board_Interface {audio_i2c ( Audio I2C ) } Manual_Source {Auto}}  [get_bd_intf_pins axi_iic_0/IIC]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_iic_0/S_AXI} ddr_seg {Auto} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins axi_iic_0/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {Auto} Clk_xbar {Auto} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_intc_0/s_axi} ddr_seg {Auto} intc_ip {New AXI Interconnect} master_apm {0}}  [get_bd_intf_pins axi_intc_0/s_axi]
+endgroup
+regenerate_bd_layout -routing
+regenerate_bd_layout -routing
+apply_bd_automation -rule xilinx.com:bd_rule:processing_system7 -config {make_external "FIXED_IO, DDR" apply_board_preset "1" Master "Disable" Slave "Disable" }  [get_bd_cells processing_system7_0]
+connect_bd_net [get_bd_pins axi_iic_0/iic2intc_irpt] [get_bd_pins axi_intc_0/intr]
+startgroup
+set_property -dict [list CONFIG.PCW_USE_FABRIC_INTERRUPT {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.PCW_IRQ_F2P_INTR {1}] [get_bd_cells processing_system7_0]
+endgroup
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+startgroup
+set_property -dict [list CONFIG.PCW_USE_FABRIC_INTERRUPT {1} CONFIG.PCW_IRQ_F2P_INTR {1} CONFIG.PCW_QSPI_GRP_SINGLE_SS_ENABLE {1} CONFIG.PCW_I2C0_PERIPHERAL_ENABLE {1}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+set_property -dict [list CONFIG.PCW_QSPI_GRP_SINGLE_SS_ENABLE {1} CONFIG.PCW_I2C0_PERIPHERAL_ENABLE {0}] [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+endgroup
+regenerate_bd_layout
+validate_bd_design
+make_wrapper -files [get_files C:/Users/vreys/OneDrive/school/SystemOnChip/Spectroscopy/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+open_bd_design {C:/Users/vreys/OneDrive/school/SystemOnChip/Spectroscopy/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}

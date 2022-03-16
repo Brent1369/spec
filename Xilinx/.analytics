@@ -1,0 +1,927 @@
+timestamp=[2022-03-09 12:14:16], mode=WORKBENCH_START, duration=0:00:18.770, duration_ms=18770, data={}
+timestamp=[2022-03-09 12:14:19], mode=WORKBENCH_UI_INIT, duration=0:00:02.545, duration_ms=2545, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2022-03-09 12:14:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.330, duration_ms=330, data={}
+timestamp=[2022-03-09 12:28:27], mode=APP_CREATION, duration=0:00:57.862, duration_ms=57862, data={name=xilinxproject, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=i2c_pynq, application_type=application}
+timestamp=[2022-03-09 13:16:51], mode=PLATFORM_GENERATION, duration=0:00:46.659, duration_ms=46659, data={name=i2c_pynq}
+timestamp=[2022-03-09 13:16:55], mode=BUILD, duration=0:00:03.058, duration_ms=3058, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 13:19:44], mode=BUILD, duration=0:00:00.443, duration_ms=443, data={name=xilinxproject, configuration=Debug, clean_build=true}
+timestamp=[2022-03-09 13:28:32], mode=WORKBENCH_START, duration=0:00:26.857, duration_ms=26857, data={}
+timestamp=[2022-03-09 13:28:35], mode=WORKBENCH_UI_INIT, duration=0:00:02.886, duration_ms=2886, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,xilinxproject,xilinxproject_system}
+timestamp=[2022-03-09 13:28:36], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.541, duration_ms=541, data={}
+timestamp=[2022-03-09 13:33:38], mode=BUILD, duration=0:00:05.873, duration_ms=5873, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 13:45:49], mode=PLATFORM_GENERATION, duration=0:00:05.585, duration_ms=5585, data={name=i2c_pynq}
+timestamp=[2022-03-09 13:45:54], mode=BUILD, duration=0:00:00.759, duration_ms=759, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 13:46:24], mode=PLATFORM_GENERATION, duration=0:00:09.046, duration_ms=9046, data={name=i2c_pynq}
+timestamp=[2022-03-09 13:46:24], mode=BUILD, duration=0:00:00.246, duration_ms=246, data={name=xilinxproject, configuration=Debug, clean_build=true}
+timestamp=[2022-03-09 13:47:04], mode=PLATFORM_GENERATION, duration=0:00:37.849, duration_ms=37849, data={name=i2c_pynq}
+timestamp=[2022-03-09 13:47:07], mode=BUILD, duration=0:00:03.020, duration_ms=3020, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 13:49:38], mode=BUILD, duration=0:00:01.067, duration_ms=1067, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 13:49:50], mode=BUILD, duration=0:00:01.272, duration_ms=1272, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 13:54:16], mode=BUILD, duration=0:00:00.317, duration_ms=317, data={name=xilinxproject, configuration=Debug, clean_build=true}
+timestamp=[2022-03-09 13:54:28], mode=BUILD, duration=0:00:01.366, duration_ms=1366, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 13:57:42], mode=BUILD, duration=0:00:01.136, duration_ms=1136, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:15:26], mode=BUILD, duration=0:00:00.712, duration_ms=712, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:16:00], mode=BUILD, duration=0:00:00.709, duration_ms=709, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:17:03], mode=BUILD, duration=0:00:00.741, duration_ms=741, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:19:25], mode=BUILD, duration=0:00:00.682, duration_ms=682, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:21:51], mode=BUILD, duration=0:00:00.776, duration_ms=776, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:22:40], mode=BUILD, duration=0:00:00.730, duration_ms=730, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:24:20], mode=BUILD, duration=0:00:00.664, duration_ms=664, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:26:38], mode=BUILD, duration=0:00:00.667, duration_ms=667, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:26:53], mode=BUILD, duration=0:00:01.018, duration_ms=1018, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:27:21], mode=BUILD, duration=0:00:01.380, duration_ms=1380, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:29:16], mode=BUILD, duration=0:00:01.639, duration_ms=1639, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:39:47], mode=BUILD, duration=0:00:00.982, duration_ms=982, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:39:59], mode=BUILD, duration=0:00:01.313, duration_ms=1313, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 14:42:00], mode=BUILD, duration=0:00:01.268, duration_ms=1268, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 15:06:22], mode=BUILD, duration=0:00:01.576, duration_ms=1576, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 15:44:52], mode=BUILD, duration=0:00:01.449, duration_ms=1449, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 15:45:03], mode=BUILD, duration=0:00:10.558, duration_ms=10558, data={name=xilinxproject_system, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 16:04:02], mode=BUILD, duration=0:00:01.338, duration_ms=1338, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 16:16:08], mode=BUILD, duration=0:00:01.644, duration_ms=1644, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 16:16:28], mode=BUILD, duration=0:00:01.382, duration_ms=1382, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 16:16:49], mode=BUILD, duration=0:00:01.282, duration_ms=1282, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 16:43:57], mode=BUILD, duration=0:00:01.891, duration_ms=1891, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 16:44:37], mode=BUILD, duration=0:00:01.664, duration_ms=1664, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 16:45:40], mode=BUILD, duration=0:00:01.663, duration_ms=1663, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 16:47:24], mode=BUILD, duration=0:00:01.386, duration_ms=1386, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 16:51:26], mode=BUILD, duration=0:00:00.906, duration_ms=906, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 16:51:39], mode=BUILD, duration=0:00:01.019, duration_ms=1019, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 16:53:10], mode=BUILD, duration=0:00:00.945, duration_ms=945, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 16:58:28], mode=BUILD, duration=0:00:00.361, duration_ms=361, data={name=xilinxproject, configuration=Debug, clean_build=true}
+timestamp=[2022-03-09 16:58:29], mode=BUILD, duration=0:00:00.914, duration_ms=914, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:02:43], mode=BUILD, duration=0:00:00.484, duration_ms=484, data={name=xilinxproject, configuration=Debug, clean_build=true}
+timestamp=[2022-03-09 17:02:44], mode=BUILD, duration=0:00:00.859, duration_ms=859, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:03:26], mode=BUILD, duration=0:00:00.844, duration_ms=844, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:03:54], mode=BUILD, duration=0:00:00.906, duration_ms=906, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:06:29], mode=BUILD, duration=0:00:00.875, duration_ms=875, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:06:42], mode=BUILD, duration=0:00:00.804, duration_ms=804, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:07:00], mode=BUILD, duration=0:00:01.795, duration_ms=1795, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:31:57], mode=BUILD, duration=0:00:01.820, duration_ms=1820, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:39:53], mode=BUILD, duration=0:00:01.614, duration_ms=1614, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:40:30], mode=BUILD, duration=0:00:01.301, duration_ms=1301, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:40:50], mode=BUILD, duration=0:00:00.885, duration_ms=885, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:42:07], mode=WORKBENCH_START, duration=0:00:24.570, duration_ms=24570, data={}
+timestamp=[2022-03-09 17:42:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.169, duration_ms=169, data={}
+timestamp=[2022-03-09 17:42:10], mode=WORKBENCH_UI_INIT, duration=0:00:02.573, duration_ms=2573, data={editors_count=24, platform_editors_count=15, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,xilinxproject,xilinxproject_system}
+timestamp=[2022-03-09 17:42:59], mode=BUILD, duration=0:00:00.550, duration_ms=550, data={name=xilinxproject, configuration=Debug, clean_build=true}
+timestamp=[2022-03-09 17:43:04], mode=BUILD, duration=0:00:01.017, duration_ms=1017, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:44:31], mode=BUILD, duration=0:00:01.348, duration_ms=1348, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:45:36], mode=BUILD, duration=0:00:01.070, duration_ms=1070, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:46:11], mode=BUILD, duration=0:00:00.788, duration_ms=788, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:46:42], mode=BUILD, duration=0:00:00.939, duration_ms=939, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:46:56], mode=BUILD, duration=0:00:00.848, duration_ms=848, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:47:07], mode=BUILD, duration=0:00:00.832, duration_ms=832, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:48:09], mode=BUILD, duration=0:00:00.735, duration_ms=735, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:49:57], mode=BUILD, duration=0:00:00.804, duration_ms=804, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:50:33], mode=BUILD, duration=0:00:00.793, duration_ms=793, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:50:38], mode=BUILD, duration=0:00:00.755, duration_ms=755, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:50:44], mode=BUILD, duration=0:00:00.727, duration_ms=727, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 17:50:55], mode=BUILD, duration=0:00:00.826, duration_ms=826, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 18:17:00], mode=PLATFORM_GENERATION, duration=0:00:05.403, duration_ms=5403, data={name=i2c_pynq}
+timestamp=[2022-03-09 18:17:01], mode=BUILD, duration=0:00:01.149, duration_ms=1149, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 18:37:58], mode=BUILD, duration=0:00:00.889, duration_ms=889, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 18:38:12], mode=BUILD, duration=0:00:00.776, duration_ms=776, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 18:38:46], mode=BUILD, duration=0:00:01.032, duration_ms=1032, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 18:39:03], mode=BUILD, duration=0:00:00.833, duration_ms=833, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 18:39:47], mode=BUILD, duration=0:00:01.043, duration_ms=1043, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 18:40:17], mode=BUILD, duration=0:00:00.932, duration_ms=932, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 18:40:31], mode=BUILD, duration=0:00:00.722, duration_ms=722, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 18:40:50], mode=BUILD, duration=0:00:00.764, duration_ms=764, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 18:41:15], mode=BUILD, duration=0:00:00.757, duration_ms=757, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 18:54:29], mode=BUILD, duration=0:00:00.864, duration_ms=864, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:01:11], mode=BUILD, duration=0:00:00.855, duration_ms=855, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:01:35], mode=BUILD, duration=0:00:00.845, duration_ms=845, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:02:11], mode=BUILD, duration=0:00:01.107, duration_ms=1107, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:02:27], mode=BUILD, duration=0:00:00.882, duration_ms=882, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:05:07], mode=BUILD, duration=0:00:00.960, duration_ms=960, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:06:30], mode=BUILD, duration=0:00:01.043, duration_ms=1043, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:06:52], mode=BUILD, duration=0:00:00.932, duration_ms=932, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:07:37], mode=BUILD, duration=0:00:00.861, duration_ms=861, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:10:18], mode=BUILD, duration=0:00:00.718, duration_ms=718, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:10:30], mode=BUILD, duration=0:00:00.715, duration_ms=715, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:10:47], mode=BUILD, duration=0:00:00.887, duration_ms=887, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:13:28], mode=BUILD, duration=0:00:00.951, duration_ms=951, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:13:37], mode=BUILD, duration=0:00:01.018, duration_ms=1018, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:13:53], mode=BUILD, duration=0:00:00.909, duration_ms=909, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:14:01], mode=BUILD, duration=0:00:00.716, duration_ms=716, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:15:08], mode=BUILD, duration=0:00:00.842, duration_ms=842, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:15:27], mode=BUILD, duration=0:00:00.894, duration_ms=894, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:15:35], mode=BUILD, duration=0:00:00.835, duration_ms=835, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:24:11], mode=BUILD, duration=0:00:00.840, duration_ms=840, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 19:24:29], mode=BUILD, duration=0:00:00.882, duration_ms=882, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:29:35], mode=BUILD, duration=0:00:00.785, duration_ms=785, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:30:12], mode=BUILD, duration=0:00:00.789, duration_ms=789, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:32:12], mode=BUILD, duration=0:00:02.574, duration_ms=2574, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:35:07], mode=PLATFORM_GENERATION, duration=0:00:11.532, duration_ms=11532, data={name=i2c_pynq}
+timestamp=[2022-03-09 20:35:08], mode=BUILD, duration=0:00:00.847, duration_ms=847, data={name=xilinxproject, configuration=Debug, clean_build=true}
+timestamp=[2022-03-09 20:36:06], mode=PLATFORM_GENERATION, duration=0:00:44.692, duration_ms=44692, data={name=i2c_pynq}
+timestamp=[2022-03-09 20:36:10], mode=BUILD, duration=0:00:03.452, duration_ms=3452, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:37:56], mode=BUILD, duration=0:00:00.994, duration_ms=994, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:40:09], mode=BUILD, duration=0:00:01.559, duration_ms=1559, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:42:37], mode=BUILD, duration=0:00:01.139, duration_ms=1139, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:43:46], mode=BUILD, duration=0:00:00.854, duration_ms=854, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:44:19], mode=BUILD, duration=0:00:01.862, duration_ms=1862, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:46:30], mode=BUILD, duration=0:00:01.284, duration_ms=1284, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:47:00], mode=BUILD, duration=0:00:00.868, duration_ms=868, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:47:10], mode=BUILD, duration=0:00:00.817, duration_ms=817, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:48:14], mode=BUILD, duration=0:00:01.074, duration_ms=1074, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 20:48:23], mode=BUILD, duration=0:00:00.822, duration_ms=822, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 21:06:17], mode=BUILD, duration=0:00:00.882, duration_ms=882, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 21:06:43], mode=BUILD, duration=0:00:00.823, duration_ms=823, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 21:07:05], mode=BUILD, duration=0:00:00.808, duration_ms=808, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 21:09:29], mode=BUILD, duration=0:00:01.241, duration_ms=1241, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 21:09:57], mode=BUILD, duration=0:00:01.945, duration_ms=1945, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-09 21:12:35], mode=BUILD, duration=0:00:01.464, duration_ms=1464, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 09:56:10], mode=BUILD, duration=0:00:03.711, duration_ms=3711, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 09:56:30], mode=BUILD, duration=0:00:00.871, duration_ms=871, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 09:57:13], mode=PLATFORM_GENERATION, duration=0:00:19.992, duration_ms=19992, data={name=i2c_pynq}
+timestamp=[2022-03-10 09:57:13], mode=BUILD, duration=0:00:00.403, duration_ms=403, data={name=xilinxproject, configuration=Debug, clean_build=true}
+timestamp=[2022-03-10 09:59:45], mode=PLATFORM_GENERATION, duration=0:00:43.806, duration_ms=43806, data={name=i2c_pynq}
+timestamp=[2022-03-10 09:59:46], mode=BUILD, duration=0:00:00.834, duration_ms=834, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:01:53], mode=BUILD, duration=0:00:01.192, duration_ms=1192, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:02:50], mode=BUILD, duration=0:00:02.726, duration_ms=2726, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:07:09], mode=BUILD, duration=0:00:03.116, duration_ms=3116, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:15:08], mode=WORKBENCH_START, duration=0:00:26.410, duration_ms=26410, data={}
+timestamp=[2022-03-10 10:15:10], mode=WORKBENCH_UI_INIT, duration=0:00:02.664, duration_ms=2664, data={editors_count=28, platform_editors_count=17, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,xilinxproject,xilinxproject_system}
+timestamp=[2022-03-10 10:15:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.074, duration_ms=74, data={}
+timestamp=[2022-03-10 10:18:17], mode=PLATFORM_GENERATION, duration=0:00:19.923, duration_ms=19923, data={name=i2c_pynq}
+timestamp=[2022-03-10 10:18:18], mode=BUILD, duration=0:00:00.362, duration_ms=362, data={name=xilinxproject, configuration=Debug, clean_build=true}
+timestamp=[2022-03-10 10:18:26], mode=BUILD, duration=0:00:02.549, duration_ms=2549, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:19:06], mode=BUILD, duration=0:00:01.813, duration_ms=1813, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:19:47], mode=BUILD, duration=0:00:02.310, duration_ms=2310, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:21:16], mode=BUILD, duration=0:00:01.624, duration_ms=1624, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:25:05], mode=WORKBENCH_START, duration=0:00:15.628, duration_ms=15628, data={}
+timestamp=[2022-03-10 10:25:07], mode=WORKBENCH_UI_INIT, duration=0:00:02.130, duration_ms=2130, data={editors_count=28, platform_editors_count=17, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,xilinxproject,xilinxproject_system}
+timestamp=[2022-03-10 10:25:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.047, duration_ms=47, data={}
+timestamp=[2022-03-10 10:25:36], mode=PLATFORM_GENERATION, duration=0:00:20.256, duration_ms=20256, data={name=i2c_pynq}
+timestamp=[2022-03-10 10:25:36], mode=BUILD, duration=0:00:00.424, duration_ms=424, data={name=xilinxproject, configuration=Debug, clean_build=true}
+timestamp=[2022-03-10 10:25:43], mode=BUILD, duration=0:00:02.487, duration_ms=2487, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:28:31], mode=BUILD, duration=0:00:02.110, duration_ms=2110, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:29:48], mode=BUILD, duration=0:00:02.133, duration_ms=2133, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:31:04], mode=BUILD, duration=0:00:00.600, duration_ms=600, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:31:49], mode=BUILD, duration=0:00:00.708, duration_ms=708, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:31:51], mode=BUILD, duration=0:00:00.726, duration_ms=726, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:31:52], mode=BUILD, duration=0:00:00.579, duration_ms=579, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:32:03], mode=BUILD, duration=0:00:00.538, duration_ms=538, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:33:03], mode=BUILD, duration=0:00:01.928, duration_ms=1928, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:35:31], mode=WORKBENCH_START, duration=0:00:16.144, duration_ms=16144, data={}
+timestamp=[2022-03-10 10:35:33], mode=WORKBENCH_UI_INIT, duration=0:00:02.058, duration_ms=2058, data={editors_count=29, platform_editors_count=18, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,xilinxproject,xilinxproject_system}
+timestamp=[2022-03-10 10:35:34], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.074, duration_ms=74, data={}
+timestamp=[2022-03-10 10:36:47], mode=WORKBENCH_START, duration=0:00:17.960, duration_ms=17960, data={}
+timestamp=[2022-03-10 10:36:49], mode=WORKBENCH_UI_INIT, duration=0:00:01.796, duration_ms=1796, data={editors_count=29, platform_editors_count=18, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,xilinxproject,xilinxproject_system}
+timestamp=[2022-03-10 10:36:50], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.176, duration_ms=176, data={}
+timestamp=[2022-03-10 10:37:26], mode=PLATFORM_GENERATION, duration=0:00:17.450, duration_ms=17450, data={name=i2c_pynq}
+timestamp=[2022-03-10 10:37:31], mode=BUILD, duration=0:00:00.486, duration_ms=486, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:37:39], mode=BUILD, duration=0:00:01.982, duration_ms=1982, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:37:43], mode=BUILD, duration=0:00:00.598, duration_ms=598, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:39:15], mode=BUILD, duration=0:00:01.564, duration_ms=1564, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:41:08], mode=BUILD, duration=0:00:01.317, duration_ms=1317, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:43:31], mode=BUILD, duration=0:00:02.973, duration_ms=2973, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:46:38], mode=BUILD, duration=0:00:17.789, duration_ms=17789, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 10:50:52], mode=WORKBENCH_START, duration=0:00:18.437, duration_ms=18437, data={}
+timestamp=[2022-03-10 10:50:55], mode=WORKBENCH_UI_INIT, duration=0:00:02.343, duration_ms=2343, data={editors_count=29, platform_editors_count=18, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,xilinxproject,xilinxproject_system}
+timestamp=[2022-03-10 10:50:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.099, duration_ms=99, data={}
+timestamp=[2022-03-10 10:51:39], mode=PLATFORM_GENERATION, duration=0:00:18.070, duration_ms=18070, data={name=i2c_pynq}
+timestamp=[2022-03-10 10:51:43], mode=BUILD, duration=0:00:00.509, duration_ms=509, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 11:54:39], mode=WORKBENCH_START, duration=0:00:06.062, duration_ms=6062, data={}
+timestamp=[2022-03-10 11:54:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.492, duration_ms=492, data={editors_count=29, platform_editors_count=18, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,xilinxproject,xilinxproject_system}
+timestamp=[2022-03-10 11:54:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.088, duration_ms=88, data={}
+timestamp=[2022-03-10 11:57:20], mode=APP_CREATION, duration=0:00:19.736, duration_ms=19736, data={name=xilinxwithTimer, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2022-03-10 11:58:24], mode=PLATFORM_GENERATION, duration=0:00:11.015, duration_ms=11015, data={name=design_1_wrapper}
+timestamp=[2022-03-10 11:58:25], mode=BUILD, duration=0:00:00.960, duration_ms=960, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 12:10:22], mode=PLATFORM_GENERATION, duration=0:00:01.833, duration_ms=1833, data={name=design_1_wrapper}
+timestamp=[2022-03-10 12:10:23], mode=BUILD, duration=0:00:00.747, duration_ms=747, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 12:41:34], mode=WORKBENCH_START, duration=0:00:05.672, duration_ms=5672, data={}
+timestamp=[2022-03-10 12:41:34], mode=WORKBENCH_UI_INIT, duration=0:00:00.581, duration_ms=581, data={editors_count=37, platform_editors_count=20, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,i2c_pynq,xilinxproject,xilinxproject_system,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-10 12:41:34], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.081, duration_ms=81, data={}
+timestamp=[2022-03-10 12:48:48], mode=BUILD, duration=0:00:01.411, duration_ms=1411, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 12:57:56], mode=PLATFORM_GENERATION, duration=0:00:03.288, duration_ms=3288, data={name=i2c_pynq}
+timestamp=[2022-03-10 12:57:56], mode=BUILD, duration=0:00:00.649, duration_ms=649, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 12:59:14], mode=PLATFORM_GENERATION, duration=0:00:01.279, duration_ms=1279, data={name=i2c_pynq}
+timestamp=[2022-03-10 12:59:14], mode=BUILD, duration=0:00:00.556, duration_ms=556, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 13:02:57], mode=PLATFORM_GENERATION, duration=0:00:01.227, duration_ms=1227, data={name=i2c_pynq}
+timestamp=[2022-03-10 13:02:57], mode=BUILD, duration=0:00:00.543, duration_ms=543, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 13:06:38], mode=PLATFORM_GENERATION, duration=0:00:01.297, duration_ms=1297, data={name=i2c_pynq}
+timestamp=[2022-03-10 13:06:39], mode=BUILD, duration=0:00:00.544, duration_ms=544, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 13:12:48], mode=PLATFORM_GENERATION, duration=0:00:01.285, duration_ms=1285, data={name=i2c_pynq}
+timestamp=[2022-03-10 13:12:49], mode=BUILD, duration=0:00:00.697, duration_ms=697, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 13:18:47], mode=PLATFORM_GENERATION, duration=0:00:01.285, duration_ms=1285, data={name=i2c_pynq}
+timestamp=[2022-03-10 13:18:48], mode=BUILD, duration=0:00:00.546, duration_ms=546, data={name=xilinxproject, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 13:25:04], mode=BUILD, duration=0:00:00.606, duration_ms=606, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 13:25:17], mode=BUILD, duration=0:00:00.249, duration_ms=249, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 13:27:59], mode=BUILD, duration=0:00:00.191, duration_ms=191, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 13:28:27], mode=BUILD, duration=0:00:00.142, duration_ms=142, data={name=xilinxproject, configuration=Debug, clean_build=true}
+timestamp=[2022-03-10 13:28:46], mode=BUILD, duration=0:00:00.252, duration_ms=252, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 13:31:14], mode=BUILD, duration=0:00:00.200, duration_ms=200, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 13:54:50], mode=BUILD, duration=0:00:00.761, duration_ms=761, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 13:56:33], mode=BUILD, duration=0:00:00.246, duration_ms=246, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:04:51], mode=BUILD, duration=0:00:00.923, duration_ms=923, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:06:46], mode=BUILD, duration=0:00:00.915, duration_ms=915, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:06:58], mode=BUILD, duration=0:00:00.246, duration_ms=246, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:10:02], mode=BUILD, duration=0:00:00.812, duration_ms=812, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:10:35], mode=BUILD, duration=0:00:00.302, duration_ms=302, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:14:18], mode=BUILD, duration=0:00:00.815, duration_ms=815, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:17:56], mode=BUILD, duration=0:00:00.383, duration_ms=383, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:19:19], mode=BUILD, duration=0:00:00.458, duration_ms=458, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:20:52], mode=WORKBENCH_START, duration=0:00:05.058, duration_ms=5058, data={}
+timestamp=[2022-03-10 14:20:52], mode=WORKBENCH_UI_INIT, duration=0:00:00.396, duration_ms=396, data={editors_count=32, platform_editors_count=23, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,i2c_pynq,xilinxproject,xilinxproject_system,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-10 14:20:52], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.046, duration_ms=46, data={}
+timestamp=[2022-03-10 14:23:24], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:23:54], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:24:45], mode=WORKBENCH_START, duration=0:00:04.799, duration_ms=4799, data={}
+timestamp=[2022-03-10 14:24:46], mode=WORKBENCH_UI_INIT, duration=0:00:00.352, duration_ms=352, data={editors_count=32, platform_editors_count=23, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,i2c_pynq,xilinxproject,xilinxproject_system,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-10 14:24:46], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.047, duration_ms=47, data={}
+timestamp=[2022-03-10 14:24:56], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:29:09], mode=BUILD, duration=0:00:00.556, duration_ms=556, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:49:50], mode=BUILD, duration=0:00:00.608, duration_ms=608, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 14:50:36], mode=BUILD, duration=0:00:00.192, duration_ms=192, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 16:05:31], mode=WORKBENCH_START, duration=0:00:04.933, duration_ms=4933, data={}
+timestamp=[2022-03-10 16:05:31], mode=WORKBENCH_UI_INIT, duration=0:00:00.384, duration_ms=384, data={editors_count=33, platform_editors_count=24, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,i2c_pynq,xilinxproject,xilinxproject_system,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-10 16:05:31], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.068, duration_ms=68, data={}
+timestamp=[2022-03-10 16:21:03], mode=BUILD, duration=0:00:00.579, duration_ms=579, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 16:24:11], mode=BUILD, duration=0:00:00.191, duration_ms=191, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-10 16:26:50], mode=BUILD, duration=0:00:00.194, duration_ms=194, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 10:54:40], mode=WORKBENCH_START, duration=0:00:13.042, duration_ms=13042, data={}
+timestamp=[2022-03-11 10:54:42], mode=WORKBENCH_UI_INIT, duration=0:00:01.614, duration_ms=1614, data={editors_count=34, platform_editors_count=25, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,i2c_pynq,xilinxproject,xilinxproject_system,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-11 10:54:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.089, duration_ms=89, data={}
+timestamp=[2022-03-11 10:54:58], mode=PLATFORM_GENERATION, duration=0:00:05.730, duration_ms=5730, data={name=design_1_wrapper}
+timestamp=[2022-03-11 10:54:58], mode=BUILD, duration=0:00:00.327, duration_ms=327, data={name=xilinxwithTimer, configuration=Debug, clean_build=true}
+timestamp=[2022-03-11 10:55:36], mode=PLATFORM_GENERATION, duration=0:00:02.238, duration_ms=2238, data={name=design_1_wrapper}
+timestamp=[2022-03-11 10:55:54], mode=PLATFORM_GENERATION, duration=0:00:17.522, duration_ms=17522, data={name=i2c_pynq}
+timestamp=[2022-03-11 10:55:57], mode=BUILD, duration=0:00:02.485, duration_ms=2485, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 10:57:00], mode=BUILD, duration=0:00:00.543, duration_ms=543, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 11:05:46], mode=BUILD, duration=0:00:01.825, duration_ms=1825, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 12:22:30], mode=WORKBENCH_START, duration=0:00:14.582, duration_ms=14582, data={}
+timestamp=[2022-03-11 12:22:31], mode=WORKBENCH_UI_INIT, duration=0:00:01.702, duration_ms=1702, data={editors_count=27, platform_editors_count=18, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,xilinxproject,xilinxproject_system,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-11 12:22:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.072, duration_ms=72, data={}
+timestamp=[2022-03-11 12:23:48], mode=PLATFORM_GENERATION, duration=0:00:20.994, duration_ms=20994, data={name=i2c_pynq}
+timestamp=[2022-03-11 12:23:56], mode=BUILD, duration=0:00:01.853, duration_ms=1853, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 12:25:57], mode=BUILD, duration=0:00:01.377, duration_ms=1377, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 12:28:52], mode=BUILD, duration=0:00:02.529, duration_ms=2529, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 12:29:39], mode=BUILD, duration=0:00:00.539, duration_ms=539, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 12:30:04], mode=BUILD, duration=0:00:00.532, duration_ms=532, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 12:31:17], mode=BUILD, duration=0:00:01.555, duration_ms=1555, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 12:38:26], mode=BUILD, duration=0:00:01.545, duration_ms=1545, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 12:39:57], mode=BUILD, duration=0:00:00.519, duration_ms=519, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 12:48:41], mode=BUILD, duration=0:00:00.849, duration_ms=849, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 14:07:36], mode=BUILD, duration=0:00:03.135, duration_ms=3135, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 14:07:52], mode=BUILD, duration=0:00:00.516, duration_ms=516, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 14:22:41], mode=BUILD, duration=0:00:02.671, duration_ms=2671, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 14:27:01], mode=BUILD, duration=0:00:00.938, duration_ms=938, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 14:54:49], mode=BUILD, duration=0:00:00.725, duration_ms=725, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 14:57:04], mode=BUILD, duration=0:00:00.925, duration_ms=925, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:04:52], mode=BUILD, duration=0:00:01.079, duration_ms=1079, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:05:50], mode=BUILD, duration=0:00:00.772, duration_ms=772, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:06:45], mode=BUILD, duration=0:00:00.898, duration_ms=898, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:11:11], mode=BUILD, duration=0:00:00.900, duration_ms=900, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:11:30], mode=BUILD, duration=0:00:00.852, duration_ms=852, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:11:49], mode=BUILD, duration=0:00:00.815, duration_ms=815, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:12:21], mode=BUILD, duration=0:00:00.834, duration_ms=834, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:12:29], mode=BUILD, duration=0:00:00.867, duration_ms=867, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:12:52], mode=BUILD, duration=0:00:00.837, duration_ms=837, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:14:38], mode=BUILD, duration=0:00:01.039, duration_ms=1039, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:15:01], mode=BUILD, duration=0:00:00.833, duration_ms=833, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:15:13], mode=BUILD, duration=0:00:00.759, duration_ms=759, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:17:13], mode=BUILD, duration=0:00:00.929, duration_ms=929, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:18:27], mode=BUILD, duration=0:00:00.817, duration_ms=817, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:19:58], mode=BUILD, duration=0:00:00.868, duration_ms=868, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:20:53], mode=BUILD, duration=0:00:00.831, duration_ms=831, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:24:47], mode=BUILD, duration=0:00:00.792, duration_ms=792, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:25:41], mode=BUILD, duration=0:00:00.771, duration_ms=771, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:27:38], mode=BUILD, duration=0:00:00.830, duration_ms=830, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:27:47], mode=BUILD, duration=0:00:00.866, duration_ms=866, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:28:15], mode=BUILD, duration=0:00:00.935, duration_ms=935, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:33:42], mode=BUILD, duration=0:00:00.978, duration_ms=978, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:34:38], mode=BUILD, duration=0:00:01.017, duration_ms=1017, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:34:50], mode=BUILD, duration=0:00:00.735, duration_ms=735, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:35:10], mode=BUILD, duration=0:00:00.805, duration_ms=805, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:35:51], mode=BUILD, duration=0:00:00.718, duration_ms=718, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:36:37], mode=BUILD, duration=0:00:00.853, duration_ms=853, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:36:50], mode=BUILD, duration=0:00:00.794, duration_ms=794, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:36:59], mode=BUILD, duration=0:00:01.952, duration_ms=1952, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:37:04], mode=BUILD, duration=0:00:00.656, duration_ms=656, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 15:39:10], mode=BUILD, duration=0:00:00.925, duration_ms=925, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:03:59], mode=BUILD, duration=0:00:01.840, duration_ms=1840, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:04:42], mode=BUILD, duration=0:00:00.722, duration_ms=722, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:06:47], mode=BUILD, duration=0:00:00.979, duration_ms=979, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:07:11], mode=BUILD, duration=0:00:00.802, duration_ms=802, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:07:53], mode=BUILD, duration=0:00:02.544, duration_ms=2544, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:08:24], mode=BUILD, duration=0:00:00.674, duration_ms=674, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:09:29], mode=BUILD, duration=0:00:00.586, duration_ms=586, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:10:38], mode=BUILD, duration=0:00:01.668, duration_ms=1668, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:11:40], mode=BUILD, duration=0:00:00.582, duration_ms=582, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:14:42], mode=BUILD, duration=0:00:00.540, duration_ms=540, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:15:53], mode=BUILD, duration=0:00:00.561, duration_ms=561, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:16:04], mode=BUILD, duration=0:00:00.517, duration_ms=517, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:17:25], mode=BUILD, duration=0:00:00.645, duration_ms=645, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:24:14], mode=BUILD, duration=0:00:00.847, duration_ms=847, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:24:28], mode=BUILD, duration=0:00:00.806, duration_ms=806, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:25:38], mode=BUILD, duration=0:00:00.733, duration_ms=733, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:26:11], mode=BUILD, duration=0:00:00.697, duration_ms=697, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:27:36], mode=BUILD, duration=0:00:00.793, duration_ms=793, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:28:08], mode=BUILD, duration=0:00:01.149, duration_ms=1149, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:28:20], mode=BUILD, duration=0:00:00.741, duration_ms=741, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:29:10], mode=BUILD, duration=0:00:00.763, duration_ms=763, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:29:50], mode=BUILD, duration=0:00:00.719, duration_ms=719, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:31:38], mode=BUILD, duration=0:00:01.149, duration_ms=1149, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:32:12], mode=BUILD, duration=0:00:01.490, duration_ms=1490, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:32:16], mode=BUILD, duration=0:00:00.530, duration_ms=530, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:34:13], mode=BUILD, duration=0:00:00.556, duration_ms=556, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:35:39], mode=BUILD, duration=0:00:00.538, duration_ms=538, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:36:36], mode=BUILD, duration=0:00:00.545, duration_ms=545, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:37:11], mode=BUILD, duration=0:00:00.555, duration_ms=555, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:39:02], mode=BUILD, duration=0:00:01.294, duration_ms=1294, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:41:19], mode=BUILD, duration=0:00:01.421, duration_ms=1421, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:42:26], mode=BUILD, duration=0:00:01.456, duration_ms=1456, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:43:32], mode=BUILD, duration=0:00:00.572, duration_ms=572, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:43:40], mode=BUILD, duration=0:00:00.516, duration_ms=516, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:44:20], mode=BUILD, duration=0:00:00.551, duration_ms=551, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:45:57], mode=BUILD, duration=0:00:01.505, duration_ms=1505, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:51:00], mode=BUILD, duration=0:00:00.789, duration_ms=789, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 16:51:12], mode=BUILD, duration=0:00:01.398, duration_ms=1398, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:04:26], mode=BUILD, duration=0:00:01.042, duration_ms=1042, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:14:08], mode=BUILD, duration=0:00:00.724, duration_ms=724, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:21:46], mode=APP_CREATION, duration=0:00:44.466, duration_ms=44466, data={name=isr, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=icr_wrapper, application_type=application}
+timestamp=[2022-03-11 17:23:21], mode=PLATFORM_GENERATION, duration=0:00:41.984, duration_ms=41984, data={name=icr_wrapper}
+timestamp=[2022-03-11 17:23:22], mode=BUILD, duration=0:00:00.789, duration_ms=789, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:25:08], mode=BUILD, duration=0:00:00.728, duration_ms=728, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:25:43], mode=BUILD, duration=0:00:00.710, duration_ms=710, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:27:11], mode=BUILD, duration=0:00:00.822, duration_ms=822, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:28:53], mode=BUILD, duration=0:00:00.825, duration_ms=825, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:41:15], mode=BUILD, duration=0:00:00.951, duration_ms=951, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:41:30], mode=BUILD, duration=0:00:00.714, duration_ms=714, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:41:38], mode=BUILD, duration=0:00:00.748, duration_ms=748, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:42:26], mode=BUILD, duration=0:00:01.024, duration_ms=1024, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:42:40], mode=BUILD, duration=0:00:00.717, duration_ms=717, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:43:19], mode=BUILD, duration=0:00:00.712, duration_ms=712, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:43:29], mode=BUILD, duration=0:00:00.715, duration_ms=715, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:43:50], mode=BUILD, duration=0:00:02.080, duration_ms=2080, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:44:10], mode=BUILD, duration=0:00:00.521, duration_ms=521, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:45:36], mode=BUILD, duration=0:00:00.526, duration_ms=526, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:46:49], mode=BUILD, duration=0:00:00.775, duration_ms=775, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:46:50], mode=BUILD, duration=0:00:00.884, duration_ms=884, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:46:57], mode=BUILD, duration=0:00:00.710, duration_ms=710, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:47:17], mode=BUILD, duration=0:00:00.756, duration_ms=756, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:47:50], mode=BUILD, duration=0:00:00.798, duration_ms=798, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:47:58], mode=BUILD, duration=0:00:00.505, duration_ms=505, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:48:30], mode=BUILD, duration=0:00:00.531, duration_ms=531, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:48:36], mode=BUILD, duration=0:00:00.497, duration_ms=497, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:51:07], mode=BUILD, duration=0:00:01.799, duration_ms=1799, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:51:52], mode=BUILD, duration=0:00:01.638, duration_ms=1638, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:52:42], mode=BUILD, duration=0:00:00.515, duration_ms=515, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:52:53], mode=BUILD, duration=0:00:00.502, duration_ms=502, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:53:01], mode=BUILD, duration=0:00:00.489, duration_ms=489, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:53:59], mode=BUILD, duration=0:00:00.575, duration_ms=575, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 17:57:24], mode=BUILD, duration=0:00:01.641, duration_ms=1641, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:01:18], mode=BUILD, duration=0:00:00.549, duration_ms=549, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:08:03], mode=BUILD, duration=0:00:02.166, duration_ms=2166, data={name=isr, configuration=Release, clean_build=false}
+timestamp=[2022-03-11 18:08:32], mode=BUILD, duration=0:00:00.810, duration_ms=810, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:09:58], mode=BUILD, duration=0:00:00.573, duration_ms=573, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:11:00], mode=BUILD, duration=0:00:00.789, duration_ms=789, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:20:06], mode=BUILD, duration=0:00:02.392, duration_ms=2392, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:20:18], mode=BUILD, duration=0:00:00.532, duration_ms=532, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:21:46], mode=BUILD, duration=0:00:00.711, duration_ms=711, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:23:08], mode=BUILD, duration=0:00:00.512, duration_ms=512, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:39:55], mode=APP_CREATION, duration=0:00:40.332, duration_ms=40332, data={name=isrInertialDelay, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=isrIntertialDelay, application_type=application}
+timestamp=[2022-03-11 18:40:40], mode=BUILD, duration=0:00:00.571, duration_ms=571, data={name=isr, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:41:36], mode=PLATFORM_GENERATION, duration=0:00:43.017, duration_ms=43017, data={name=isrIntertialDelay}
+timestamp=[2022-03-11 18:41:43], mode=BUILD, duration=0:00:06.294, duration_ms=6294, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:43:22], mode=BUILD, duration=0:00:01.542, duration_ms=1542, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:44:18], mode=BUILD, duration=0:00:01.421, duration_ms=1421, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:44:49], mode=BUILD, duration=0:00:00.512, duration_ms=512, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:49:05], mode=BUILD, duration=0:00:01.476, duration_ms=1476, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:49:30], mode=BUILD, duration=0:00:00.507, duration_ms=507, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:49:57], mode=BUILD, duration=0:00:00.505, duration_ms=505, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:50:41], mode=BUILD, duration=0:00:01.585, duration_ms=1585, data={name=xilinxwithTimer, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:51:52], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:54:19], mode=APP_CREATION, duration=0:00:35.349, duration_ms=35349, data={name=interialNoInterrupt, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=isrIntertialDelay_1, application_type=application}
+timestamp=[2022-03-11 18:55:09], mode=PLATFORM_GENERATION, duration=0:00:41.184, duration_ms=41184, data={name=isrIntertialDelay_1}
+timestamp=[2022-03-11 18:55:12], mode=BUILD, duration=0:00:02.255, duration_ms=2255, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 18:56:03], mode=BUILD, duration=0:00:01.722, duration_ms=1722, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 19:08:52], mode=BUILD, duration=0:00:02.135, duration_ms=2135, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 19:15:20], mode=BUILD, duration=0:00:01.680, duration_ms=1680, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 19:18:36], mode=BUILD, duration=0:00:01.702, duration_ms=1702, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 19:21:58], mode=BUILD, duration=0:00:02.002, duration_ms=2002, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 19:24:29], mode=BUILD, duration=0:00:00.538, duration_ms=538, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 19:42:33], mode=BUILD, duration=0:00:00.610, duration_ms=610, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 19:47:55], mode=BUILD, duration=0:00:02.172, duration_ms=2172, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 19:49:40], mode=BUILD, duration=0:00:00.587, duration_ms=587, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 19:50:28], mode=BUILD, duration=0:00:01.829, duration_ms=1829, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 19:50:36], mode=BUILD, duration=0:00:00.561, duration_ms=561, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 19:51:24], mode=BUILD, duration=0:00:00.607, duration_ms=607, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 19:57:03], mode=BUILD, duration=0:00:00.647, duration_ms=647, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 20:05:26], mode=WORKBENCH_START, duration=0:00:24.354, duration_ms=24354, data={}
+timestamp=[2022-03-11 20:05:28], mode=WORKBENCH_UI_INIT, duration=0:00:01.838, duration_ms=1838, data={editors_count=53, platform_editors_count=30, projects_count=14, platform_projects_count=4, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,icr_wrapper,interialNoInterrupt,interialNoInterrupt_system,isr,isrInertialDelay,isrInertialDelay_system,isrIntertialDelay,isrIntertialDelay_1,isr_system,xilinxproject,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-11 20:05:29], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.363, duration_ms=363, data={}
+timestamp=[2022-03-11 20:06:17], mode=BUILD, duration=0:00:01.715, duration_ms=1715, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 20:07:34], mode=WORKBENCH_START, duration=0:00:15.794, duration_ms=15794, data={}
+timestamp=[2022-03-11 20:07:36], mode=WORKBENCH_UI_INIT, duration=0:00:02.060, duration_ms=2060, data={editors_count=53, platform_editors_count=30, projects_count=14, platform_projects_count=4, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,icr_wrapper,interialNoInterrupt,interialNoInterrupt_system,isr,isrInertialDelay,isrInertialDelay_system,isrIntertialDelay,isrIntertialDelay_1,isr_system,xilinxproject,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-11 20:07:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.409, duration_ms=409, data={}
+timestamp=[2022-03-11 20:08:01], mode=BUILD, duration=0:00:00.530, duration_ms=530, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 20:12:56], mode=WORKBENCH_START, duration=0:00:19.795, duration_ms=19795, data={}
+timestamp=[2022-03-11 20:12:59], mode=WORKBENCH_UI_INIT, duration=0:00:02.468, duration_ms=2468, data={editors_count=53, platform_editors_count=30, projects_count=14, platform_projects_count=4, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,icr_wrapper,interialNoInterrupt,interialNoInterrupt_system,isr,isrInertialDelay,isrInertialDelay_system,isrIntertialDelay,isrIntertialDelay_1,isr_system,xilinxproject,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-11 20:13:02], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.545, duration_ms=545, data={}
+timestamp=[2022-03-11 20:17:21], mode=PLATFORM_GENERATION, duration=0:00:20.603, duration_ms=20603, data={name=isrIntertialDelay}
+timestamp=[2022-03-11 20:17:25], mode=BUILD, duration=0:00:00.513, duration_ms=513, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 20:21:55], mode=BUILD, duration=0:00:00.528, duration_ms=528, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 20:22:00], mode=BUILD, duration=0:00:00.554, duration_ms=554, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 20:22:15], mode=BUILD, duration=0:00:00.611, duration_ms=611, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 20:23:44], mode=BUILD, duration=0:00:00.543, duration_ms=543, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 20:27:43], mode=BUILD, duration=0:00:00.522, duration_ms=522, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 20:29:17], mode=BUILD, duration=0:00:00.574, duration_ms=574, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 20:30:50], mode=BUILD, duration=0:00:00.506, duration_ms=506, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 21:44:27], mode=BUILD, duration=0:00:02.994, duration_ms=2994, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 21:47:18], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 22:03:32], mode=BUILD, duration=0:00:01.993, duration_ms=1993, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 22:08:48], mode=BUILD, duration=0:00:00.687, duration_ms=687, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 22:31:18], mode=BUILD, duration=0:00:02.077, duration_ms=2077, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 22:46:03], mode=BUILD, duration=0:00:01.519, duration_ms=1519, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 22:59:52], mode=BUILD, duration=0:00:02.097, duration_ms=2097, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 23:00:27], mode=BUILD, duration=0:00:00.581, duration_ms=581, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 23:01:00], mode=BUILD, duration=0:00:00.575, duration_ms=575, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 23:01:40], mode=BUILD, duration=0:00:02.114, duration_ms=2114, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 23:06:08], mode=BUILD, duration=0:00:01.147, duration_ms=1147, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 23:06:24], mode=BUILD, duration=0:00:01.589, duration_ms=1589, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 23:11:05], mode=BUILD, duration=0:00:01.945, duration_ms=1945, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 23:11:45], mode=BUILD, duration=0:00:00.551, duration_ms=551, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 23:12:59], mode=BUILD, duration=0:00:02.642, duration_ms=2642, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 23:34:23], mode=BUILD, duration=0:00:02.815, duration_ms=2815, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 23:34:53], mode=BUILD, duration=0:00:00.530, duration_ms=530, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-11 23:53:58], mode=BUILD, duration=0:00:00.585, duration_ms=585, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-12 00:02:27], mode=BUILD, duration=0:00:00.545, duration_ms=545, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-12 13:48:10], mode=WORKBENCH_START, duration=0:00:30.561, duration_ms=30561, data={}
+timestamp=[2022-03-12 13:48:13], mode=WORKBENCH_UI_INIT, duration=0:00:02.746, duration_ms=2746, data={editors_count=69, platform_editors_count=44, projects_count=14, platform_projects_count=4, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,icr_wrapper,interialNoInterrupt,interialNoInterrupt_system,isr,isrInertialDelay,isrInertialDelay_system,isrIntertialDelay,isrIntertialDelay_1,isr_system,xilinxproject,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-12 13:48:13], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.841, duration_ms=841, data={}
+timestamp=[2022-03-13 10:27:27], mode=BUILD, duration=0:00:01.557, duration_ms=1557, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 11:08:36], mode=BUILD, duration=0:00:05.635, duration_ms=5635, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 11:09:34], mode=BUILD, duration=0:00:00.567, duration_ms=567, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 11:10:53], mode=BUILD, duration=0:00:00.727, duration_ms=727, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 11:15:09], mode=BUILD, duration=0:00:00.483, duration_ms=483, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 11:16:31], mode=BUILD, duration=0:00:00.503, duration_ms=503, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 11:18:11], mode=BUILD, duration=0:00:00.465, duration_ms=465, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 11:27:28], mode=BUILD, duration=0:00:00.594, duration_ms=594, data={name=isrInertialDelay, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 13:05:04], mode=APP_CREATION, duration=0:00:59.635, duration_ms=59635, data={name=isrdelayNoEeprom, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=isrIntertialDelay_2, application_type=application}
+timestamp=[2022-03-13 13:07:20], mode=PLATFORM_GENERATION, duration=0:00:45.565, duration_ms=45565, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-13 13:07:21], mode=BUILD, duration=0:00:01.806, duration_ms=1806, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 13:07:34], mode=BUILD, duration=0:00:10.964, duration_ms=10964, data={name=isrdelayNoEeprom_system, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 13:11:00], mode=BUILD, duration=0:00:02.102, duration_ms=2102, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 13:13:55], mode=PLATFORM_GENERATION, duration=0:00:17.968, duration_ms=17968, data={name=isrIntertialDelay_1}
+timestamp=[2022-03-13 13:14:00], mode=BUILD, duration=0:00:00.502, duration_ms=502, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 13:16:06], mode=BUILD, duration=0:00:00.565, duration_ms=565, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 13:17:35], mode=BUILD, duration=0:00:01.571, duration_ms=1571, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 13:22:49], mode=BUILD, duration=0:00:00.502, duration_ms=502, data={name=interialNoInterrupt, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 13:48:17], mode=BUILD, duration=0:00:01.563, duration_ms=1563, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 13:59:39], mode=BUILD, duration=0:00:00.554, duration_ms=554, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:02:29], mode=BUILD, duration=0:00:00.506, duration_ms=506, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:05:35], mode=BUILD, duration=0:00:00.527, duration_ms=527, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:06:35], mode=BUILD, duration=0:00:01.628, duration_ms=1628, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:07:21], mode=BUILD, duration=0:00:00.553, duration_ms=553, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:09:47], mode=BUILD, duration=0:00:00.556, duration_ms=556, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:11:02], mode=BUILD, duration=0:00:00.535, duration_ms=535, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:17:33], mode=BUILD, duration=0:00:00.595, duration_ms=595, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:18:17], mode=BUILD, duration=0:00:00.543, duration_ms=543, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:19:20], mode=BUILD, duration=0:00:00.501, duration_ms=501, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:23:26], mode=BUILD, duration=0:00:01.329, duration_ms=1329, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:25:48], mode=BUILD, duration=0:00:01.545, duration_ms=1545, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:26:48], mode=BUILD, duration=0:00:00.455, duration_ms=455, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:43:07], mode=BUILD, duration=0:00:01.567, duration_ms=1567, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:43:17], mode=BUILD, duration=0:00:01.535, duration_ms=1535, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:45:03], mode=BUILD, duration=0:00:01.366, duration_ms=1366, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:45:46], mode=BUILD, duration=0:00:00.509, duration_ms=509, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:47:27], mode=BUILD, duration=0:00:00.512, duration_ms=512, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:49:14], mode=WORKBENCH_START, duration=0:00:24.565, duration_ms=24565, data={}
+timestamp=[2022-03-13 14:49:16], mode=WORKBENCH_UI_INIT, duration=0:00:02.152, duration_ms=2152, data={editors_count=76, platform_editors_count=46, projects_count=17, platform_projects_count=5, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,icr_wrapper,interialNoInterrupt,interialNoInterrupt_system,isr,isrInertialDelay,isrInertialDelay_system,isrIntertialDelay,isrIntertialDelay_1,isrIntertialDelay_2,isr_system,isrdelayNoEeprom,isrdelayNoEeprom_system,xilinxproject,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-13 14:49:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.848, duration_ms=848, data={}
+timestamp=[2022-03-13 14:50:17], mode=BUILD, duration=0:00:00.666, duration_ms=666, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:51:27], mode=BUILD, duration=0:00:01.427, duration_ms=1427, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:52:31], mode=BUILD, duration=0:00:00.451, duration_ms=451, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:54:43], mode=BUILD, duration=0:00:00.497, duration_ms=497, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:55:52], mode=BUILD, duration=0:00:00.499, duration_ms=499, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 14:56:58], mode=BUILD, duration=0:00:00.553, duration_ms=553, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:01:14], mode=BUILD, duration=0:00:01.376, duration_ms=1376, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:04:10], mode=BUILD, duration=0:00:00.477, duration_ms=477, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:07:07], mode=BUILD, duration=0:00:01.306, duration_ms=1306, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:08:33], mode=BUILD, duration=0:00:01.318, duration_ms=1318, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:11:22], mode=BUILD, duration=0:00:01.308, duration_ms=1308, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:12:09], mode=BUILD, duration=0:00:00.487, duration_ms=487, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:15:01], mode=BUILD, duration=0:00:01.357, duration_ms=1357, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:15:12], mode=BUILD, duration=0:00:00.631, duration_ms=631, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:18:47], mode=BUILD, duration=0:00:00.528, duration_ms=528, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:24:56], mode=BUILD, duration=0:00:01.660, duration_ms=1660, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:26:06], mode=BUILD, duration=0:00:00.514, duration_ms=514, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:26:55], mode=BUILD, duration=0:00:01.318, duration_ms=1318, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:29:17], mode=BUILD, duration=0:00:01.383, duration_ms=1383, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:29:30], mode=BUILD, duration=0:00:00.576, duration_ms=576, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:30:20], mode=BUILD, duration=0:00:00.450, duration_ms=450, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:31:27], mode=BUILD, duration=0:00:00.491, duration_ms=491, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:31:43], mode=BUILD, duration=0:00:00.574, duration_ms=574, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:33:21], mode=BUILD, duration=0:00:00.587, duration_ms=587, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:35:41], mode=BUILD, duration=0:00:01.430, duration_ms=1430, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:36:04], mode=BUILD, duration=0:00:00.524, duration_ms=524, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:36:21], mode=BUILD, duration=0:00:00.603, duration_ms=603, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:37:40], mode=BUILD, duration=0:00:00.472, duration_ms=472, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:38:20], mode=BUILD, duration=0:00:01.327, duration_ms=1327, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:41:00], mode=BUILD, duration=0:00:00.474, duration_ms=474, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:42:19], mode=BUILD, duration=0:00:01.366, duration_ms=1366, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:42:35], mode=BUILD, duration=0:00:01.378, duration_ms=1378, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:43:03], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:43:11], mode=BUILD, duration=0:00:00.472, duration_ms=472, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:44:47], mode=BUILD, duration=0:00:00.463, duration_ms=463, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:45:50], mode=BUILD, duration=0:00:00.471, duration_ms=471, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:47:56], mode=BUILD, duration=0:00:00.468, duration_ms=468, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:48:59], mode=BUILD, duration=0:00:01.427, duration_ms=1427, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:49:51], mode=BUILD, duration=0:00:01.337, duration_ms=1337, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:51:29], mode=BUILD, duration=0:00:01.499, duration_ms=1499, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:52:51], mode=BUILD, duration=0:00:01.319, duration_ms=1319, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:53:07], mode=BUILD, duration=0:00:00.464, duration_ms=464, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:54:02], mode=BUILD, duration=0:00:00.478, duration_ms=478, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:55:17], mode=BUILD, duration=0:00:00.465, duration_ms=465, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:56:18], mode=BUILD, duration=0:00:01.358, duration_ms=1358, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:58:54], mode=BUILD, duration=0:00:00.499, duration_ms=499, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 15:59:33], mode=BUILD, duration=0:00:00.554, duration_ms=554, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:00:51], mode=BUILD, duration=0:00:00.478, duration_ms=478, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:05:38], mode=BUILD, duration=0:00:01.378, duration_ms=1378, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:06:54], mode=BUILD, duration=0:00:00.458, duration_ms=458, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:09:00], mode=BUILD, duration=0:00:00.506, duration_ms=506, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:24:17], mode=BUILD, duration=0:00:00.499, duration_ms=499, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:27:11], mode=BUILD, duration=0:00:01.336, duration_ms=1336, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:28:26], mode=BUILD, duration=0:00:01.319, duration_ms=1319, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:30:40], mode=BUILD, duration=0:00:01.309, duration_ms=1309, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:31:30], mode=BUILD, duration=0:00:00.453, duration_ms=453, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:33:04], mode=BUILD, duration=0:00:01.331, duration_ms=1331, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:34:34], mode=BUILD, duration=0:00:01.326, duration_ms=1326, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:39:19], mode=BUILD, duration=0:00:01.369, duration_ms=1369, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:40:15], mode=BUILD, duration=0:00:01.342, duration_ms=1342, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:41:09], mode=BUILD, duration=0:00:00.482, duration_ms=482, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:42:12], mode=BUILD, duration=0:00:01.320, duration_ms=1320, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:44:04], mode=BUILD, duration=0:00:01.428, duration_ms=1428, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:45:10], mode=BUILD, duration=0:00:01.436, duration_ms=1436, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:45:40], mode=BUILD, duration=0:00:00.454, duration_ms=454, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:47:56], mode=BUILD, duration=0:00:01.321, duration_ms=1321, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:47:59], mode=BUILD, duration=0:00:00.527, duration_ms=527, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:49:35], mode=BUILD, duration=0:00:00.441, duration_ms=441, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:50:49], mode=BUILD, duration=0:00:01.376, duration_ms=1376, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:53:07], mode=BUILD, duration=0:00:00.453, duration_ms=453, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:54:16], mode=BUILD, duration=0:00:00.496, duration_ms=496, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:55:31], mode=BUILD, duration=0:00:00.573, duration_ms=573, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:56:01], mode=BUILD, duration=0:00:01.485, duration_ms=1485, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:57:07], mode=BUILD, duration=0:00:00.476, duration_ms=476, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 16:57:20], mode=BUILD, duration=0:00:00.448, duration_ms=448, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:01:30], mode=BUILD, duration=0:00:01.431, duration_ms=1431, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:04:50], mode=BUILD, duration=0:00:00.462, duration_ms=462, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:06:27], mode=BUILD, duration=0:00:01.291, duration_ms=1291, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:07:42], mode=BUILD, duration=0:00:00.530, duration_ms=530, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:08:03], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:08:47], mode=BUILD, duration=0:00:00.457, duration_ms=457, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:10:10], mode=BUILD, duration=0:00:01.461, duration_ms=1461, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:10:29], mode=BUILD, duration=0:00:00.567, duration_ms=567, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:13:02], mode=BUILD, duration=0:00:00.554, duration_ms=554, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:13:50], mode=BUILD, duration=0:00:00.529, duration_ms=529, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:14:44], mode=BUILD, duration=0:00:00.581, duration_ms=581, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:15:02], mode=BUILD, duration=0:00:00.488, duration_ms=488, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:15:45], mode=BUILD, duration=0:00:01.425, duration_ms=1425, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:16:33], mode=BUILD, duration=0:00:00.518, duration_ms=518, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:18:02], mode=BUILD, duration=0:00:01.481, duration_ms=1481, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:19:09], mode=BUILD, duration=0:00:01.372, duration_ms=1372, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:20:14], mode=BUILD, duration=0:00:00.530, duration_ms=530, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:21:05], mode=BUILD, duration=0:00:01.488, duration_ms=1488, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:21:10], mode=BUILD, duration=0:00:00.505, duration_ms=505, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:22:08], mode=BUILD, duration=0:00:01.264, duration_ms=1264, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:24:28], mode=BUILD, duration=0:00:01.523, duration_ms=1523, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:25:12], mode=BUILD, duration=0:00:00.469, duration_ms=469, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:25:55], mode=BUILD, duration=0:00:00.486, duration_ms=486, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:26:43], mode=BUILD, duration=0:00:01.387, duration_ms=1387, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:27:45], mode=BUILD, duration=0:00:00.535, duration_ms=535, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:28:05], mode=BUILD, duration=0:00:00.571, duration_ms=571, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:29:00], mode=BUILD, duration=0:00:00.591, duration_ms=591, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:30:09], mode=BUILD, duration=0:00:00.519, duration_ms=519, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:32:01], mode=BUILD, duration=0:00:01.481, duration_ms=1481, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:32:23], mode=BUILD, duration=0:00:00.537, duration_ms=537, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:33:17], mode=BUILD, duration=0:00:00.455, duration_ms=455, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:34:19], mode=BUILD, duration=0:00:01.440, duration_ms=1440, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:35:50], mode=BUILD, duration=0:00:01.381, duration_ms=1381, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:36:53], mode=BUILD, duration=0:00:01.371, duration_ms=1371, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:37:49], mode=BUILD, duration=0:00:01.568, duration_ms=1568, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:38:41], mode=BUILD, duration=0:00:00.489, duration_ms=489, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:46:30], mode=BUILD, duration=0:00:01.624, duration_ms=1624, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 17:47:13], mode=BUILD, duration=0:00:00.601, duration_ms=601, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 18:01:03], mode=BUILD, duration=0:00:00.526, duration_ms=526, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 18:02:08], mode=BUILD, duration=0:00:00.517, duration_ms=517, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 18:02:58], mode=BUILD, duration=0:00:00.962, duration_ms=962, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 18:03:01], mode=BUILD, duration=0:00:01.742, duration_ms=1742, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 18:03:07], mode=BUILD, duration=0:00:00.463, duration_ms=463, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 18:05:34], mode=BUILD, duration=0:00:01.328, duration_ms=1328, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 18:07:12], mode=BUILD, duration=0:00:00.915, duration_ms=915, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 18:07:36], mode=BUILD, duration=0:00:01.373, duration_ms=1373, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 18:07:41], mode=BUILD, duration=0:00:00.517, duration_ms=517, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 18:09:47], mode=BUILD, duration=0:00:00.466, duration_ms=466, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 18:13:28], mode=BUILD, duration=0:00:01.386, duration_ms=1386, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 18:13:59], mode=BUILD, duration=0:00:00.531, duration_ms=531, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 18:14:28], mode=BUILD, duration=0:00:00.475, duration_ms=475, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:25:05], mode=BUILD, duration=0:00:00.540, duration_ms=540, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:28:52], mode=BUILD, duration=0:00:00.476, duration_ms=476, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:29:21], mode=BUILD, duration=0:00:00.455, duration_ms=455, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:32:29], mode=BUILD, duration=0:00:00.552, duration_ms=552, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:33:34], mode=BUILD, duration=0:00:00.467, duration_ms=467, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:39:30], mode=BUILD, duration=0:00:01.399, duration_ms=1399, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:40:31], mode=BUILD, duration=0:00:01.256, duration_ms=1256, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:41:41], mode=BUILD, duration=0:00:01.262, duration_ms=1262, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:43:53], mode=BUILD, duration=0:00:01.391, duration_ms=1391, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:44:40], mode=BUILD, duration=0:00:01.388, duration_ms=1388, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:44:56], mode=BUILD, duration=0:00:01.533, duration_ms=1533, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:47:34], mode=BUILD, duration=0:00:01.313, duration_ms=1313, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:48:58], mode=BUILD, duration=0:00:01.256, duration_ms=1256, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:50:33], mode=BUILD, duration=0:00:01.259, duration_ms=1259, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:51:17], mode=BUILD, duration=0:00:00.510, duration_ms=510, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:52:00], mode=BUILD, duration=0:00:00.447, duration_ms=447, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:53:02], mode=BUILD, duration=0:00:00.597, duration_ms=597, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:54:16], mode=BUILD, duration=0:00:01.311, duration_ms=1311, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:56:50], mode=BUILD, duration=0:00:00.895, duration_ms=895, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:56:58], mode=BUILD, duration=0:00:01.317, duration_ms=1317, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:59:09], mode=BUILD, duration=0:00:01.323, duration_ms=1323, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 19:59:58], mode=BUILD, duration=0:00:01.269, duration_ms=1269, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:00:21], mode=BUILD, duration=0:00:00.504, duration_ms=504, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:01:15], mode=BUILD, duration=0:00:01.438, duration_ms=1438, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:02:09], mode=BUILD, duration=0:00:00.597, duration_ms=597, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:03:39], mode=BUILD, duration=0:00:01.588, duration_ms=1588, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:04:12], mode=BUILD, duration=0:00:01.590, duration_ms=1590, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:06:17], mode=BUILD, duration=0:00:01.380, duration_ms=1380, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:07:35], mode=BUILD, duration=0:00:01.439, duration_ms=1439, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:09:29], mode=BUILD, duration=0:00:01.323, duration_ms=1323, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:10:56], mode=BUILD, duration=0:00:01.316, duration_ms=1316, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:12:36], mode=BUILD, duration=0:00:01.267, duration_ms=1267, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:13:59], mode=BUILD, duration=0:00:01.435, duration_ms=1435, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:15:57], mode=BUILD, duration=0:00:01.423, duration_ms=1423, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:16:41], mode=BUILD, duration=0:00:00.460, duration_ms=460, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:18:01], mode=BUILD, duration=0:00:00.503, duration_ms=503, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:19:40], mode=BUILD, duration=0:00:00.449, duration_ms=449, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:20:23], mode=BUILD, duration=0:00:00.450, duration_ms=450, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:21:27], mode=BUILD, duration=0:00:00.454, duration_ms=454, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:23:41], mode=BUILD, duration=0:00:01.213, duration_ms=1213, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:24:55], mode=BUILD, duration=0:00:00.451, duration_ms=451, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:25:49], mode=BUILD, duration=0:00:00.450, duration_ms=450, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:27:08], mode=BUILD, duration=0:00:01.283, duration_ms=1283, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:28:01], mode=BUILD, duration=0:00:00.445, duration_ms=445, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:30:11], mode=BUILD, duration=0:00:01.512, duration_ms=1512, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:32:22], mode=BUILD, duration=0:00:00.509, duration_ms=509, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:33:34], mode=BUILD, duration=0:00:00.449, duration_ms=449, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:34:32], mode=BUILD, duration=0:00:01.267, duration_ms=1267, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:44:46], mode=BUILD, duration=0:00:00.501, duration_ms=501, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:46:15], mode=BUILD, duration=0:00:00.991, duration_ms=991, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:46:58], mode=BUILD, duration=0:00:00.471, duration_ms=471, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:47:40], mode=BUILD, duration=0:00:00.447, duration_ms=447, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:49:06], mode=BUILD, duration=0:00:02.213, duration_ms=2213, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:49:44], mode=BUILD, duration=0:00:00.468, duration_ms=468, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 20:50:41], mode=BUILD, duration=0:00:00.454, duration_ms=454, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:21:07], mode=BUILD, duration=0:00:01.368, duration_ms=1368, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:25:28], mode=BUILD, duration=0:00:00.570, duration_ms=570, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:32:30], mode=BUILD, duration=0:00:00.452, duration_ms=452, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:33:38], mode=BUILD, duration=0:00:00.451, duration_ms=451, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:33:50], mode=BUILD, duration=0:00:00.613, duration_ms=613, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:35:20], mode=BUILD, duration=0:00:01.411, duration_ms=1411, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:36:50], mode=BUILD, duration=0:00:00.444, duration_ms=444, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:37:57], mode=BUILD, duration=0:00:00.459, duration_ms=459, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:38:16], mode=BUILD, duration=0:00:00.506, duration_ms=506, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:39:08], mode=BUILD, duration=0:00:00.566, duration_ms=566, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:41:03], mode=BUILD, duration=0:00:00.457, duration_ms=457, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:41:44], mode=BUILD, duration=0:00:00.457, duration_ms=457, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:42:50], mode=BUILD, duration=0:00:01.573, duration_ms=1573, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:43:31], mode=BUILD, duration=0:00:00.452, duration_ms=452, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:44:16], mode=BUILD, duration=0:00:00.446, duration_ms=446, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:45:34], mode=BUILD, duration=0:00:00.457, duration_ms=457, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:46:51], mode=BUILD, duration=0:00:00.699, duration_ms=699, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:47:05], mode=BUILD, duration=0:00:01.320, duration_ms=1320, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:48:12], mode=BUILD, duration=0:00:01.378, duration_ms=1378, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:49:25], mode=BUILD, duration=0:00:01.420, duration_ms=1420, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:49:42], mode=BUILD, duration=0:00:00.558, duration_ms=558, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:50:43], mode=BUILD, duration=0:00:01.270, duration_ms=1270, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:51:01], mode=BUILD, duration=0:00:00.583, duration_ms=583, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:51:24], mode=BUILD, duration=0:00:00.508, duration_ms=508, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:54:31], mode=BUILD, duration=0:00:01.254, duration_ms=1254, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:58:41], mode=BUILD, duration=0:00:01.337, duration_ms=1337, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 21:59:54], mode=BUILD, duration=0:00:00.470, duration_ms=470, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:01:11], mode=BUILD, duration=0:00:00.449, duration_ms=449, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:02:11], mode=BUILD, duration=0:00:01.372, duration_ms=1372, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:02:34], mode=BUILD, duration=0:00:00.566, duration_ms=566, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:04:45], mode=BUILD, duration=0:00:00.452, duration_ms=452, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:06:25], mode=BUILD, duration=0:00:01.370, duration_ms=1370, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:06:38], mode=BUILD, duration=0:00:00.656, duration_ms=656, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:07:21], mode=BUILD, duration=0:00:00.501, duration_ms=501, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:08:08], mode=BUILD, duration=0:00:00.543, duration_ms=543, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:09:10], mode=BUILD, duration=0:00:01.325, duration_ms=1325, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:09:15], mode=BUILD, duration=0:00:00.527, duration_ms=527, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:09:41], mode=BUILD, duration=0:00:00.503, duration_ms=503, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:12:00], mode=BUILD, duration=0:00:01.423, duration_ms=1423, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:13:40], mode=BUILD, duration=0:00:00.551, duration_ms=551, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:14:08], mode=BUILD, duration=0:00:00.458, duration_ms=458, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:15:15], mode=BUILD, duration=0:00:01.325, duration_ms=1325, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:17:05], mode=BUILD, duration=0:00:01.255, duration_ms=1255, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:18:00], mode=BUILD, duration=0:00:00.526, duration_ms=526, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:19:19], mode=BUILD, duration=0:00:01.470, duration_ms=1470, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:20:43], mode=BUILD, duration=0:00:00.504, duration_ms=504, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:20:57], mode=BUILD, duration=0:00:00.458, duration_ms=458, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:21:13], mode=BUILD, duration=0:00:00.457, duration_ms=457, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:30:39], mode=BUILD, duration=0:00:01.361, duration_ms=1361, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:31:59], mode=BUILD, duration=0:00:01.312, duration_ms=1312, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:34:37], mode=BUILD, duration=0:00:00.461, duration_ms=461, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:35:11], mode=BUILD, duration=0:00:00.500, duration_ms=500, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:37:45], mode=BUILD, duration=0:00:01.430, duration_ms=1430, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:38:33], mode=BUILD, duration=0:00:00.461, duration_ms=461, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:47:38], mode=BUILD, duration=0:00:01.411, duration_ms=1411, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-13 22:55:20], mode=BUILD, duration=0:00:01.535, duration_ms=1535, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:35:19], mode=WORKBENCH_START, duration=0:00:05.354, duration_ms=5354, data={}
+timestamp=[2022-03-14 08:35:20], mode=WORKBENCH_UI_INIT, duration=0:00:00.691, duration_ms=691, data={editors_count=79, platform_editors_count=48, projects_count=17, platform_projects_count=5, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,icr_wrapper,interialNoInterrupt,interialNoInterrupt_system,isr,isrInertialDelay,isrInertialDelay_system,isrIntertialDelay,isrIntertialDelay_1,isrIntertialDelay_2,isr_system,isrdelayNoEeprom,isrdelayNoEeprom_system,xilinxproject,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-14 08:35:20], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.294, duration_ms=294, data={}
+timestamp=[2022-03-14 08:35:29], mode=PLATFORM_GENERATION, duration=0:00:04.428, duration_ms=4428, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:35:31], mode=BUILD, duration=0:00:00.376, duration_ms=376, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:35:46], mode=PLATFORM_GENERATION, duration=0:00:01.221, duration_ms=1221, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:35:46], mode=BUILD, duration=0:00:00.184, duration_ms=184, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:36:55], mode=PLATFORM_GENERATION, duration=0:00:01.217, duration_ms=1217, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:36:55], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:38:35], mode=PLATFORM_GENERATION, duration=0:00:02.309, duration_ms=2309, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:38:35], mode=BUILD, duration=0:00:00.364, duration_ms=364, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:48:30], mode=PLATFORM_GENERATION, duration=0:00:01.215, duration_ms=1215, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:48:31], mode=BUILD, duration=0:00:01.043, duration_ms=1043, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:49:14], mode=PLATFORM_GENERATION, duration=0:00:01.167, duration_ms=1167, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:49:15], mode=BUILD, duration=0:00:00.181, duration_ms=181, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:50:11], mode=PLATFORM_GENERATION, duration=0:00:01.217, duration_ms=1217, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:50:11], mode=BUILD, duration=0:00:00.185, duration_ms=185, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:50:42], mode=PLATFORM_GENERATION, duration=0:00:01.216, duration_ms=1216, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:50:43], mode=BUILD, duration=0:00:00.182, duration_ms=182, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:51:51], mode=PLATFORM_GENERATION, duration=0:00:01.217, duration_ms=1217, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:51:51], mode=BUILD, duration=0:00:00.182, duration_ms=182, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:53:35], mode=PLATFORM_GENERATION, duration=0:00:01.222, duration_ms=1222, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:53:35], mode=BUILD, duration=0:00:00.537, duration_ms=537, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:54:16], mode=PLATFORM_GENERATION, duration=0:00:01.213, duration_ms=1213, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:54:17], mode=BUILD, duration=0:00:00.538, duration_ms=538, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:55:29], mode=PLATFORM_GENERATION, duration=0:00:01.214, duration_ms=1214, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:55:29], mode=BUILD, duration=0:00:00.536, duration_ms=536, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:56:29], mode=PLATFORM_GENERATION, duration=0:00:01.220, duration_ms=1220, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:56:29], mode=BUILD, duration=0:00:00.536, duration_ms=536, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:58:17], mode=PLATFORM_GENERATION, duration=0:00:01.216, duration_ms=1216, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:58:18], mode=BUILD, duration=0:00:00.536, duration_ms=536, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:58:58], mode=PLATFORM_GENERATION, duration=0:00:01.217, duration_ms=1217, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:58:58], mode=BUILD, duration=0:00:00.181, duration_ms=181, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 08:59:56], mode=PLATFORM_GENERATION, duration=0:00:01.214, duration_ms=1214, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 08:59:57], mode=BUILD, duration=0:00:00.542, duration_ms=542, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 09:02:09], mode=PLATFORM_GENERATION, duration=0:00:01.217, duration_ms=1217, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 09:02:09], mode=BUILD, duration=0:00:00.183, duration_ms=183, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 09:02:45], mode=PLATFORM_GENERATION, duration=0:00:01.212, duration_ms=1212, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 09:02:45], mode=BUILD, duration=0:00:00.182, duration_ms=182, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 13:11:14], mode=WORKBENCH_START, duration=0:00:05.930, duration_ms=5930, data={}
+timestamp=[2022-03-14 13:11:15], mode=WORKBENCH_UI_INIT, duration=0:00:00.560, duration_ms=560, data={editors_count=79, platform_editors_count=48, projects_count=17, platform_projects_count=5, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,icr_wrapper,interialNoInterrupt,interialNoInterrupt_system,isr,isrInertialDelay,isrInertialDelay_system,isrIntertialDelay,isrIntertialDelay_1,isrIntertialDelay_2,isr_system,isrdelayNoEeprom,isrdelayNoEeprom_system,xilinxproject,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-14 13:11:15], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.215, duration_ms=215, data={}
+timestamp=[2022-03-14 13:14:33], mode=PLATFORM_GENERATION, duration=0:00:03.469, duration_ms=3469, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 13:14:36], mode=BUILD, duration=0:00:01.288, duration_ms=1288, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 16:42:39], mode=WORKBENCH_START, duration=0:00:31.764, duration_ms=31764, data={}
+timestamp=[2022-03-14 16:42:41], mode=WORKBENCH_UI_INIT, duration=0:00:02.216, duration_ms=2216, data={editors_count=79, platform_editors_count=48, projects_count=17, platform_projects_count=5, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,icr_wrapper,interialNoInterrupt,interialNoInterrupt_system,isr,isrInertialDelay,isrInertialDelay_system,isrIntertialDelay,isrIntertialDelay_1,isrIntertialDelay_2,isr_system,isrdelayNoEeprom,isrdelayNoEeprom_system,xilinxproject,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-14 16:42:45], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.833, duration_ms=833, data={}
+timestamp=[2022-03-14 17:14:52], mode=PLATFORM_GENERATION, duration=0:00:26.354, duration_ms=26354, data={name=isrIntertialDelay_2}
+timestamp=[2022-03-14 17:14:57], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 17:26:02], mode=BUILD, duration=0:00:00.522, duration_ms=522, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 17:39:22], mode=BUILD, duration=0:00:00.762, duration_ms=762, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 18:03:22], mode=BUILD, duration=0:00:00.724, duration_ms=724, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 18:06:43], mode=BUILD, duration=0:00:00.603, duration_ms=603, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 18:09:44], mode=BUILD, duration=0:00:00.643, duration_ms=643, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 18:13:16], mode=BUILD, duration=0:00:00.987, duration_ms=987, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 19:54:08], mode=BUILD, duration=0:00:00.770, duration_ms=770, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 20:01:25], mode=BUILD, duration=0:00:01.024, duration_ms=1024, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-14 21:13:40], mode=BUILD, duration=0:00:00.760, duration_ms=760, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 14:57:16], mode=BUILD, duration=0:00:01.103, duration_ms=1103, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 15:00:42], mode=BUILD, duration=0:00:00.483, duration_ms=483, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 15:07:07], mode=BUILD, duration=0:00:00.496, duration_ms=496, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 15:07:42], mode=BUILD, duration=0:00:00.476, duration_ms=476, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 15:08:22], mode=BUILD, duration=0:00:00.590, duration_ms=590, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 15:17:31], mode=BUILD, duration=0:00:00.491, duration_ms=491, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 15:21:29], mode=BUILD, duration=0:00:00.642, duration_ms=642, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 15:30:30], mode=BUILD, duration=0:00:00.602, duration_ms=602, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 15:33:16], mode=BUILD, duration=0:00:00.680, duration_ms=680, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 15:37:29], mode=BUILD, duration=0:00:00.569, duration_ms=569, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 15:40:57], mode=BUILD, duration=0:00:00.907, duration_ms=907, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 15:53:29], mode=BUILD, duration=0:00:00.499, duration_ms=499, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 15:57:14], mode=BUILD, duration=0:00:00.533, duration_ms=533, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 15:59:19], mode=BUILD, duration=0:00:00.578, duration_ms=578, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 16:01:37], mode=BUILD, duration=0:00:00.767, duration_ms=767, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 16:11:16], mode=BUILD, duration=0:00:00.698, duration_ms=698, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 16:23:47], mode=BUILD, duration=0:00:00.684, duration_ms=684, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 16:49:43], mode=BUILD, duration=0:00:00.687, duration_ms=687, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 17:05:45], mode=BUILD, duration=0:00:00.636, duration_ms=636, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 17:09:03], mode=BUILD, duration=0:00:00.530, duration_ms=530, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 17:10:45], mode=BUILD, duration=0:00:00.470, duration_ms=470, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 17:13:10], mode=BUILD, duration=0:00:00.476, duration_ms=476, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 17:21:18], mode=BUILD, duration=0:00:00.667, duration_ms=667, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 17:23:22], mode=BUILD, duration=0:00:00.675, duration_ms=675, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 17:23:30], mode=BUILD, duration=0:00:00.479, duration_ms=479, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 17:47:46], mode=BUILD, duration=0:00:00.742, duration_ms=742, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 17:48:03], mode=BUILD, duration=0:00:00.461, duration_ms=461, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 17:54:56], mode=BUILD, duration=0:00:00.779, duration_ms=779, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 17:57:58], mode=BUILD, duration=0:00:00.606, duration_ms=606, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 17:58:32], mode=BUILD, duration=0:00:00.529, duration_ms=529, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:00:21], mode=BUILD, duration=0:00:00.472, duration_ms=472, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:03:04], mode=BUILD, duration=0:00:00.485, duration_ms=485, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:07:05], mode=BUILD, duration=0:00:00.838, duration_ms=838, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:09:20], mode=BUILD, duration=0:00:00.710, duration_ms=710, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:10:45], mode=BUILD, duration=0:00:00.681, duration_ms=681, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:12:17], mode=BUILD, duration=0:00:00.651, duration_ms=651, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:13:37], mode=BUILD, duration=0:00:00.548, duration_ms=548, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:16:35], mode=BUILD, duration=0:00:00.738, duration_ms=738, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:16:51], mode=BUILD, duration=0:00:00.569, duration_ms=569, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:30:12], mode=BUILD, duration=0:00:00.667, duration_ms=667, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:32:58], mode=BUILD, duration=0:00:00.526, duration_ms=526, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:34:04], mode=BUILD, duration=0:00:00.543, duration_ms=543, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:35:10], mode=BUILD, duration=0:00:00.584, duration_ms=584, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:36:42], mode=BUILD, duration=0:00:00.493, duration_ms=493, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:37:00], mode=BUILD, duration=0:00:00.504, duration_ms=504, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:40:37], mode=BUILD, duration=0:00:00.558, duration_ms=558, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:41:43], mode=BUILD, duration=0:00:00.455, duration_ms=455, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:44:37], mode=BUILD, duration=0:00:00.574, duration_ms=574, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:47:30], mode=BUILD, duration=0:00:00.628, duration_ms=628, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:48:49], mode=BUILD, duration=0:00:00.700, duration_ms=700, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:50:44], mode=BUILD, duration=0:00:00.585, duration_ms=585, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 18:59:19], mode=BUILD, duration=0:00:00.653, duration_ms=653, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 19:05:01], mode=BUILD, duration=0:00:07.020, duration_ms=7020, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 19:05:58], mode=BUILD, duration=0:00:00.626, duration_ms=626, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 19:07:13], mode=BUILD, duration=0:00:00.576, duration_ms=576, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 19:08:59], mode=BUILD, duration=0:00:00.585, duration_ms=585, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 19:34:24], mode=BUILD, duration=0:00:00.736, duration_ms=736, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 19:37:41], mode=BUILD, duration=0:00:00.546, duration_ms=546, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 19:40:57], mode=BUILD, duration=0:00:00.630, duration_ms=630, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 19:46:53], mode=BUILD, duration=0:00:02.902, duration_ms=2902, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 19:48:22], mode=BUILD, duration=0:00:00.728, duration_ms=728, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 19:48:48], mode=BUILD, duration=0:00:01.403, duration_ms=1403, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 19:49:38], mode=BUILD, duration=0:00:00.519, duration_ms=519, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 19:51:35], mode=BUILD, duration=0:00:00.423, duration_ms=423, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 19:53:18], mode=BUILD, duration=0:00:00.400, duration_ms=400, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:11:43], mode=WORKBENCH_START, duration=0:00:20.180, duration_ms=20180, data={}
+timestamp=[2022-03-15 20:11:46], mode=WORKBENCH_UI_INIT, duration=0:00:03.052, duration_ms=3052, data={editors_count=79, platform_editors_count=48, projects_count=17, platform_projects_count=5, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,icr_wrapper,interialNoInterrupt,interialNoInterrupt_system,isr,isrInertialDelay,isrInertialDelay_system,isrIntertialDelay,isrIntertialDelay_1,isrIntertialDelay_2,isr_system,isrdelayNoEeprom,isrdelayNoEeprom_system,xilinxproject,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-15 20:11:50], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.972, duration_ms=972, data={}
+timestamp=[2022-03-15 20:12:51], mode=BUILD, duration=0:00:00.619, duration_ms=619, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:14:24], mode=BUILD, duration=0:00:01.902, duration_ms=1902, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:14:53], mode=BUILD, duration=0:00:00.487, duration_ms=487, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:16:47], mode=BUILD, duration=0:00:02.086, duration_ms=2086, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:18:13], mode=BUILD, duration=0:00:01.517, duration_ms=1517, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:20:02], mode=BUILD, duration=0:00:02.026, duration_ms=2026, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:21:19], mode=BUILD, duration=0:00:01.208, duration_ms=1208, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:22:39], mode=BUILD, duration=0:00:01.824, duration_ms=1824, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:23:40], mode=BUILD, duration=0:00:01.831, duration_ms=1831, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:23:53], mode=BUILD, duration=0:00:00.480, duration_ms=480, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:25:13], mode=BUILD, duration=0:00:01.447, duration_ms=1447, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:26:41], mode=BUILD, duration=0:00:01.337, duration_ms=1337, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:28:33], mode=BUILD, duration=0:00:01.667, duration_ms=1667, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:30:50], mode=BUILD, duration=0:00:01.473, duration_ms=1473, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:32:34], mode=BUILD, duration=0:00:01.297, duration_ms=1297, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:33:39], mode=BUILD, duration=0:00:01.681, duration_ms=1681, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:35:58], mode=BUILD, duration=0:00:01.471, duration_ms=1471, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:37:21], mode=BUILD, duration=0:00:01.223, duration_ms=1223, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:38:53], mode=BUILD, duration=0:00:00.614, duration_ms=614, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:38:59], mode=BUILD, duration=0:00:03.295, duration_ms=3295, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:41:10], mode=BUILD, duration=0:00:02.357, duration_ms=2357, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:54:37], mode=BUILD, duration=0:00:01.493, duration_ms=1493, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:57:05], mode=BUILD, duration=0:00:01.511, duration_ms=1511, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:58:45], mode=BUILD, duration=0:00:01.296, duration_ms=1296, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 20:59:05], mode=BUILD, duration=0:00:01.264, duration_ms=1264, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:00:31], mode=BUILD, duration=0:00:01.276, duration_ms=1276, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:01:54], mode=BUILD, duration=0:00:01.192, duration_ms=1192, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:02:04], mode=BUILD, duration=0:00:00.861, duration_ms=861, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:02:46], mode=BUILD, duration=0:00:01.283, duration_ms=1283, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:03:29], mode=BUILD, duration=0:00:01.585, duration_ms=1585, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:05:19], mode=BUILD, duration=0:00:01.480, duration_ms=1480, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:23:57], mode=BUILD, duration=0:00:00.498, duration_ms=498, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:24:13], mode=BUILD, duration=0:00:00.399, duration_ms=399, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:24:43], mode=BUILD, duration=0:00:00.519, duration_ms=519, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:28:48], mode=BUILD, duration=0:00:00.402, duration_ms=402, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:31:52], mode=BUILD, duration=0:00:00.437, duration_ms=437, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:32:45], mode=BUILD, duration=0:00:00.398, duration_ms=398, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:33:45], mode=BUILD, duration=0:00:00.462, duration_ms=462, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:34:32], mode=BUILD, duration=0:00:00.404, duration_ms=404, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:34:54], mode=BUILD, duration=0:00:00.465, duration_ms=465, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:39:08], mode=BUILD, duration=0:00:01.614, duration_ms=1614, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:41:11], mode=BUILD, duration=0:00:01.119, duration_ms=1119, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:43:15], mode=BUILD, duration=0:00:00.471, duration_ms=471, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:44:17], mode=BUILD, duration=0:00:01.233, duration_ms=1233, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:46:28], mode=BUILD, duration=0:00:01.229, duration_ms=1229, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:47:22], mode=BUILD, duration=0:00:00.420, duration_ms=420, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:52:24], mode=BUILD, duration=0:00:01.322, duration_ms=1322, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:53:37], mode=BUILD, duration=0:00:01.261, duration_ms=1261, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:54:38], mode=BUILD, duration=0:00:01.205, duration_ms=1205, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:55:31], mode=BUILD, duration=0:00:01.236, duration_ms=1236, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:57:03], mode=BUILD, duration=0:00:01.170, duration_ms=1170, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:59:23], mode=BUILD, duration=0:00:01.939, duration_ms=1939, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 21:59:42], mode=BUILD, duration=0:00:00.395, duration_ms=395, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 22:09:36], mode=BUILD, duration=0:00:00.401, duration_ms=401, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 22:10:02], mode=BUILD, duration=0:00:00.475, duration_ms=475, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-15 22:32:07], mode=WORKBENCH_START, duration=0:00:29.346, duration_ms=29346, data={}
+timestamp=[2022-03-15 22:32:10], mode=WORKBENCH_UI_INIT, duration=0:00:02.854, duration_ms=2854, data={editors_count=79, platform_editors_count=0, projects_count=17, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,icr_wrapper,interialNoInterrupt,interialNoInterrupt_system,isr,isrInertialDelay,isrInertialDelay_system,isrIntertialDelay,isrIntertialDelay_1,isrIntertialDelay_2,isr_system,isrdelayNoEeprom,isrdelayNoEeprom_system,xilinxproject,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-15 22:32:12], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.104, duration_ms=104, data={}
+timestamp=[2022-03-15 22:34:12], mode=WORKBENCH_START, duration=0:00:15.998, duration_ms=15998, data={}
+timestamp=[2022-03-15 22:34:14], mode=WORKBENCH_UI_INIT, duration=0:00:02.171, duration_ms=2171, data={editors_count=79, platform_editors_count=0, projects_count=17, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,icr_wrapper,interialNoInterrupt,interialNoInterrupt_system,isr,isrInertialDelay,isrInertialDelay_system,isrIntertialDelay,isrIntertialDelay_1,isrIntertialDelay_2,isr_system,isrdelayNoEeprom,isrdelayNoEeprom_system,xilinxproject,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-15 22:34:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.113, duration_ms=113, data={}
+timestamp=[2022-03-15 22:34:26], mode=BUILD, duration=0:00:00.513, duration_ms=513, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-16 20:47:18], mode=WORKBENCH_START, duration=0:00:27.694, duration_ms=27694, data={}
+timestamp=[2022-03-16 20:47:21], mode=WORKBENCH_UI_INIT, duration=0:00:02.881, duration_ms=2881, data={editors_count=79, platform_editors_count=0, projects_count=17, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles,i2c_pynq,icr_wrapper,interialNoInterrupt,interialNoInterrupt_system,isr,isrInertialDelay,isrInertialDelay_system,isrIntertialDelay,isrIntertialDelay_1,isrIntertialDelay_2,isr_system,isrdelayNoEeprom,isrdelayNoEeprom_system,xilinxproject,xilinxwithTimer,xilinxwithTimer_system}
+timestamp=[2022-03-16 20:47:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.306, duration_ms=306, data={}
+timestamp=[2022-03-16 20:49:10], mode=BUILD, duration=0:00:01.019, duration_ms=1019, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-16 20:50:19], mode=BUILD, duration=0:00:00.662, duration_ms=662, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-16 20:50:39], mode=BUILD, duration=0:00:00.579, duration_ms=579, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
+timestamp=[2022-03-16 20:50:47], mode=BUILD, duration=0:00:00.519, duration_ms=519, data={name=isrdelayNoEeprom, configuration=Debug, clean_build=false}
