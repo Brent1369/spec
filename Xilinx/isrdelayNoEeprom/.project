@@ -3,7 +3,6 @@
 	<name>isrdelayNoEeprom</name>
 	<comment>Created by Vitis v2021.2</comment>
 	<projects>
-		<project>isrIntertialDelay_2</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
