@@ -1,0 +1,2372 @@
+TRACE::2022-03-30.12:21:50::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:50::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:50::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:50::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:21:50::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:50::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:21:50::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-03-30.12:21:53::SCWPlatform::Opened new HwDB with name design_1_wrapper_2
+TRACE::2022-03-30.12:21:53::SCWWriter::formatted JSON is {
+	"platformName":	"isrIntertialDelay",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"isrIntertialDelay",
+	"platHandOff":	"<platformDir>_2/hw/isrIntertialDelay.xsa",
+	"platIntHandOff":	"<platformDir>/hw/isrIntertialDelay.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-03-30.12:21:53::SCWWriter::formatted JSON is {
+	"platformName":	"isrIntertialDelay",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"isrIntertialDelay",
+	"platHandOff":	"<platformDir>_2/hw/isrIntertialDelay.xsa",
+	"platIntHandOff":	"<platformDir>/hw/isrIntertialDelay.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"isrIntertialDelay",
+	"systems":	[{
+			"systemName":	"isrIntertialDelay",
+			"systemDesc":	"isrIntertialDelay",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"isrIntertialDelay"
+		}]
+}
+TRACE::2022-03-30.12:21:53::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-03-30.12:21:53::SCWDomain::checking for install qemu data   : 
+TRACE::2022-03-30.12:21:53::SCWDomain:: Using the QEMU Data from install at  : D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-03-30.12:21:53::SCWDomain:: Using the QEMU args  from install at  : D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-03-30.12:21:53::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:21:53::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:21:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:21:53::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:21:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:21:53::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:21:53::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:21:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:21:53::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:21:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:21:53::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:21:53::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:21:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:21:53::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:21:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:21:53::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2022-03-30.12:21:53::SCWPlatform::Generating the sources  .
+TRACE::2022-03-30.12:21:53::SCWBDomain::Generating boot domain sources.
+TRACE::2022-03-30.12:21:53::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2022-03-30.12:21:53::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:21:53::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:21:53::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:21:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:21:53::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:21:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:21:53::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:21:53::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-03-30.12:21:53::SCWMssOS::No sw design opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:21:53::SCWMssOS::mss does not exists at C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:21:53::SCWMssOS::Creating sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:21:53::SCWMssOS::Adding the swdes entry, created swdb C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:21:53::SCWMssOS::updating the scw layer changes to swdes at   C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:21:53::SCWMssOS::Writing mss at C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:21:53::SCWMssOS::Completed writing the mss file at C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2022-03-30.12:21:53::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-03-30.12:21:53::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-03-30.12:21:53::SCWBDomain::Completed writing the mss file at C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2022-03-30.12:22:21::SCWPlatform::Generating sources Done.
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:21::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-03-30.12:22:21::SCWMssOS::No sw design opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::mss exists loading the mss file  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::Opened the sw design from mss  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::Adding the swdes entry C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-03-30.12:22:21::SCWMssOS::updating the scw layer about changes
+TRACE::2022-03-30.12:22:21::SCWMssOS::Opened the sw design.  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-03-30.12:22:21::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-03-30.12:22:21::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:21::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:21::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:21::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:21::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:21::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:21::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWWriter::formatted JSON is {
+	"platformName":	"isrIntertialDelay",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"isrIntertialDelay",
+	"platHandOff":	"<platformDir>_2/hw/isrIntertialDelay.xsa",
+	"platIntHandOff":	"<platformDir>/hw/isrIntertialDelay.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"isrIntertialDelay",
+	"systems":	[{
+			"systemName":	"isrIntertialDelay",
+			"systemDesc":	"isrIntertialDelay",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"isrIntertialDelay",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"4354e3e7b86c08c5fa98b1471a127f2e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-03-30.12:22:21::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-03-30.12:22:21::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-03-30.12:22:21::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:21::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:21::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:21::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:21::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:21::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:21::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWWriter::formatted JSON is {
+	"platformName":	"isrIntertialDelay",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"isrIntertialDelay",
+	"platHandOff":	"<platformDir>_2/hw/isrIntertialDelay.xsa",
+	"platIntHandOff":	"<platformDir>/hw/isrIntertialDelay.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"isrIntertialDelay",
+	"systems":	[{
+			"systemName":	"isrIntertialDelay",
+			"systemDesc":	"isrIntertialDelay",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"isrIntertialDelay",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"4354e3e7b86c08c5fa98b1471a127f2e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:21::SCWDomain::checking for install qemu data   : 
+TRACE::2022-03-30.12:22:21::SCWDomain:: Using the QEMU Data from install at  : D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-03-30.12:22:21::SCWDomain:: Using the QEMU args  from install at  : D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:21::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:21::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:21::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:21::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:21::SCWMssOS::No sw design opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::mss does not exists at C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::Creating sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::Adding the swdes entry, created swdb C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::updating the scw layer changes to swdes at   C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::Writing mss at C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:21::SCWMssOS::Completed writing the mss file at C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2022-03-30.12:22:21::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-03-30.12:22:21::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-03-30.12:22:21::SCWMssOS::Completed writing the mss file at C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2022-03-30.12:22:21::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2022-03-30.12:22:23::SCWMssOS::Writing the mss file completed C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWWriter::formatted JSON is {
+	"platformName":	"isrIntertialDelay",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"isrIntertialDelay",
+	"platHandOff":	"<platformDir>_2/hw/isrIntertialDelay.xsa",
+	"platIntHandOff":	"<platformDir>/hw/isrIntertialDelay.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"isrIntertialDelay",
+	"systems":	[{
+			"systemName":	"isrIntertialDelay",
+			"systemDesc":	"isrIntertialDelay",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"isrIntertialDelay",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"4354e3e7b86c08c5fa98b1471a127f2e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"391629962f28801e189a5447e493528e",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-03-30.12:22:23::SCWPlatform::Started generating the artifacts platform isrIntertialDelay
+TRACE::2022-03-30.12:22:23::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-03-30.12:22:23::SCWPlatform::Started generating the artifacts for system configuration isrIntertialDelay
+LOG::2022-03-30.12:22:23::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-03-30.12:22:23::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-03-30.12:22:23::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-03-30.12:22:23::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2022-03-30.12:22:23::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2022-03-30.12:22:23::SCWSystem::Not a boot domain 
+LOG::2022-03-30.12:22:23::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2022-03-30.12:22:23::SCWDomain::Generating domain artifcats
+TRACE::2022-03-30.12:22:23::SCWMssOS::Generating standalone artifcats
+TRACE::2022-03-30.12:22:23::SCWMssOS::Copying the qemu file from  D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/School/spec/Xilinx/isrIntertialDelay/export/isrIntertialDelay/sw/isrIntertialDelay/qemu/
+TRACE::2022-03-30.12:22:23::SCWMssOS::Copying the qemu file from  D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/School/spec/Xilinx/isrIntertialDelay/export/isrIntertialDelay/sw/isrIntertialDelay/standalone_ps7_cortexa9_0/qemu/
+TRACE::2022-03-30.12:22:23::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::Completed writing the mss file at C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2022-03-30.12:22:23::SCWMssOS::Mss edits present, copying mssfile into export location C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-03-30.12:22:23::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-03-30.12:22:23::SCWDomain::Skipping the build for domain :  standalone_ps7_cortexa9_0
+TRACE::2022-03-30.12:22:23::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-03-30.12:22:23::SCWMssOS::Copying to export directory.
+TRACE::2022-03-30.12:22:23::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-03-30.12:22:23::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2022-03-30.12:22:23::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2022-03-30.12:22:23::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2022-03-30.12:22:23::SCWSystem::Completed Processing the sysconfig isrIntertialDelay
+LOG::2022-03-30.12:22:23::SCWPlatform::Completed generating the artifacts for system configuration isrIntertialDelay
+TRACE::2022-03-30.12:22:23::SCWPlatform::Started preparing the platform 
+TRACE::2022-03-30.12:22:23::SCWSystem::Writing the bif file for system config isrIntertialDelay
+TRACE::2022-03-30.12:22:23::SCWSystem::dir created 
+TRACE::2022-03-30.12:22:23::SCWSystem::Writing the bif 
+TRACE::2022-03-30.12:22:23::SCWPlatform::Started writing the spfm file 
+TRACE::2022-03-30.12:22:23::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-03-30.12:22:23::SCWPlatform::Completed generating the platform
+TRACE::2022-03-30.12:22:23::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWWriter::formatted JSON is {
+	"platformName":	"isrIntertialDelay",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"isrIntertialDelay",
+	"platHandOff":	"<platformDir>_2/hw/isrIntertialDelay.xsa",
+	"platIntHandOff":	"<platformDir>/hw/isrIntertialDelay.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"isrIntertialDelay",
+	"systems":	[{
+			"systemName":	"isrIntertialDelay",
+			"systemDesc":	"isrIntertialDelay",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"isrIntertialDelay",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"4354e3e7b86c08c5fa98b1471a127f2e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"391629962f28801e189a5447e493528e",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-03-30.12:22:23::SCWPlatform::updated the xpfm file.
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWWriter::formatted JSON is {
+	"platformName":	"isrIntertialDelay",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"isrIntertialDelay",
+	"platHandOff":	"<platformDir>_2/hw/isrIntertialDelay.xsa",
+	"platIntHandOff":	"<platformDir>/hw/isrIntertialDelay.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"isrIntertialDelay",
+	"systems":	[{
+			"systemName":	"isrIntertialDelay",
+			"systemDesc":	"isrIntertialDelay",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"isrIntertialDelay",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"4354e3e7b86c08c5fa98b1471a127f2e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"391629962f28801e189a5447e493528e",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-03-30.12:22:23::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:23::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:23::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:23::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:23::SCWWriter::formatted JSON is {
+	"platformName":	"isrIntertialDelay",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"isrIntertialDelay",
+	"platHandOff":	"<platformDir>_2/hw/isrIntertialDelay.xsa",
+	"platIntHandOff":	"<platformDir>/hw/isrIntertialDelay.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"isrIntertialDelay",
+	"systems":	[{
+			"systemName":	"isrIntertialDelay",
+			"systemDesc":	"isrIntertialDelay",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"isrIntertialDelay",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"4354e3e7b86c08c5fa98b1471a127f2e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"391629962f28801e189a5447e493528e",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-03-30.12:22:23::SCWPlatform::Started generating the artifacts platform isrIntertialDelay
+TRACE::2022-03-30.12:22:23::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-03-30.12:22:23::SCWPlatform::Started generating the artifacts for system configuration isrIntertialDelay
+LOG::2022-03-30.12:22:24::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2022-03-30.12:22:24::SCWDomain::Generating domain artifcats
+TRACE::2022-03-30.12:22:24::SCWMssOS::Generating standalone artifcats
+TRACE::2022-03-30.12:22:24::SCWMssOS::Copying the qemu file from  D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/School/spec/Xilinx/isrIntertialDelay/export/isrIntertialDelay/sw/isrIntertialDelay/qemu/
+TRACE::2022-03-30.12:22:24::SCWMssOS::Copying the qemu file from  D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/School/spec/Xilinx/isrIntertialDelay/export/isrIntertialDelay/sw/isrIntertialDelay/standalone_ps7_cortexa9_0/qemu/
+TRACE::2022-03-30.12:22:24::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:24::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:24::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWMssOS::Completed writing the mss file at C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2022-03-30.12:22:24::SCWMssOS::Mss edits present, copying mssfile into export location C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-03-30.12:22:24::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-03-30.12:22:24::SCWDomain::Building the domain as part of full build :  standalone_ps7_cortexa9_0
+TRACE::2022-03-30.12:22:24::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-03-30.12:22:24::SCWMssOS::Copying to export directory.
+TRACE::2022-03-30.12:22:24::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-03-30.12:22:24::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2022-03-30.12:22:24::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2022-03-30.12:22:24::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2022-03-30.12:22:24::SCWSystem::Completed Processing the sysconfig isrIntertialDelay
+LOG::2022-03-30.12:22:24::SCWPlatform::Completed generating the artifacts for system configuration isrIntertialDelay
+TRACE::2022-03-30.12:22:24::SCWPlatform::Started preparing the platform 
+TRACE::2022-03-30.12:22:24::SCWSystem::Writing the bif file for system config isrIntertialDelay
+TRACE::2022-03-30.12:22:24::SCWSystem::dir created 
+TRACE::2022-03-30.12:22:24::SCWSystem::Writing the bif 
+TRACE::2022-03-30.12:22:24::SCWPlatform::Started writing the spfm file 
+TRACE::2022-03-30.12:22:24::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-03-30.12:22:24::SCWPlatform::Completed generating the platform
+TRACE::2022-03-30.12:22:24::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-03-30.12:22:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-03-30.12:22:24::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:22:24::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-03-30.12:22:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-03-30.12:22:24::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:24::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:24::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:24::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:24::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:24::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:24::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:24::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:24::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:24::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:24::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:22:24::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:22:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:22:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:22:24::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:22:24::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:22:24::SCWWriter::formatted JSON is {
+	"platformName":	"isrIntertialDelay",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"isrIntertialDelay",
+	"platHandOff":	"<platformDir>_2/hw/isrIntertialDelay.xsa",
+	"platIntHandOff":	"<platformDir>/hw/isrIntertialDelay.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"isrIntertialDelay",
+	"systems":	[{
+			"systemName":	"isrIntertialDelay",
+			"systemDesc":	"isrIntertialDelay",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"isrIntertialDelay",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"4354e3e7b86c08c5fa98b1471a127f2e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"391629962f28801e189a5447e493528e",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-03-30.12:22:24::SCWPlatform::updated the xpfm file.
+LOG::2022-03-30.12:24:36::SCWPlatform::Started generating the artifacts platform isrIntertialDelay
+TRACE::2022-03-30.12:24:36::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-03-30.12:24:36::SCWPlatform::Started generating the artifacts for system configuration isrIntertialDelay
+LOG::2022-03-30.12:24:36::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-03-30.12:24:36::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-03-30.12:24:36::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-03-30.12:24:36::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2022-03-30.12:24:36::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:24:36::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:24:36::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:24:36::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:24:36::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:24:36::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:24:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:24:36::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:24:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:24:36::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:24:36::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:24:36::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:24:36::SCWBDomain::Completed writing the mss file at C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2022-03-30.12:24:36::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-03-30.12:24:36::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-03-30.12:24:36::SCWBDomain::System Command Ran  C:&  cd  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl& make -C  zynq_fsbl_bsp & make 
+TRACE::2022-03-30.12:24:36::SCWBDomain::make: Entering directory 'C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::make --no-print-directory seq_libs
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2022-03-30.12:24:36::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2022-03-30.12:24:36::SCWBDomain::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2022-03-30.12:24:36::SCWBDomain::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2022-03-30.12:24:36::SCWBDomain::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:36::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:36::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:36::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:36::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:36::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:36::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_15/src"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_15/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-03-30.12:24:36::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-03-30.12:24:36::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_9/src"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:36::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:36::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_8/src"
+
+TRACE::2022-03-30.12:24:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/iic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:36::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:36::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:37::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_9/src"
+
+TRACE::2022-03-30.12:24:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:37::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:37::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:37::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_6/src"
+
+TRACE::2022-03-30.12:24:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:37::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:37::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:37::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2022-03-30.12:24:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-03-30.12:24:37::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-03-30.12:24:37::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:37::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2022-03-30.12:24:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:37::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:37::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:37::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_13/src"
+
+TRACE::2022-03-30.12:24:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_13/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:37::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:37::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:37::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-03-30.12:24:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-03-30.12:24:37::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-03-30.12:24:37::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:38::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_11/src"
+
+TRACE::2022-03-30.12:24:38::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-03-30.12:24:38::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-03-30.12:24:38::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:38::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src"
+
+TRACE::2022-03-30.12:24:38::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:38::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:38::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:38::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2022-03-30.12:24:38::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:38::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:38::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:38::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_6/src"
+
+TRACE::2022-03-30.12:24:38::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:38::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:38::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:38::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2022-03-30.12:24:38::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:38::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:38::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:38::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2022-03-30.12:24:38::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:38::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:38::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:38::SCWBDomain::'Finished building libraries sequentially.'
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -j 6 --no-print-directory par_libs
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2022-03-30.12:24:39::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2022-03-30.12:24:39::SCWBDomain::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2022-03-30.12:24:39::SCWBDomain::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2022-03-30.12:24:39::SCWBDomain::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:39::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:39::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:39::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:39::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:39::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:39::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_15/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_15/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-03-30.12:24:39::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-03-30.12:24:39::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_9/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_8/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:39::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:39::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/iic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:39::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:39::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_9/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_6/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:39::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:39::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:39::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:39::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-03-30.12:24:39::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-03-30.12:24:39::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:39::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:39::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_13/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_13/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:39::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:39::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_11/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-03-30.12:24:39::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-03-30.12:24:39::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-03-30.12:24:39::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-03-30.12:24:39::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:39::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:39::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:39::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:39::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_6/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:39::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:39::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:39::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:39::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2022-03-30.12:24:39::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2022-03-30.12:24:39::SCWBDomain:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-03-30.12:24:39::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-03-30.12:24:39::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2022-03-30.12:24:39::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2022-03-30.12:24:39::SCWBDomain::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_15/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:39::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:39::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2022-03-30.12:24:39::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2022-03-30.12:24:39::SCWBDomain::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_15/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2022-03-30.12:24:39::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2022-03-30.12:24:39::SCWBDomain::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_9/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:39::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:39::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_8/src"
+
+TRACE::2022-03-30.12:24:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/iic_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARCH
+TRACE::2022-03-30.12:24:39::SCWBDomain::IVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfil
+TRACE::2022-03-30.12:24:39::SCWBDomain::es -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:40::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_9/src"
+
+TRACE::2022-03-30.12:24:40::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:40::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:40::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:41::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_6/src"
+
+TRACE::2022-03-30.12:24:41::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:41::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:41::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:42::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2022-03-30.12:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:42::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:42::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:42::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2022-03-30.12:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:42::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:42::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:42::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_13/src"
+
+TRACE::2022-03-30.12:24:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_13/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2022-03-30.12:24:42::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2022-03-30.12:24:42::SCWBDomain::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:42::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-03-30.12:24:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-03-30.12:24:43::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-03-30.12:24:43::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:43::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_11/src"
+
+TRACE::2022-03-30.12:24:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2022-03-30.12:24:43::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2022-03-30.12:24:43::SCWBDomain::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:43::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_7/src"
+
+TRACE::2022-03-30.12:24:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2022-03-30.12:24:43::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2022-03-30.12:24:43::SCWBDomain::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:44::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2022-03-30.12:24:44::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:44::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:44::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:44::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_6/src"
+
+TRACE::2022-03-30.12:24:44::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:44::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:44::SCWBDomain::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:48::SCWBDomain::'Finished building libraries parallelly.'
+
+TRACE::2022-03-30.12:24:48::SCWBDomain::make --no-print-directory archive
+
+TRACE::2022-03-30.12:24:48::SCWBDomain::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xplatform_info.o ps7_c
+TRACE::2022-03-30.12:24:48::SCWBDomain::ortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xusbps_endpoint.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xil_sleeptimer.
+TRACE::2022-03-30.12:24:48::SCWBDomain::o ps7_cortexa9_0/lib/xqspips_options.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xsdps_
+TRACE::2022-03-30.12:24:48::SCWBDomain::options.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xscutimer_sinit.o ps7_
+TRACE::2022-03-30.12:24:48::SCWBDomain::cortexa9_0/lib/xemacps_hw.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xscutimer_selft
+TRACE::2022-03-30.12:24:48::SCWBDomain::est.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/xqspips_hw.o ps7_cortexa9_0/lib/xgpiops_g.o ps7_cortexa9_0/lib/xsdps.o ps7
+TRACE::2022-03-30.12:24:48::SCWBDomain::_cortexa9_0/lib/close.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xgpiops_sinit.o ps7_cortexa9_0/lib/xgpiops_selftest.o
+TRACE::2022-03-30.12:24:48::SCWBDomain:: ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xil_clocking.o ps7_cortexa9_0/lib/time.o ps7_cortexa9_0/lib/xiic_intr.o ps7_co
+TRACE::2022-03-30.12:24:48::SCWBDomain::rtexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/xiic_g.o ps7_cortexa9_0/lib/xuartps_g.o ps7_cortexa9_0/l
+TRACE::2022-03-30.12:24:48::SCWBDomain::ib/xadcps.o ps7_cortexa9_0/lib/xiic_stats.o ps7_cortexa9_0/lib/xuartps_sinit.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortex
+TRACE::2022-03-30.12:24:48::SCWBDomain::a9_0/lib/outbyte.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/xiic_slave.o ps7_cortexa9_0/lib/xusbps_hw.o ps7_cortexa9_0/lib
+TRACE::2022-03-30.12:24:48::SCWBDomain::/xl2cc_counter.o ps7_cortexa9_0/lib/xiic_options.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/l
+TRACE::2022-03-30.12:24:48::SCWBDomain::ib/xscugic_intr.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa
+TRACE::2022-03-30.12:24:48::SCWBDomain::9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xdevcfg_selftest.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cort
+TRACE::2022-03-30.12:24:48::SCWBDomain::exa9_0/lib/_sbrk.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xqspips_g.o ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_
+TRACE::2022-03-30.12:24:48::SCWBDomain::0/lib/xusbps_g.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xiic_dyn_master.o ps7_cortexa9_0/lib/xqspips_selftest.o ps
+TRACE::2022-03-30.12:24:48::SCWBDomain::7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/xil_testmem.o ps7_cortexa9_0/lib/xemacps_control.
+TRACE::2022-03-30.12:24:48::SCWBDomain::o ps7_cortexa9_0/lib/xiic_master.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xusbps_intr.o p
+TRACE::2022-03-30.12:24:48::SCWBDomain::s7_cortexa9_0/lib/xsdps_host.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xiic.o p
+TRACE::2022-03-30.12:24:48::SCWBDomain::s7_cortexa9_0/lib/xuartps.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/lib/xiic_selftest.o ps7_cortexa9_0/lib/cpputest_time.o ps
+TRACE::2022-03-30.12:24:48::SCWBDomain::7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/print.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/_ex
+TRACE::2022-03-30.12:24:48::SCWBDomain::it.o ps7_cortexa9_0/lib/xdevcfg.o ps7_cortexa9_0/lib/xadcps_intr.o ps7_cortexa9_0/lib/xqspips.o ps7_cortexa9_0/lib/xemacps.o ps
+TRACE::2022-03-30.12:24:48::SCWBDomain::7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xiic_multi_master.o ps7_cortexa9_0/lib/xiic_sin
+TRACE::2022-03-30.12:24:48::SCWBDomain::it.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/xusbps.o ps7_cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/translation_t
+TRACE::2022-03-30.12:24:48::SCWBDomain::able.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/xemacps_bdring.o ps
+TRACE::2022-03-30.12:24:48::SCWBDomain::7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xscugic_g.o ps7
+TRACE::2022-03-30.12:24:48::SCWBDomain::_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xscugic_sel
+TRACE::2022-03-30.12:24:48::SCWBDomain::ftest.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xsdps_c
+TRACE::2022-03-30.12:24:48::SCWBDomain::ard.o ps7_cortexa9_0/lib/xdmaps_hw.o ps7_cortexa9_0/lib/xiic_l.o ps7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xsdps_g.o p
+TRACE::2022-03-30.12:24:48::SCWBDomain::s7_cortexa9_0/lib/fstat.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xuartps_options.o ps7
+TRACE::2022-03-30.12:24:48::SCWBDomain::_cortexa9_0/lib/vectors.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_cortexa9_0/lib/xemacps_intr.o p
+TRACE::2022-03-30.12:24:48::SCWBDomain::s7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xusbps_sinit.o ps7_cortexa9_0/lib/isatty.o ps7_cortexa9_0/lib/xil-crt0.
+TRACE::2022-03-30.12:24:48::SCWBDomain::o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xqspips_sinit.o
+TRACE::2022-03-30.12:24:48::SCWBDomain:: ps7_cortexa9_0/lib/xadcps_sinit.o
+
+TRACE::2022-03-30.12:24:48::SCWBDomain::'Finished building libraries'
+
+TRACE::2022-03-30.12:24:48::SCWBDomain::make: Leaving directory 'C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2022-03-30.12:24:49::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
+TRACE::2022-03-30.12:24:49::SCWBDomain::exa9_0/include -I.
+
+TRACE::2022-03-30.12:24:49::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_
+TRACE::2022-03-30.12:24:49::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2022-03-30.12:24:49::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2022-03-30.12:24:49::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2022-03-30.12:24:49::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c image_mover.c -o image_mover.o -Izynq
+TRACE::2022-03-30.12:24:49::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2022-03-30.12:24:49::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2022-03-30.12:24:49::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2022-03-30.12:24:50::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_f
+TRACE::2022-03-30.12:24:50::SCWBDomain::sbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2022-03-30.12:24:50::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c main.c -o main.o -Izynq_fsbl_bsp/ps7_
+TRACE::2022-03-30.12:24:50::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2022-03-30.12:24:50::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2022-03-30.12:24:50::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2022-03-30.12:24:50::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_
+TRACE::2022-03-30.12:24:50::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2022-03-30.12:24:50::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c ps7_init.c -o ps7_init.o -Izynq_fsbl_
+TRACE::2022-03-30.12:24:50::SCWBDomain::bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2022-03-30.12:24:51::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_
+TRACE::2022-03-30.12:24:51::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2022-03-30.12:24:51::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_handoff.S -o fsbl_handoff.o -Izy
+TRACE::2022-03-30.12:24:51::SCWBDomain::nq_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2022-03-30.12:24:51::SCWBDomain::arm-none-eabi-gcc -o fsbl.elf fsbl_handoff.o fsbl_hooks.o image_mover.o main.o md5.o nand.o nor.o pcap.o ps7_init.o qspi.o rsa.
+TRACE::2022-03-30.12:24:51::SCWBDomain::o sd.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id
+TRACE::2022-03-30.12:24:51::SCWBDomain::=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-
+TRACE::2022-03-30.12:24:51::SCWBDomain::group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                    -Wl,--gc-sections -Lzynq_fsbl_bsp/
+TRACE::2022-03-30.12:24:51::SCWBDomain::ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2022-03-30.12:24:51::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2022-03-30.12:24:51::SCWSystem::Not a boot domain 
+LOG::2022-03-30.12:24:51::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2022-03-30.12:24:51::SCWDomain::Generating domain artifcats
+TRACE::2022-03-30.12:24:51::SCWMssOS::Generating standalone artifcats
+TRACE::2022-03-30.12:24:51::SCWMssOS::Copying the qemu file from  D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/School/spec/Xilinx/isrIntertialDelay/export/isrIntertialDelay/sw/isrIntertialDelay/qemu/
+TRACE::2022-03-30.12:24:51::SCWMssOS::Copying the qemu file from  D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/School/spec/Xilinx/isrIntertialDelay/export/isrIntertialDelay/sw/isrIntertialDelay/standalone_ps7_cortexa9_0/qemu/
+TRACE::2022-03-30.12:24:51::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-03-30.12:24:51::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:24:51::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:24:51::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:24:51::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:24:51::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:24:51::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:24:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:24:51::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:24:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:24:51::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:24:51::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:24:51::SCWMssOS::Completed writing the mss file at C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2022-03-30.12:24:51::SCWMssOS::Mss edits present, copying mssfile into export location C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:24:51::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-03-30.12:24:51::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-03-30.12:24:51::SCWDomain::Building the domain as part of full build :  standalone_ps7_cortexa9_0
+TRACE::2022-03-30.12:24:51::SCWMssOS::doing bsp build ... 
+TRACE::2022-03-30.12:24:51::SCWMssOS::System Command Ran  C: & cd  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp & make 
+TRACE::2022-03-30.12:24:51::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2022-03-30.12:24:51::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2022-03-30.12:24:51::SCWMssOS::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2022-03-30.12:24:51::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2022-03-30.12:24:51::SCWMssOS::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:51::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:51::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:51::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:51::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:51::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:51::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_15/src"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_15/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-03-30.12:24:51::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-03-30.12:24:51::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_9/src"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:51::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:51::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_8/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:52::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:52::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_9/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:52::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:52::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_6/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:52::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:52::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2022-03-30.12:24:52::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2022-03-30.12:24:52::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:52::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:52::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_13/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_13/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:52::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:52::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-03-30.12:24:52::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-03-30.12:24:52::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_11/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-03-30.12:24:52::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-03-30.12:24:52::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:52::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:52::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2022-03-30.12:24:52::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2022-03-30.12:24:52::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2022-03-30.12:24:52::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2022-03-30.12:24:52::SCWMssOS:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2022-03-30.12:24:52::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2022-03-30.12:24:52::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2022-03-30.12:24:52::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2022-03-30.12:24:52::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:52::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:52::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2022-03-30.12:24:52::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2022-03-30.12:24:52::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:53::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_15/src"
+
+TRACE::2022-03-30.12:24:53::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_15/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2022-03-30.12:24:53::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2022-03-30.12:24:53::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:53::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_9/src"
+
+TRACE::2022-03-30.12:24:53::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:53::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:53::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:53::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_8/src"
+
+TRACE::2022-03-30.12:24:53::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iic_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARCH
+TRACE::2022-03-30.12:24:53::SCWMssOS::IVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfil
+TRACE::2022-03-30.12:24:53::SCWMssOS::es -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:53::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_9/src"
+
+TRACE::2022-03-30.12:24:53::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:53::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:53::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:55::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_6/src"
+
+TRACE::2022-03-30.12:24:55::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:55::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:55::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:55::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_3/src"
+
+TRACE::2022-03-30.12:24:55::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2022-03-30.12:24:55::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2022-03-30.12:24:55::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:56::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2022-03-30.12:24:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:56::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:56::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:56::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_13/src"
+
+TRACE::2022-03-30.12:24:56::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_13/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2022-03-30.12:24:56::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2022-03-30.12:24:56::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:57::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-03-30.12:24:57::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_11/src"
+
+TRACE::2022-03-30.12:24:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2022-03-30.12:24:57::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2022-03-30.12:24:57::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2022-03-30.12:24:57::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2022-03-30.12:24:57::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:57::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_7/src"
+
+TRACE::2022-03-30.12:24:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2022-03-30.12:24:57::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2022-03-30.12:24:57::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:24:57::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2022-03-30.12:24:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2022-03-30.12:24:57::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2022-03-30.12:24:57::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-03-30.12:25:01::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-03-30.12:25:01::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-03-30.12:25:01::SCWMssOS::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xplatform_info.o ps7_c
+TRACE::2022-03-30.12:25:01::SCWMssOS::ortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xusbps_endpoint.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xil_sleeptimer.
+TRACE::2022-03-30.12:25:01::SCWMssOS::o ps7_cortexa9_0/lib/xqspips_options.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xsdps_
+TRACE::2022-03-30.12:25:01::SCWMssOS::options.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xscutimer_sinit.o ps7_
+TRACE::2022-03-30.12:25:01::SCWMssOS::cortexa9_0/lib/xemacps_hw.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xscutimer_selft
+TRACE::2022-03-30.12:25:01::SCWMssOS::est.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/xqspips_hw.o ps7_cortexa9_0/lib/xgpiops_g.o ps7_cortexa9_0/lib/xsdps.o ps7
+TRACE::2022-03-30.12:25:01::SCWMssOS::_cortexa9_0/lib/close.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xgpiops_sinit.o ps7_cortexa9_0/lib/xgpiops_selftest.o
+TRACE::2022-03-30.12:25:01::SCWMssOS:: ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xil_clocking.o ps7_cortexa9_0/lib/time.o ps7_cortexa9_0/lib/xiic_intr.o ps7_co
+TRACE::2022-03-30.12:25:01::SCWMssOS::rtexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/xiic_g.o ps7_cortexa9_0/lib/xuartps_g.o ps7_cortexa9_0/l
+TRACE::2022-03-30.12:25:01::SCWMssOS::ib/xadcps.o ps7_cortexa9_0/lib/xiic_stats.o ps7_cortexa9_0/lib/xuartps_sinit.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortex
+TRACE::2022-03-30.12:25:01::SCWMssOS::a9_0/lib/outbyte.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/xiic_slave.o ps7_cortexa9_0/lib/xusbps_hw.o ps7_cortexa9_0/lib
+TRACE::2022-03-30.12:25:01::SCWMssOS::/xl2cc_counter.o ps7_cortexa9_0/lib/xiic_options.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/l
+TRACE::2022-03-30.12:25:01::SCWMssOS::ib/xscugic_intr.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa
+TRACE::2022-03-30.12:25:01::SCWMssOS::9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xdevcfg_selftest.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cort
+TRACE::2022-03-30.12:25:01::SCWMssOS::exa9_0/lib/_sbrk.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xqspips_g.o ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_
+TRACE::2022-03-30.12:25:01::SCWMssOS::0/lib/xusbps_g.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xiic_dyn_master.o ps7_cortexa9_0/lib/xqspips_selftest.o ps
+TRACE::2022-03-30.12:25:01::SCWMssOS::7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/xil_testmem.o ps7_cortexa9_0/lib/xemacps_control.
+TRACE::2022-03-30.12:25:01::SCWMssOS::o ps7_cortexa9_0/lib/xiic_master.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xusbps_intr.o p
+TRACE::2022-03-30.12:25:01::SCWMssOS::s7_cortexa9_0/lib/xsdps_host.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xiic.o p
+TRACE::2022-03-30.12:25:01::SCWMssOS::s7_cortexa9_0/lib/xuartps.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/lib/xiic_selftest.o ps7_cortexa9_0/lib/cpputest_time.o ps
+TRACE::2022-03-30.12:25:01::SCWMssOS::7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/print.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/_ex
+TRACE::2022-03-30.12:25:01::SCWMssOS::it.o ps7_cortexa9_0/lib/xdevcfg.o ps7_cortexa9_0/lib/xadcps_intr.o ps7_cortexa9_0/lib/xqspips.o ps7_cortexa9_0/lib/xemacps.o ps
+TRACE::2022-03-30.12:25:01::SCWMssOS::7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xiic_multi_master.o ps7_cortexa9_0/lib/xiic_sin
+TRACE::2022-03-30.12:25:01::SCWMssOS::it.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/xusbps.o ps7_cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/translation_t
+TRACE::2022-03-30.12:25:01::SCWMssOS::able.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/xemacps_bdring.o ps
+TRACE::2022-03-30.12:25:01::SCWMssOS::7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xscugic_g.o ps7
+TRACE::2022-03-30.12:25:01::SCWMssOS::_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xscugic_sel
+TRACE::2022-03-30.12:25:01::SCWMssOS::ftest.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xsdps_c
+TRACE::2022-03-30.12:25:01::SCWMssOS::ard.o ps7_cortexa9_0/lib/xdmaps_hw.o ps7_cortexa9_0/lib/xiic_l.o ps7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xsdps_g.o p
+TRACE::2022-03-30.12:25:01::SCWMssOS::s7_cortexa9_0/lib/fstat.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xuartps_options.o ps7
+TRACE::2022-03-30.12:25:01::SCWMssOS::_cortexa9_0/lib/vectors.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_sinit.o ps7_cortexa9_0/lib/xemacps_intr.o p
+TRACE::2022-03-30.12:25:01::SCWMssOS::s7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xusbps_sinit.o ps7_cortexa9_0/lib/isatty.o ps7_cortexa9_0/lib/xil-crt0.
+TRACE::2022-03-30.12:25:01::SCWMssOS::o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xqspips_sinit.o
+TRACE::2022-03-30.12:25:01::SCWMssOS:: ps7_cortexa9_0/lib/xadcps_sinit.o
+
+TRACE::2022-03-30.12:25:02::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-03-30.12:25:02::SCWMssOS::Copying to export directory.
+TRACE::2022-03-30.12:25:03::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-03-30.12:25:03::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-03-30.12:25:03::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2022-03-30.12:25:03::SCWSystem::Completed Processing the sysconfig isrIntertialDelay
+LOG::2022-03-30.12:25:03::SCWPlatform::Completed generating the artifacts for system configuration isrIntertialDelay
+TRACE::2022-03-30.12:25:03::SCWPlatform::Started preparing the platform 
+TRACE::2022-03-30.12:25:03::SCWSystem::Writing the bif file for system config isrIntertialDelay
+TRACE::2022-03-30.12:25:03::SCWSystem::dir created 
+TRACE::2022-03-30.12:25:03::SCWSystem::Writing the bif 
+TRACE::2022-03-30.12:25:03::SCWPlatform::Started writing the spfm file 
+TRACE::2022-03-30.12:25:03::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-03-30.12:25:03::SCWPlatform::Completed generating the platform
+TRACE::2022-03-30.12:25:03::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-03-30.12:25:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-03-30.12:25:03::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:25:03::SCWMssOS::Saving the mss changes C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-03-30.12:25:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-03-30.12:25:03::SCWMssOS::Commit changes completed.
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:25:03::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:25:03::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:25:03::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:25:03::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:25:03::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:25:03::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:25:03::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:25:03::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:25:03::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:25:03::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:25:03::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:25:03::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWWriter::formatted JSON is {
+	"platformName":	"isrIntertialDelay",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"isrIntertialDelay",
+	"platHandOff":	"<platformDir>_2/hw/isrIntertialDelay.xsa",
+	"platIntHandOff":	"<platformDir>/hw/isrIntertialDelay.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"isrIntertialDelay",
+	"systems":	[{
+			"systemName":	"isrIntertialDelay",
+			"systemDesc":	"isrIntertialDelay",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"isrIntertialDelay",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"4354e3e7b86c08c5fa98b1471a127f2e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"D:/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"391629962f28801e189a5447e493528e",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-03-30.12:25:03::SCWPlatform::updated the xpfm file.
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to open the hw design at C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA given C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA absoulate path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform::DSA directory C:/School/spec/Xilinx/isrIntertialDelay/hw
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Platform Path C:/School/spec/Xilinx/isrIntertialDelay/hw/isrIntertialDelay.xsa
+TRACE::2022-03-30.12:25:03::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-03-30.12:25:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-03-30.12:25:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-03-30.12:25:03::SCWMssOS::Checking the sw design at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-03-30.12:25:03::SCWMssOS::DEBUG:  swdes dump  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/School/spec/Xilinx/isrIntertialDelay/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-03-30.12:25:03::SCWMssOS::Sw design exists and opened at  C:/School/spec/Xilinx/isrIntertialDelay/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss

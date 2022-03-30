@@ -1,0 +1,50 @@
+12:29:08 **** Build of configuration Debug for project isrdelayNoEeprom ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/SparkFun_AS7265X.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/SparkFun_AS7265X.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/School/spec/test/isrIntertialDelay/export/isrIntertialDelay/sw/isrIntertialDelay/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/SparkFun_AS7265X.d" -MT"src/SparkFun_AS7265X.o" -o "src/SparkFun_AS7265X.o" "../src/SparkFun_AS7265X.c"
+../src/SparkFun_AS7265X.c: In function 'readRegister':
+../src/SparkFun_AS7265X.c:966:7: warning: variable 'test' set but not used [-Wunused-but-set-variable]
+  966 |   int test = 0;
+      |       ^~~~
+../src/SparkFun_AS7265X.c: In function 'writeRegister':
+../src/SparkFun_AS7265X.c:1009:7: warning: variable 'test' set but not used [-Wunused-but-set-variable]
+ 1009 |   int test = 0;
+      |       ^~~~
+'Finished building: ../src/SparkFun_AS7265X.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/School/spec/test/isrIntertialDelay/export/isrIntertialDelay/sw/isrIntertialDelay/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:59:16: warning: unused variable 'tekst' [-Wunused-variable]
+   59 |  unsigned char tekst[100] = {0};
+      |                ^~~~~
+../src/helloworld.c:58:6: warning: unused variable 'test' [-Wunused-variable]
+   58 |  int test = 0;
+      |      ^~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/School/spec/test/isrIntertialDelay/export/isrIntertialDelay/sw/isrIntertialDelay/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: isrdelayNoEeprom.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/School/spec/test/isrIntertialDelay/export/isrIntertialDelay/sw/isrIntertialDelay/standalone_ps7_cortexa9_0/bsplib/lib -o "isrdelayNoEeprom.elf"  ./src/SparkFun_AS7265X.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: isrdelayNoEeprom.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size isrdelayNoEeprom.elf  |tee "isrdelayNoEeprom.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  67795	   3372	  22912	  94079	  16f7f	isrdelayNoEeprom.elf
+'Finished building: isrdelayNoEeprom.elf.size'
+' '
+
+12:29:10 Build Finished (took 1s.627ms)
+
