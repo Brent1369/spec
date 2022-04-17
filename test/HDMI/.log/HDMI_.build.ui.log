@@ -1,0 +1,22 @@
+2022-04-17T14:51:42.0826167121171255-14:51:42 **** Incremental Build of project HDMI ****
+233235237-buildplatform.bat 30011 HDMI standalone_ps7_cortexa9_0,zynq_fsbl 
+233235237-XSDB Server Channel: tcfchan#9
+233235237-Reading the platform  : "HDMI"
+233235237-Failed to generate the platform.
+233235237-Reason: Error: Qemu arguments File given  C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt do not exist
+233235237-    invoked from within
+233235237-"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active HDMI; platform generate  -domains standalone_ps7_cortexa9_0,zynq_fsbl}}}"
+233235237-    (procedure "::tcf::send_command" line 4)
+233235237-    invoked from within
+233235237-"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform generate $target"]"
+233235237-    invoked from within
+233235237-"if { $iswindows == 1 } {    
+233235237-
+233235237-    set XSDB_PORT [lindex $argv 0]
+233235237-    set PLATFORM_NAME [lindex $argv 1]
+233235237-    set arglen [llength $argv]
+233235237-    set lastind..."
+233235237-    (file "D:/Vitis/2021.2\scripts\vitis\util\buildplatform.tcl" line 11)
+121171255-
+14:51:48 Build Finished (took 6s.170ms)
+

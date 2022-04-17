@@ -1,0 +1,7 @@
+18:37:47 **** Clean-only build of configuration Debug for project hdmi7 ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  hdmi7.elf.size  hdmi7.elf
+' '
+
+18:37:47 Build Finished (took 132ms)
+

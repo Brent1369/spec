@@ -392,7 +392,7 @@
       </children>
     </children>
     <sharedElements xsi:type="advanced:Area" xmi:id="_uQcfcaErEeyPzPIlN1a_fw" elementId="org.eclipse.ui.editorss" selectedElement="_uQcfcqErEeyPzPIlN1a_fw">
-      <children xsi:type="basic:PartStack" xmi:id="_uQcfcqErEeyPzPIlN1a_fw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_AMs5AKSaEeyWVujt-IeDiA">
+      <children xsi:type="basic:PartStack" xmi:id="_uQcfcqErEeyPzPIlN1a_fw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_yFcVEKLFEey5bfU940hhqg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <children xsi:type="basic:Part" xmi:id="_uQcfc6ErEeyPzPIlN1a_fw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="_exit.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
@@ -994,6 +994,9 @@
       <menus xsi:type="menu:PopupMenu" xmi:id="_jseyILAQEeyRR8aZBYBTrQ" elementId="com.xilinx.ide.projectExplorer#PopupMenu">
         <tags>menuContribution:popup</tags>
       </menus>
+      <menus xsi:type="menu:PopupMenu" xmi:id="_PcZiELDqEeytwNauSoAC4g" elementId="com.xilinx.ide.projectExplorer#PopupMenu">
+        <tags>menuContribution:popup</tags>
+      </menus>
       <toolbar xmi:id="_uQdGHKErEeyPzPIlN1a_fw" elementId="com.xilinx.ide.projectExplorer"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_uQdGIaErEeyPzPIlN1a_fw" elementId="com.xilinx.sdx.assistant.assistantView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Assistant" iconURI="platform:/plugin/com.xilinx.sdx.assistant/icons/assistant_view.png" tooltip="Assistant to manage Scout project setup, builds, and reports." closeable="true">
@@ -1588,8 +1591,6 @@
     <bindings xmi:id="_uQdtiqErEeyPzPIlN1a_fw" keySequence="CTRL+SHIFT+NUMPAD_DIVIDE" command="_uQinB6ErEeyPzPIlN1a_fw"/>
     <bindings xmi:id="_uQdti6ErEeyPzPIlN1a_fw" keySequence="ALT+/" command="_uQjM56ErEeyPzPIlN1a_fw"/>
     <bindings xmi:id="_uQdtjKErEeyPzPIlN1a_fw" keySequence="SHIFT+CR" command="_uQjM4KErEeyPzPIlN1a_fw"/>
-    <bindings xmi:id="_4xRgkKh7EeyEqLySgcdqYw" keySequence="CTRL+F" command="_uQimV6ErEeyPzPIlN1a_fw"/>
-    <bindings xmi:id="_4xVyAKh7EeyEqLySgcdqYw" keySequence="ESC" command="_uQinoqErEeyPzPIlN1a_fw"/>
   </bindingTables>
   <bindingTables xmi:id="_uQdtj6ErEeyPzPIlN1a_fw" elementId="org.eclipse.ui.contexts.window" bindingContext="_uQeUL6ErEeyPzPIlN1a_fw">
     <bindings xmi:id="_uQdtkKErEeyPzPIlN1a_fw" keySequence="ALT+CTRL+SHIFT+A" command="_uQinZqErEeyPzPIlN1a_fw"/>
@@ -1734,14 +1735,7 @@
     <bindings xmi:id="_uQduC6ErEeyPzPIlN1a_fw" keySequence="ALT+SHIFT+D P" command="_uQjMjKErEeyPzPIlN1a_fw"/>
     <bindings xmi:id="_uQduDKErEeyPzPIlN1a_fw" keySequence="ALT+SHIFT+D Q" command="_uQimZaErEeyPzPIlN1a_fw"/>
   </bindingTables>
-  <bindingTables xmi:id="_uQduDaErEeyPzPIlN1a_fw" elementId="com.genuitec.eclipse.inlinesearch.context" bindingContext="_uQeUQ6ErEeyPzPIlN1a_fw">
-    <bindings xmi:id="_4xMoEah7EeyEqLySgcdqYw" keySequence="CTRL+BS" command="_uQim-KErEeyPzPIlN1a_fw"/>
-    <bindings xmi:id="_4xMoEqh7EeyEqLySgcdqYw" keySequence="ALT+SHIFT+CR" command="_uQil7qErEeyPzPIlN1a_fw"/>
-    <bindings xmi:id="_4xOdQKh7EeyEqLySgcdqYw" keySequence="ALT+SHIFT+1" command="_uQinNKErEeyPzPIlN1a_fw"/>
-    <bindings xmi:id="_4xSHoKh7EeyEqLySgcdqYw" keySequence="CTRL+DEL" command="_uQinJKErEeyPzPIlN1a_fw"/>
-    <bindings xmi:id="_4xVK8Kh7EeyEqLySgcdqYw" keySequence="CTRL+ARROW_UP" command="_uQjM1qErEeyPzPIlN1a_fw"/>
-    <bindings xmi:id="_4xVK8ah7EeyEqLySgcdqYw" keySequence="CTRL+ARROW_DOWN" command="_uQimsqErEeyPzPIlN1a_fw"/>
-  </bindingTables>
+  <bindingTables xmi:id="_uQduDaErEeyPzPIlN1a_fw" elementId="com.genuitec.eclipse.inlinesearch.context" bindingContext="_uQeUQ6ErEeyPzPIlN1a_fw"/>
   <bindingTables xmi:id="_uQduFKErEeyPzPIlN1a_fw" elementId="org.eclipse.cdt.ui.cEditorScope" bindingContext="_uQeUSKErEeyPzPIlN1a_fw">
     <bindings xmi:id="_uQduFaErEeyPzPIlN1a_fw" keySequence="CTRL+TAB" command="_uQjNRqErEeyPzPIlN1a_fw"/>
     <bindings xmi:id="_uQduFqErEeyPzPIlN1a_fw" keySequence="CTRL+SHIFT+P" command="_uQimLKErEeyPzPIlN1a_fw"/>
@@ -1904,10 +1898,7 @@
     <bindings xmi:id="_uQdupKErEeyPzPIlN1a_fw" keySequence="CTRL+SHIFT+." command="_uQinrKErEeyPzPIlN1a_fw"/>
     <bindings xmi:id="_uQdupaErEeyPzPIlN1a_fw" keySequence="CTRL+G" command="_uQinraErEeyPzPIlN1a_fw"/>
   </bindingTables>
-  <bindingTables xmi:id="_uQdupqErEeyPzPIlN1a_fw" elementId="com.genuitec.eclipse.meExplorerScope" bindingContext="_uQeUUKErEeyPzPIlN1a_fw">
-    <bindings xmi:id="_4xQScKh7EeyEqLySgcdqYw" keySequence="ALT+SHIFT+R" command="_uQh_cqErEeyPzPIlN1a_fw"/>
-    <bindings xmi:id="_4xRgkah7EeyEqLySgcdqYw" keySequence="ALT+SHIFT+V" command="_uQh_WKErEeyPzPIlN1a_fw"/>
-  </bindingTables>
+  <bindingTables xmi:id="_uQdupqErEeyPzPIlN1a_fw" elementId="com.genuitec.eclipse.meExplorerScope" bindingContext="_uQeUUKErEeyPzPIlN1a_fw"/>
   <bindingTables xmi:id="_uQduqaErEeyPzPIlN1a_fw" elementId="org.eclipse.egit.ui.ReflogView" bindingContext="_uQeUWKErEeyPzPIlN1a_fw">
     <bindings xmi:id="_uQduqqErEeyPzPIlN1a_fw" keySequence="CTRL+C" command="_uQilbKErEeyPzPIlN1a_fw"/>
   </bindingTables>
@@ -4134,6 +4125,7 @@
   <addons xmi:id="_4x_SQKh7EeyEqLySgcdqYw" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
   <addons xmi:id="_FBzooKh9EeykmKV8Uz5DlQ" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
   <addons xmi:id="_flaPEbAQEeyRR8aZBYBTrQ" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
+  <addons xmi:id="_OWLg4bDqEeytwNauSoAC4g" elementId="com.xilinx.sdk.targetmanager.ui.addon.view" contributionURI="bundleclass://com.xilinx.sdk.targetmanager/com.xilinx.sdk.targetmanager.ui.ViewVisibilityAdapterAddon"/>
   <categories xmi:id="_uQjOAKErEeyPzPIlN1a_fw" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_uQjOAaErEeyPzPIlN1a_fw" elementId="org.eclipse.ui.category.textEditor" name="Text Editing" description="Text Editing Commands"/>
   <categories xmi:id="_uQjOAqErEeyPzPIlN1a_fw" elementId="org.eclipse.cdt.debug.ui.category.registerGrouping" name="Register Grouping commands" description="Set of commands for Register Grouping"/>
