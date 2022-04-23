@@ -1,0 +1,10 @@
+13:06:42 **** Incremental Build of configuration Debug for project experiment4_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 59738 C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm standalone_ps7_cortexa9_0 C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm --sys_config wrapper4_experiment --bif C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4_system/Debug/system.bif --bitstream C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit --elf C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit
+Running C:/Xilinx/Vitis/2021.2/bin/bootgen  -image C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+13:06:46 Build Finished (took 3s.766ms)
+

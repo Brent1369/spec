@@ -1,16 +1,16 @@
 #-----------------------------------------------------------
-# Vivado v2021.2.1 (64-bit)
+# Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
-# IP Build 3405791 on Sun Dec 19 15:54:35 MST 2021
-# Start of session at: Thu Apr  7 11:37:11 2022
-# Process ID: 133460
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Apr 23 23:13:26 2022
+# Process ID: 14788
 # Current directory: C:/Users/vreys/OneDrive/school/spec/project_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent119392 C:\Users\vreys\OneDrive\school\spec\project_1\project_1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20088 C:\Users\vreys\OneDrive\school\spec\project_1\project_1.xpr
 # Log file: C:/Users/vreys/OneDrive/school/spec/project_1/vivado.log
 # Journal file: C:/Users/vreys/OneDrive/school/spec/project_1\vivado.jou
-# Running On: DESKTOP-LR9QTSN, OS: Windows, CPU Frequency: 3592 MHz, CPU Physical cores: 4, Host memory: 30015 MB
+# Running On: Brent_laptop, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 25494 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/vreys/OneDrive/school/spec/project_1/project_1.xpr
 update_compile_order -fileset sources_1
-open_run impl_1
+open_bd_design {C:/Users/vreys/OneDrive/school/spec/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}

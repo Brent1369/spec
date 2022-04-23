@@ -1,0 +1,1086 @@
+10:16:37 INFO  : Platform repository initialization has completed.
+10:16:37 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\vreys\OneDrive\school\spec\vitis_experiment\temp_xsdb_launch_script.tcl
+10:16:37 INFO  : Registering command handlers for Vitis TCF services
+10:16:39 INFO  : XSCT server has started successfully.
+10:16:39 INFO  : plnx-install-location is set to ''
+10:16:39 INFO  : Successfully done setting XSCT server connection channel  
+10:16:39 INFO  : Successfully done query RDI_DATADIR 
+10:16:39 INFO  : Successfully done setting workspace for the tool. 
+10:18:41 INFO  : Result from executing command 'getProjects': wrapper_experiment
+10:18:41 INFO  : Result from executing command 'getPlatforms': 
+10:18:41 WARN  : An unexpected exception occurred in the module 'platform project logging'
+10:18:41 INFO  : Platform 'wrapper_experiment' is added to custom repositories.
+10:18:49 INFO  : Platform 'wrapper_experiment' is added to custom repositories.
+10:28:34 INFO  : Result from executing command 'getProjects': wrapper_experiment
+10:28:34 INFO  : Result from executing command 'getPlatforms': wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+10:28:34 INFO  : Checking for BSP changes to sync application flags for project 'experiment'...
+11:15:39 INFO  : Checking for BSP changes to sync application flags for project 'experiment'...
+11:17:22 INFO  : Result from executing command 'getProjects': wrapper_experiment
+11:17:22 INFO  : Result from executing command 'getPlatforms': wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+11:17:23 INFO  : Checking for BSP changes to sync application flags for project 'experiment'...
+11:20:55 INFO  : Checking for BSP changes to sync application flags for project 'experiment'...
+11:47:02 INFO  : Checking for BSP changes to sync application flags for project 'experiment'...
+11:57:55 INFO  : Checking for BSP changes to sync application flags for project 'experiment'...
+11:58:45 INFO  : Checking for BSP changes to sync application flags for project 'experiment'...
+11:59:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:59:10 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:59:15 INFO  : 'jtag frequency' command is executed.
+11:59:15 INFO  : Context for 'APU' is selected.
+11:59:15 INFO  : System reset is completed.
+11:59:18 INFO  : 'after 3000' command is executed.
+11:59:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:59:22 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/_ide/bitstream/wrapper_experiment.bit"
+11:59:22 INFO  : Context for 'APU' is selected.
+11:59:27 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/hw/wrapper_experiment.xsa'.
+11:59:27 INFO  : 'configparams force-mem-access 1' command is executed.
+11:59:27 INFO  : Context for 'APU' is selected.
+11:59:27 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/_ide/psinit/ps7_init.tcl' is done.
+11:59:38 INFO  : 'ps7_init' command is executed.
+11:59:38 INFO  : 'ps7_post_config' command is executed.
+11:59:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:00:04 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/Debug/experiment.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:00:04 INFO  : 'configparams force-mem-access 0' command is executed.
+12:00:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/_ide/bitstream/wrapper_experiment.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/hw/wrapper_experiment.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/Debug/experiment.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:00:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:00:15 INFO  : 'con' command is executed.
+12:00:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:00:15 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\experiment_system\_ide\scripts\debugger_experiment-default.tcl'
+12:01:00 INFO  : Disconnected from the channel tcfchan#3.
+12:02:41 INFO  : Checking for BSP changes to sync application flags for project 'experiment'...
+12:03:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:03:29 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:03:34 INFO  : 'jtag frequency' command is executed.
+12:03:34 INFO  : Context for 'APU' is selected.
+12:03:34 INFO  : System reset is completed.
+12:03:37 INFO  : 'after 3000' command is executed.
+12:03:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:03:42 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/_ide/bitstream/wrapper_experiment.bit"
+12:03:42 INFO  : Context for 'APU' is selected.
+12:03:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/hw/wrapper_experiment.xsa'.
+12:03:42 INFO  : 'configparams force-mem-access 1' command is executed.
+12:03:42 INFO  : Context for 'APU' is selected.
+12:03:42 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/_ide/psinit/ps7_init.tcl' is done.
+12:04:02 INFO  : 'ps7_init' command is executed.
+12:04:02 INFO  : 'ps7_post_config' command is executed.
+12:04:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:04:15 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/Debug/experiment.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:04:15 INFO  : 'configparams force-mem-access 0' command is executed.
+12:04:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/_ide/bitstream/wrapper_experiment.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/hw/wrapper_experiment.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/Debug/experiment.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:04:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:04:25 INFO  : 'con' command is executed.
+12:04:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:04:25 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\experiment_system\_ide\scripts\debugger_experiment-default_1.tcl'
+12:05:06 INFO  : Disconnected from the channel tcfchan#4.
+12:05:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:05:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:05:40 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:05:44 INFO  : Checking for BSP changes to sync application flags for project 'experiment'...
+12:05:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:05:52 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:06:02 INFO  : 'jtag frequency' command is executed.
+12:06:02 INFO  : Context for 'APU' is selected.
+12:06:02 INFO  : System reset is completed.
+12:06:05 INFO  : 'after 3000' command is executed.
+12:06:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:06:09 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/_ide/bitstream/wrapper_experiment.bit"
+12:06:09 INFO  : Context for 'APU' is selected.
+12:06:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/hw/wrapper_experiment.xsa'.
+12:06:09 INFO  : 'configparams force-mem-access 1' command is executed.
+12:06:09 INFO  : Context for 'APU' is selected.
+12:06:09 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/_ide/psinit/ps7_init.tcl' is done.
+12:06:35 INFO  : 'ps7_init' command is executed.
+12:06:40 INFO  : 'ps7_post_config' command is executed.
+12:06:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:06:52 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/Debug/experiment.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:06:52 INFO  : 'configparams force-mem-access 0' command is executed.
+12:06:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/_ide/bitstream/wrapper_experiment.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/hw/wrapper_experiment.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment/Debug/experiment.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:07:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:07:02 INFO  : 'con' command is executed.
+12:07:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:07:02 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\experiment_system\_ide\scripts\debugger_experiment-default_3.tcl'
+12:08:24 INFO  : Disconnected from the channel tcfchan#5.
+12:26:36 ERROR : Failed to create platform for application project
+Reason: Failed to create platform.
+12:26:36 INFO  : Platform creation cancelled by the user.
+12:27:27 ERROR : Failed to create platform for application project
+Reason: Failed to create platform.
+12:27:27 INFO  : Platform creation cancelled by the user.
+12:27:56 ERROR : Failed to create platform for application project
+Reason: Failed to create platform.
+12:27:56 INFO  : Platform creation cancelled by the user.
+12:45:33 ERROR : Failed to create platform for application project
+Reason: Failed to create platform.
+12:45:33 WARN  : Failed to delete platform project 'wrapper3_experiment'.
+12:45:33 INFO  : Platform creation cancelled by the user.
+12:46:09 INFO  : Result from executing command 'getProjects': wrapper3_experiment;wrapper_experiment;wrapper_experiment_1
+12:46:09 INFO  : Result from executing command 'getPlatforms': wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+12:46:09 INFO  : Platform 'wrapper_experiment_1' is added to custom repositories.
+12:46:16 INFO  : Platform 'wrapper_experiment_1' is added to custom repositories.
+13:02:22 INFO  : Result from executing command 'getProjects': wrapper3_experiment;wrapper4_experiment;wrapper_experiment;wrapper_experiment_1
+13:02:22 INFO  : Result from executing command 'getPlatforms': wrapper_experiment_1|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/wrapper_experiment_1.xpfm;wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+13:02:23 INFO  : Platform 'wrapper4_experiment' is added to custom repositories.
+13:02:30 INFO  : Platform 'wrapper4_experiment' is added to custom repositories.
+13:04:18 INFO  : Result from executing command 'getProjects': wrapper3_experiment;wrapper4_experiment;wrapper_experiment;wrapper_experiment_1
+13:04:18 INFO  : Result from executing command 'getPlatforms': wrapper4_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm;wrapper_experiment_1|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/wrapper_experiment_1.xpfm;wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+13:04:18 INFO  : Checking for BSP changes to sync application flags for project 'experiment4'...
+13:06:38 INFO  : Checking for BSP changes to sync application flags for project 'experiment4'...
+13:06:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:06:58 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:07:03 INFO  : 'jtag frequency' command is executed.
+13:07:03 INFO  : Context for 'APU' is selected.
+13:07:03 INFO  : System reset is completed.
+13:07:06 INFO  : 'after 3000' command is executed.
+13:07:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+13:07:10 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit"
+13:07:10 INFO  : Context for 'APU' is selected.
+13:07:15 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa'.
+13:07:15 INFO  : 'configparams force-mem-access 1' command is executed.
+13:07:15 INFO  : Context for 'APU' is selected.
+13:07:15 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl' is done.
+13:07:26 INFO  : 'ps7_init' command is executed.
+13:07:26 INFO  : 'ps7_post_config' command is executed.
+13:07:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:07:38 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:07:38 INFO  : 'configparams force-mem-access 0' command is executed.
+13:07:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:07:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:07:48 INFO  : 'con' command is executed.
+13:07:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:07:48 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\experiment4_system\_ide\scripts\debugger_experiment4-default.tcl'
+13:08:24 INFO  : Disconnected from the channel tcfchan#8.
+13:12:05 INFO  : Result from executing command 'getProjects': wrapper3_experiment;wrapper4_experiment;wrapper_experiment;wrapper_experiment_1
+13:12:05 INFO  : Result from executing command 'getPlatforms': wrapper4_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm;wrapper_experiment_1|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/wrapper_experiment_1.xpfm;wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+13:12:05 INFO  : Checking for BSP changes to sync application flags for project 'experiment4'...
+13:26:38 INFO  : Checking for BSP changes to sync application flags for project 'experiment4'...
+13:26:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:26:50 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:26:55 INFO  : 'jtag frequency' command is executed.
+13:26:55 INFO  : Context for 'APU' is selected.
+13:26:55 INFO  : System reset is completed.
+13:26:58 INFO  : 'after 3000' command is executed.
+13:27:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+13:27:03 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit"
+13:27:03 INFO  : Context for 'APU' is selected.
+13:27:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa'.
+13:27:03 INFO  : 'configparams force-mem-access 1' command is executed.
+13:27:03 INFO  : Context for 'APU' is selected.
+13:27:03 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl' is done.
+13:27:28 INFO  : 'ps7_init' command is executed.
+13:27:28 INFO  : 'ps7_post_config' command is executed.
+13:27:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:27:45 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:27:45 INFO  : 'configparams force-mem-access 0' command is executed.
+13:27:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:27:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:27:56 INFO  : 'con' command is executed.
+13:27:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:27:56 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\experiment4_system\_ide\scripts\debugger_experiment4-default_1.tcl'
+13:35:57 INFO  : Checking for BSP changes to sync application flags for project 'experiment4'...
+13:36:11 INFO  : Disconnected from the channel tcfchan#10.
+13:36:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:36:16 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:36:21 INFO  : 'jtag frequency' command is executed.
+13:36:21 INFO  : Context for 'APU' is selected.
+13:36:21 INFO  : System reset is completed.
+13:36:24 INFO  : 'after 3000' command is executed.
+13:36:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+13:36:28 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit"
+13:36:28 INFO  : Context for 'APU' is selected.
+13:36:28 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa'.
+13:36:28 INFO  : 'configparams force-mem-access 1' command is executed.
+13:36:28 INFO  : Context for 'APU' is selected.
+13:36:28 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl' is done.
+13:36:59 INFO  : 'ps7_init' command is executed.
+13:37:04 INFO  : 'ps7_post_config' command is executed.
+13:37:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:37:25 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:37:25 INFO  : 'configparams force-mem-access 0' command is executed.
+13:37:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:37:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:37:35 INFO  : 'con' command is executed.
+13:37:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:37:35 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\experiment4_system\_ide\scripts\debugger_experiment4-default_2.tcl'
+13:40:48 INFO  : Disconnected from the channel tcfchan#11.
+13:41:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:41:09 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:41:14 ERROR : port closed
+13:41:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+13:41:14 ERROR : port closed
+13:41:20 INFO  : Checking for BSP changes to sync application flags for project 'experiment4'...
+13:41:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:41:24 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:41:29 INFO  : 'jtag frequency' command is executed.
+13:41:29 INFO  : Context for 'APU' is selected.
+13:41:29 INFO  : System reset is completed.
+13:41:32 INFO  : 'after 3000' command is executed.
+13:41:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+13:41:37 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit"
+13:41:37 INFO  : Context for 'APU' is selected.
+13:41:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa'.
+13:41:37 INFO  : 'configparams force-mem-access 1' command is executed.
+13:41:37 INFO  : Context for 'APU' is selected.
+13:41:37 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl' is done.
+13:42:02 INFO  : 'ps7_init' command is executed.
+13:42:02 INFO  : 'ps7_post_config' command is executed.
+13:42:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:42:24 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:42:24 INFO  : 'configparams force-mem-access 0' command is executed.
+13:42:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:42:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:42:34 INFO  : 'con' command is executed.
+13:42:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:42:34 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\experiment4_system\_ide\scripts\debugger_experiment4-default_4.tcl'
+15:20:31 INFO  : Disconnected from the channel tcfchan#12.
+15:20:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:20:34 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:20:39 INFO  : 'jtag frequency' command is executed.
+15:20:39 INFO  : Context for 'APU' is selected.
+15:20:39 INFO  : System reset is completed.
+15:20:42 INFO  : 'after 3000' command is executed.
+15:20:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+15:20:46 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit"
+15:20:46 INFO  : Context for 'APU' is selected.
+15:20:46 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa'.
+15:20:46 INFO  : 'configparams force-mem-access 1' command is executed.
+15:20:46 INFO  : Context for 'APU' is selected.
+15:20:46 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl' is done.
+15:21:07 INFO  : 'ps7_init' command is executed.
+15:21:12 INFO  : 'ps7_post_config' command is executed.
+15:21:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:21:33 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:21:33 INFO  : 'configparams force-mem-access 0' command is executed.
+15:21:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:21:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:21:43 INFO  : 'con' command is executed.
+15:21:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:21:43 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\experiment4_system\_ide\scripts\debugger_experiment4-default_5.tcl'
+15:26:49 INFO  : Disconnected from the channel tcfchan#13.
+15:27:00 INFO  : Checking for BSP changes to sync application flags for project 'experiment4'...
+15:27:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:27:09 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:27:14 ERROR : port closed
+15:27:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+15:27:14 ERROR : port closed
+15:28:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:28:11 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:28:16 INFO  : 'jtag frequency' command is executed.
+15:28:16 INFO  : Context for 'APU' is selected.
+15:28:16 INFO  : System reset is completed.
+15:28:19 INFO  : 'after 3000' command is executed.
+15:28:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+15:28:23 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit"
+15:28:23 INFO  : Context for 'APU' is selected.
+15:28:23 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa'.
+15:28:23 INFO  : 'configparams force-mem-access 1' command is executed.
+15:28:23 INFO  : Context for 'APU' is selected.
+15:28:23 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl' is done.
+15:28:44 INFO  : 'ps7_init' command is executed.
+15:28:44 INFO  : 'ps7_post_config' command is executed.
+15:28:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:29:04 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:29:04 INFO  : 'configparams force-mem-access 0' command is executed.
+15:29:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:29:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:29:15 INFO  : 'con' command is executed.
+15:29:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:29:15 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\experiment4_system\_ide\scripts\debugger_experiment4-default_7.tcl'
+15:38:06 INFO  : Disconnected from the channel tcfchan#14.
+15:38:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:38:21 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:38:26 INFO  : 'jtag frequency' command is executed.
+15:38:29 ERROR : no targets found with "name =~"APU*"". available targets:
+  1  xc7z020
+15:38:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+----------------End of Script----------------
+
+15:38:29 ERROR : no targets found with "name =~"APU*"". available targets:
+  1  xc7z020
+15:39:43 INFO  : Checking for BSP changes to sync application flags for project 'experiment4'...
+15:39:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:39:58 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:40:03 INFO  : 'jtag frequency' command is executed.
+15:40:03 INFO  : Context for 'APU' is selected.
+15:40:03 INFO  : System reset is completed.
+15:40:06 INFO  : 'after 3000' command is executed.
+15:40:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+15:40:11 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit"
+15:40:11 INFO  : Context for 'APU' is selected.
+15:40:11 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa'.
+15:40:11 INFO  : 'configparams force-mem-access 1' command is executed.
+15:40:11 INFO  : Context for 'APU' is selected.
+15:40:11 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl' is done.
+15:40:26 INFO  : 'ps7_init' command is executed.
+15:40:26 INFO  : 'ps7_post_config' command is executed.
+15:40:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:40:52 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:40:52 INFO  : 'configparams force-mem-access 0' command is executed.
+15:40:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:41:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:41:02 INFO  : 'con' command is executed.
+15:41:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:41:02 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\experiment4_system\_ide\scripts\debugger_experiment4-default_9.tcl'
+16:00:05 INFO  : Disconnected from the channel tcfchan#15.
+16:06:36 INFO  : Checking for BSP changes to sync application flags for project 'experiment4'...
+20:42:05 INFO  : Checking for BSP changes to sync application flags for project 'experiment4'...
+20:42:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:42:50 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+20:43:03 INFO  : 'jtag frequency' command is executed.
+20:43:03 INFO  : Context for 'APU' is selected.
+20:43:03 INFO  : System reset is completed.
+20:43:06 INFO  : 'after 3000' command is executed.
+20:43:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+20:43:18 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit"
+20:43:18 INFO  : Context for 'APU' is selected.
+20:43:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa'.
+20:43:18 INFO  : 'configparams force-mem-access 1' command is executed.
+20:43:18 INFO  : Context for 'APU' is selected.
+20:43:18 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl' is done.
+20:44:22 INFO  : 'ps7_init' command is executed.
+20:44:22 INFO  : 'ps7_post_config' command is executed.
+20:44:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:44:50 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:44:50 INFO  : 'configparams force-mem-access 0' command is executed.
+20:44:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/bitstream/wrapper4_experiment.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/hw/wrapper4_experiment.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment4/Debug/experiment4.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:45:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:45:16 INFO  : 'con' command is executed.
+20:45:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:45:16 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\experiment4_system\_ide\scripts\debugger_experiment4-default_10.tcl'
+20:46:24 INFO  : Checking for BSP changes to sync application flags for project 'experiment4'...
+20:46:33 INFO  : Disconnected from the channel tcfchan#16.
+20:46:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:46:45 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+20:46:58 INFO  : 'jtag frequency' command is executed.
+20:47:01 ERROR : no targets found with "name =~"APU*"". available targets:
+  1  xc7z020
+20:47:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+----------------End of Script----------------
+
+20:47:01 ERROR : no targets found with "name =~"APU*"". available targets:
+  1  xc7z020
+21:05:16 INFO  : Result from executing command 'getProjects': experiment5;wrapper3_experiment;wrapper4_experiment;wrapper_experiment;wrapper_experiment_1
+21:05:16 INFO  : Result from executing command 'getPlatforms': wrapper4_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm;wrapper_experiment_1|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/wrapper_experiment_1.xpfm;wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+21:05:16 INFO  : Platform 'experiment5' is added to custom repositories.
+21:05:18 ERROR : 
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:26)
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:890)
+	at org.eclipse.cdt.core.CCorePlugin$1.run(CCorePlugin.java:945)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.cdt.core.CCorePlugin.createCProject(CCorePlugin.java:930)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createCProject(AppCreationHandler.java:92)
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:67)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:237)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:382)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:100)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptorManager.configure(CConfigBasedDescriptorManager.java:160)
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:885)
+	... 20 more
+21:05:18 ERROR : Failed to create application project
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:150)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:237)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:382)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:100)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+21:07:19 INFO  : Result from executing command 'getProjects': experiment5;wrapper3_experiment;wrapper4_experiment;wrapper_experiment;wrapper_experiment_1
+21:07:19 INFO  : Result from executing command 'getPlatforms': wrapper4_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm;wrapper_experiment_1|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/wrapper_experiment_1.xpfm;wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+21:07:20 INFO  : Platform 'experiment5' is added to custom repositories.
+21:07:26 INFO  : Platform 'experiment5' is added to custom repositories.
+21:08:33 INFO  : Result from executing command 'getProjects': experiment5;wrapper3_experiment;wrapper4_experiment;wrapper_experiment;wrapper_experiment_1
+21:08:33 INFO  : Result from executing command 'getPlatforms': experiment5|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/experiment5.xpfm;wrapper4_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm;wrapper_experiment_1|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/wrapper_experiment_1.xpfm;wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+21:08:33 INFO  : Checking for BSP changes to sync application flags for project 'test6'...
+21:09:07 INFO  : Checking for BSP changes to sync application flags for project 'test6'...
+21:09:36 INFO  : Checking for BSP changes to sync application flags for project 'test6'...
+21:13:29 INFO  : Checking for BSP changes to sync application flags for project 'test6'...
+21:13:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:13:52 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+21:14:05 INFO  : 'jtag frequency' command is executed.
+21:14:05 INFO  : Context for 'APU' is selected.
+21:14:05 INFO  : System reset is completed.
+21:14:08 INFO  : 'after 3000' command is executed.
+21:14:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+21:14:20 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/bitstream/experiment5.bit"
+21:14:20 INFO  : Context for 'APU' is selected.
+21:14:33 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/hw/experiment5.xsa'.
+21:14:33 INFO  : 'configparams force-mem-access 1' command is executed.
+21:14:33 INFO  : Context for 'APU' is selected.
+21:14:33 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/psinit/ps7_init.tcl' is done.
+21:14:46 INFO  : 'ps7_init' command is executed.
+21:14:46 INFO  : 'ps7_post_config' command is executed.
+21:14:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:15:28 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/Debug/test6.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:15:28 INFO  : 'configparams force-mem-access 0' command is executed.
+21:15:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/bitstream/experiment5.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/hw/experiment5.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/Debug/test6.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:15:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:15:54 INFO  : 'con' command is executed.
+21:15:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:15:54 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\test6_system\_ide\scripts\debugger_test6-default.tcl'
+21:17:49 INFO  : Disconnected from the channel tcfchan#17.
+21:18:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:18:27 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+21:18:40 INFO  : 'jtag frequency' command is executed.
+21:18:43 ERROR : no targets found with "name =~"APU*"". available targets:
+  1  xc7z020
+21:18:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+----------------End of Script----------------
+
+21:18:43 ERROR : no targets found with "name =~"APU*"". available targets:
+  1  xc7z020
+21:18:51 INFO  : Checking for BSP changes to sync application flags for project 'test6'...
+21:18:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:19:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+21:19:14 ERROR : Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+21:19:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:19:57 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+21:20:10 INFO  : 'jtag frequency' command is executed.
+21:20:10 INFO  : Context for 'APU' is selected.
+21:20:10 INFO  : System reset is completed.
+21:20:13 INFO  : 'after 3000' command is executed.
+21:20:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+21:20:25 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/bitstream/experiment5.bit"
+21:20:25 INFO  : Context for 'APU' is selected.
+21:20:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/hw/experiment5.xsa'.
+21:20:25 INFO  : 'configparams force-mem-access 1' command is executed.
+21:20:25 INFO  : Context for 'APU' is selected.
+21:20:25 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/psinit/ps7_init.tcl' is done.
+21:21:42 INFO  : 'ps7_init' command is executed.
+21:21:42 INFO  : 'ps7_post_config' command is executed.
+21:21:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:22:11 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/Debug/test6.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:22:11 INFO  : 'configparams force-mem-access 0' command is executed.
+21:22:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/bitstream/experiment5.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/hw/experiment5.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/Debug/test6.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:22:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:22:36 INFO  : 'con' command is executed.
+21:22:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:22:36 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\test6_system\_ide\scripts\debugger_test6-default_3.tcl'
+21:27:30 INFO  : Disconnected from the channel tcfchan#19.
+21:30:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:30:27 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+21:30:40 INFO  : 'jtag frequency' command is executed.
+21:30:40 INFO  : Context for 'APU' is selected.
+21:30:40 INFO  : System reset is completed.
+21:30:43 INFO  : 'after 3000' command is executed.
+21:30:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+21:30:55 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/bitstream/experiment5.bit"
+21:30:55 INFO  : Context for 'APU' is selected.
+21:30:55 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/hw/experiment5.xsa'.
+21:30:55 INFO  : 'configparams force-mem-access 1' command is executed.
+21:30:55 INFO  : Context for 'APU' is selected.
+21:30:55 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/psinit/ps7_init.tcl' is done.
+21:31:34 INFO  : 'ps7_init' command is executed.
+21:31:34 INFO  : 'ps7_post_config' command is executed.
+21:31:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:32:03 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/Debug/test6.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:32:03 INFO  : 'configparams force-mem-access 0' command is executed.
+21:32:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/bitstream/experiment5.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/hw/experiment5.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/Debug/test6.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:32:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:32:28 INFO  : 'con' command is executed.
+21:32:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:32:28 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\test6_system\_ide\scripts\debugger_test6-default_4.tcl'
+21:52:26 INFO  : Checking for BSP changes to sync application flags for project 'test6'...
+21:52:32 INFO  : Disconnected from the channel tcfchan#20.
+21:53:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:53:10 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+21:53:23 INFO  : 'jtag frequency' command is executed.
+21:53:26 ERROR : no targets found with "name =~"APU*"". available targets:
+  1  xc7z020
+21:53:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+----------------End of Script----------------
+
+21:53:26 ERROR : no targets found with "name =~"APU*"". available targets:
+  1  xc7z020
+21:53:41 INFO  : Checking for BSP changes to sync application flags for project 'test6'...
+21:53:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:54:02 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+21:54:14 INFO  : 'jtag frequency' command is executed.
+21:54:14 INFO  : Context for 'APU' is selected.
+21:54:14 INFO  : System reset is completed.
+21:54:17 INFO  : 'after 3000' command is executed.
+21:54:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+21:54:30 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/bitstream/experiment5.bit"
+21:54:30 INFO  : Context for 'APU' is selected.
+21:54:30 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/hw/experiment5.xsa'.
+21:54:30 INFO  : 'configparams force-mem-access 1' command is executed.
+21:54:30 INFO  : Context for 'APU' is selected.
+21:54:30 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/psinit/ps7_init.tcl' is done.
+21:55:21 INFO  : 'ps7_init' command is executed.
+21:55:21 INFO  : 'ps7_post_config' command is executed.
+21:55:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:55:41 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/Debug/test6.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:55:41 INFO  : 'configparams force-mem-access 0' command is executed.
+21:55:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/bitstream/experiment5.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/hw/experiment5.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/Debug/test6.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:56:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:56:07 INFO  : 'con' command is executed.
+21:56:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:56:07 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\test6_system\_ide\scripts\debugger_test6-default_6.tcl'
+21:58:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\vreys\OneDrive\school\spec\vitis_experiment\temp_xsdb_launch_script.tcl
+21:59:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\vreys\OneDrive\school\spec\vitis_experiment\temp_xsdb_launch_script.tcl
+21:59:50 INFO  : XSCT server has started successfully.
+21:59:50 INFO  : plnx-install-location is set to ''
+21:59:50 INFO  : Successfully done setting XSCT server connection channel  
+21:59:50 INFO  : Successfully done setting workspace for the tool. 
+21:59:51 INFO  : Platform repository initialization has completed.
+21:59:51 INFO  : Registering command handlers for Vitis TCF services
+21:59:53 INFO  : Successfully done query RDI_DATADIR 
+22:07:30 INFO  : Result from executing command 'getProjects': experiment5;wrapper3_experiment;wrapper4_experiment;wrapper_experiment;wrapper_experiment_1
+22:07:30 INFO  : Result from executing command 'getPlatforms': experiment5|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/experiment5.xpfm;wrapper4_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm;wrapper_experiment_1|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/wrapper_experiment_1.xpfm;wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+22:07:30 INFO  : Checking for BSP changes to sync application flags for project 'test6'...
+22:08:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:08:03 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+22:08:03 INFO  : 'jtag frequency' command is executed.
+22:08:03 INFO  : Context for 'APU' is selected.
+22:08:03 INFO  : System reset is completed.
+22:08:06 INFO  : 'after 3000' command is executed.
+22:08:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+22:08:09 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/bitstream/experiment5.bit"
+22:08:09 INFO  : Context for 'APU' is selected.
+22:08:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/hw/experiment5.xsa'.
+22:08:09 INFO  : 'configparams force-mem-access 1' command is executed.
+22:08:09 INFO  : Context for 'APU' is selected.
+22:08:09 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/psinit/ps7_init.tcl' is done.
+22:08:09 INFO  : 'ps7_init' command is executed.
+22:08:09 INFO  : 'ps7_post_config' command is executed.
+22:08:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:08:26 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/Debug/test6.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:08:26 INFO  : 'configparams force-mem-access 0' command is executed.
+22:08:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/bitstream/experiment5.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/hw/experiment5.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test6/Debug/test6.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:08:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:08:26 INFO  : 'con' command is executed.
+22:08:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:08:26 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\test6_system\_ide\scripts\debugger_test6-default_7.tcl'
+22:35:09 INFO  : Disconnected from the channel tcfchan#2.
+22:38:24 INFO  : Result from executing command 'getProjects': design_1_wrapper7;experiment5;wrapper3_experiment;wrapper4_experiment;wrapper_experiment;wrapper_experiment_1
+22:38:24 INFO  : Result from executing command 'getPlatforms': experiment5|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/experiment5.xpfm;wrapper4_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm;wrapper_experiment_1|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/wrapper_experiment_1.xpfm;wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+22:38:24 WARN  : An unexpected exception occurred in the module 'platform project logging'
+22:38:24 INFO  : Platform 'design_1_wrapper7' is added to custom repositories.
+22:38:31 INFO  : Platform 'design_1_wrapper7' is added to custom repositories.
+22:39:23 INFO  : Result from executing command 'getProjects': design_1_wrapper7;experiment5;wrapper3_experiment;wrapper4_experiment;wrapper_experiment;wrapper_experiment_1
+22:39:23 INFO  : Result from executing command 'getPlatforms': design_1_wrapper7|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper7/export/design_1_wrapper7/design_1_wrapper7.xpfm;experiment5|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/experiment5.xpfm;wrapper4_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm;wrapper_experiment_1|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/wrapper_experiment_1.xpfm;wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+22:39:24 INFO  : Checking for BSP changes to sync application flags for project 'test7'...
+22:40:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:40:20 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+22:40:21 INFO  : 'jtag frequency' command is executed.
+22:40:21 INFO  : Context for 'APU' is selected.
+22:40:21 INFO  : System reset is completed.
+22:40:24 INFO  : 'after 3000' command is executed.
+22:40:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+22:40:26 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test7/_ide/bitstream/design_1_wrapper7.bit"
+22:40:26 INFO  : Context for 'APU' is selected.
+22:40:26 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper7/export/design_1_wrapper7/hw/design_1_wrapper7.xsa'.
+22:40:26 INFO  : 'configparams force-mem-access 1' command is executed.
+22:40:26 INFO  : Context for 'APU' is selected.
+22:40:26 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test7/_ide/psinit/ps7_init.tcl' is done.
+22:40:27 INFO  : 'ps7_init' command is executed.
+22:40:27 INFO  : 'ps7_post_config' command is executed.
+22:40:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:40:43 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test7/Debug/test7.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:40:43 INFO  : 'configparams force-mem-access 0' command is executed.
+22:40:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test7/_ide/bitstream/design_1_wrapper7.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper7/export/design_1_wrapper7/hw/design_1_wrapper7.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test7/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test7/Debug/test7.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:40:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:40:44 INFO  : 'con' command is executed.
+22:40:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:40:44 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\test7_system\_ide\scripts\debugger_test7-default.tcl'
+22:59:08 INFO  : Result from executing command 'getProjects': design_1_wrapper7;design_1_wrapper8;experiment5;wrapper3_experiment;wrapper4_experiment;wrapper_experiment;wrapper_experiment_1
+22:59:08 INFO  : Result from executing command 'getPlatforms': design_1_wrapper7|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper7/export/design_1_wrapper7/design_1_wrapper7.xpfm;experiment5|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/experiment5.xpfm;wrapper4_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm;wrapper_experiment_1|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/wrapper_experiment_1.xpfm;wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+22:59:08 INFO  : Platform 'design_1_wrapper8' is added to custom repositories.
+22:59:15 INFO  : Platform 'design_1_wrapper8' is added to custom repositories.
+23:00:18 INFO  : Disconnected from the channel tcfchan#4.
+23:00:18 INFO  : Result from executing command 'getProjects': design_1_wrapper7;design_1_wrapper8;experiment5;wrapper3_experiment;wrapper4_experiment;wrapper_experiment;wrapper_experiment_1
+23:00:18 INFO  : Result from executing command 'getPlatforms': design_1_wrapper7|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper7/export/design_1_wrapper7/design_1_wrapper7.xpfm;design_1_wrapper8|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper8/export/design_1_wrapper8/design_1_wrapper8.xpfm;experiment5|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/experiment5.xpfm;wrapper4_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm;wrapper_experiment_1|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/wrapper_experiment_1.xpfm;wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+23:00:18 INFO  : Checking for BSP changes to sync application flags for project 'test8'...
+23:01:41 INFO  : Checking for BSP changes to sync application flags for project 'test8'...
+23:09:37 INFO  : Checking for BSP changes to sync application flags for project 'test8'...
+23:22:35 INFO  : Result from executing command 'getProjects': design_1_wrapper7;design_1_wrapper8;design_1_wrapper9;experiment5;wrapper3_experiment;wrapper4_experiment;wrapper_experiment;wrapper_experiment_1
+23:22:35 INFO  : Result from executing command 'getPlatforms': design_1_wrapper7|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper7/export/design_1_wrapper7/design_1_wrapper7.xpfm;design_1_wrapper8|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper8/export/design_1_wrapper8/design_1_wrapper8.xpfm;experiment5|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/experiment5.xpfm;wrapper4_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm;wrapper_experiment_1|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/wrapper_experiment_1.xpfm;wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+23:22:35 INFO  : Platform 'design_1_wrapper9' is added to custom repositories.
+23:22:42 INFO  : Platform 'design_1_wrapper9' is added to custom repositories.
+23:23:15 INFO  : Result from executing command 'getProjects': design_1_wrapper7;design_1_wrapper8;design_1_wrapper9;experiment5;wrapper3_experiment;wrapper4_experiment;wrapper_experiment;wrapper_experiment_1
+23:23:15 INFO  : Result from executing command 'getPlatforms': design_1_wrapper7|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper7/export/design_1_wrapper7/design_1_wrapper7.xpfm;design_1_wrapper8|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper8/export/design_1_wrapper8/design_1_wrapper8.xpfm;design_1_wrapper9|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/design_1_wrapper9.xpfm;experiment5|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment5/export/experiment5/experiment5.xpfm;wrapper4_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper4_experiment/export/wrapper4_experiment/wrapper4_experiment.xpfm;wrapper_experiment_1|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/wrapper_experiment_1.xpfm;wrapper_experiment|C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm
+23:23:16 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+23:24:38 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+23:25:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:25:03 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+23:25:03 INFO  : 'jtag frequency' command is executed.
+23:25:04 INFO  : Context for 'APU' is selected.
+23:25:04 INFO  : System reset is completed.
+23:25:07 INFO  : 'after 3000' command is executed.
+23:25:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+23:25:09 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+23:25:09 INFO  : Context for 'APU' is selected.
+23:25:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+23:25:09 INFO  : 'configparams force-mem-access 1' command is executed.
+23:25:09 INFO  : Context for 'APU' is selected.
+23:25:09 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+23:25:11 INFO  : 'ps7_init' command is executed.
+23:25:11 INFO  : 'ps7_post_config' command is executed.
+23:25:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:25:27 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:25:27 INFO  : 'configparams force-mem-access 0' command is executed.
+23:25:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:25:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:25:27 INFO  : 'con' command is executed.
+23:25:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:25:27 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default.tcl'
+23:25:56 INFO  : Disconnected from the channel tcfchan#7.
+23:26:10 INFO  : Projects exported to 'C:\Users\vreys\OneDrive\school\spec\vitis_export_archive.ide.zip'
+23:29:29 INFO  : Checking for BSP changes to sync application flags for project 'test9'...

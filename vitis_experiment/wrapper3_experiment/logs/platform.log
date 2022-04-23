@@ -1,0 +1,6 @@
+TRACE::2022-04-23.12:45:33::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-04-23.12:45:33::SCWSystem::Clearing the domains completed.
+TRACE::2022-04-23.12:45:33::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-04-23.12:45:33::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper3_experiment/hw/wrapper3_experiment.xsa
+TRACE::2022-04-23.12:45:33::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper3_experiment/hw/wrapper3_experiment.xsa
+TRACE::2022-04-23.12:45:33::SCWPlatform:: Platform location is C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper3_experiment/hw

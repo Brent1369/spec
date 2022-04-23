@@ -1,0 +1,24 @@
+23:09:37 **** Build of configuration Debug for project test8 ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/dynclk/dynclk.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper8/export/design_1_wrapper8/sw/design_1_wrapper8/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+'Finished building: ../src/dynclk/dynclk.c'
+' '
+'Building file: ../src/display_ctrl/display_ctrl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl/display_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper8/export/design_1_wrapper8/sw/design_1_wrapper8/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/display_ctrl/display_ctrl.d" -MT"src/display_ctrl/display_ctrl.o" -o "src/display_ctrl/display_ctrl.o" "../src/display_ctrl/display_ctrl.c"
+In file included from ../src/display_ctrl/display_ctrl.c:63:
+../src/display_ctrl/display_ctrl.h:56:10: fatal error: xaxivdma.h: No such file or directory
+   56 | #include "xaxivdma.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/display_ctrl/subdir.mk:20: src/display_ctrl/display_ctrl.o] Error 1
+make: *** [makefile:36: all] Error 2
+
+23:09:37 Build Finished (took 433ms)
+

@@ -1,0 +1,63 @@
+timestamp=[2022-04-23 10:16:37], mode=WORKBENCH_START, duration=0:00:03.368, duration_ms=3368, data={}
+timestamp=[2022-04-23 10:16:37], mode=WORKBENCH_UI_INIT, duration=0:00:00.230, duration_ms=230, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2022-04-23 10:16:37], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.030, duration_ms=30, data={}
+timestamp=[2022-04-23 10:18:49], mode=APP_CREATION, duration=0:00:18.477, duration_ms=18477, data={name=experiment, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=wrapper_experiment, application_type=application}
+timestamp=[2022-04-23 10:28:34], mode=PLATFORM_GENERATION, duration=0:00:12.577, duration_ms=12577, data={name=wrapper_experiment}
+timestamp=[2022-04-23 10:28:35], mode=BUILD, duration=0:00:00.348, duration_ms=348, data={name=experiment, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 11:15:45], mode=BUILD, duration=0:00:05.954, duration_ms=5954, data={name=experiment, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 11:17:23], mode=PLATFORM_GENERATION, duration=0:00:01.772, duration_ms=1772, data={name=wrapper_experiment}
+timestamp=[2022-04-23 11:17:28], mode=BUILD, duration=0:00:05.705, duration_ms=5705, data={name=experiment, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 11:21:01], mode=BUILD, duration=0:00:05.638, duration_ms=5638, data={name=experiment, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 11:47:07], mode=BUILD, duration=0:00:05.704, duration_ms=5704, data={name=experiment, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 11:58:02], mode=BUILD, duration=0:00:06.661, duration_ms=6661, data={name=experiment, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 11:58:45], mode=BUILD, duration=0:00:00.136, duration_ms=136, data={name=experiment, configuration=Debug, clean_build=true}
+timestamp=[2022-04-23 11:58:52], mode=BUILD, duration=0:00:06.961, duration_ms=6961, data={name=experiment, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 12:02:44], mode=BUILD, duration=0:00:03.164, duration_ms=3164, data={name=experiment, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 12:05:45], mode=BUILD, duration=0:00:00.237, duration_ms=237, data={name=experiment, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 12:46:16], mode=APP_CREATION, duration=0:00:16.664, duration_ms=16664, data={name=test, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=wrapper_experiment_1, application_type=application}
+timestamp=[2022-04-23 13:02:30], mode=APP_CREATION, duration=0:00:16.877, duration_ms=16877, data={name=experiment4, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=wrapper4_experiment, application_type=application}
+timestamp=[2022-04-23 13:04:18], mode=PLATFORM_GENERATION, duration=0:00:12.091, duration_ms=12091, data={name=wrapper4_experiment}
+timestamp=[2022-04-23 13:04:22], mode=BUILD, duration=0:00:03.532, duration_ms=3532, data={name=experiment4, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 13:06:42], mode=BUILD, duration=0:00:03.325, duration_ms=3325, data={name=experiment4, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 13:06:46], mode=BUILD, duration=0:00:03.774, duration_ms=3774, data={name=experiment4_system, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 13:12:05], mode=PLATFORM_GENERATION, duration=0:00:01.832, duration_ms=1832, data={name=wrapper4_experiment}
+timestamp=[2022-04-23 13:12:08], mode=BUILD, duration=0:00:02.715, duration_ms=2715, data={name=experiment4, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 13:26:41], mode=BUILD, duration=0:00:03.172, duration_ms=3172, data={name=experiment4, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 13:36:03], mode=BUILD, duration=0:00:06.557, duration_ms=6557, data={name=experiment4, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 13:41:20], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=experiment4, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 15:27:00], mode=BUILD, duration=0:00:00.247, duration_ms=247, data={name=experiment4, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 15:39:44], mode=BUILD, duration=0:00:00.245, duration_ms=245, data={name=experiment4, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 16:06:42], mode=BUILD, duration=0:00:06.009, duration_ms=6009, data={name=experiment4, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 20:42:20], mode=BUILD, duration=0:00:14.375, duration_ms=14375, data={name=experiment4, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 20:46:33], mode=BUILD, duration=0:00:00.236, duration_ms=236, data={name=experiment4, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 21:05:19], mode=APP_CREATION, duration=0:00:14.030, duration_ms=14030, data={name=experiment5, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=C:\Users\vreys\OneDrive\school\spec\vitis_experiment\experiment5\export\experiment5\experiment5.xpfm, application_type=application}
+timestamp=[2022-04-23 21:07:26], mode=APP_CREATION, duration=0:00:17.379, duration_ms=17379, data={name=test6, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=experiment5, application_type=application}
+timestamp=[2022-04-23 21:08:33], mode=PLATFORM_GENERATION, duration=0:00:14.172, duration_ms=14172, data={name=experiment5}
+timestamp=[2022-04-23 21:08:42], mode=BUILD, duration=0:00:08.561, duration_ms=8561, data={name=test6, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 21:09:07], mode=BUILD, duration=0:00:00.137, duration_ms=137, data={name=test6, configuration=Debug, clean_build=true}
+timestamp=[2022-04-23 21:09:15], mode=BUILD, duration=0:00:07.575, duration_ms=7575, data={name=test6, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 21:09:42], mode=BUILD, duration=0:00:06.263, duration_ms=6263, data={name=test6, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 21:13:36], mode=BUILD, duration=0:00:07.010, duration_ms=7010, data={name=test6, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 21:18:51], mode=BUILD, duration=0:00:00.236, duration_ms=236, data={name=test6, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 21:52:30], mode=BUILD, duration=0:00:03.329, duration_ms=3329, data={name=test6, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 21:53:41], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=test6, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 21:59:50], mode=WORKBENCH_START, duration=0:00:10.700, duration_ms=10700, data={}
+timestamp=[2022-04-23 21:59:51], mode=WORKBENCH_UI_INIT, duration=0:00:00.874, duration_ms=874, data={editors_count=34, platform_editors_count=10, projects_count=12, platform_projects_count=5, active_platform_editor=false, projects=RemoteSystemsTempFiles,experiment,experiment4,experiment4_system,experiment5,experiment_system,test6,test6_system,wrapper3_experiment,wrapper4_experiment,wrapper_experiment,wrapper_experiment_1}
+timestamp=[2022-04-23 21:59:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.176, duration_ms=176, data={}
+timestamp=[2022-04-23 22:07:30], mode=PLATFORM_GENERATION, duration=0:00:09.159, duration_ms=9159, data={name=experiment5}
+timestamp=[2022-04-23 22:07:37], mode=BUILD, duration=0:00:06.716, duration_ms=6716, data={name=test6, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 22:38:31], mode=APP_CREATION, duration=0:00:16.905, duration_ms=16905, data={name=test7, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper7, application_type=application}
+timestamp=[2022-04-23 22:39:24], mode=PLATFORM_GENERATION, duration=0:00:12.298, duration_ms=12298, data={name=design_1_wrapper7}
+timestamp=[2022-04-23 22:39:31], mode=BUILD, duration=0:00:07.883, duration_ms=7883, data={name=test7, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 22:59:15], mode=APP_CREATION, duration=0:00:16.975, duration_ms=16975, data={name=test8, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper8, application_type=application}
+timestamp=[2022-04-23 23:00:18], mode=PLATFORM_GENERATION, duration=0:00:10.519, duration_ms=10519, data={name=design_1_wrapper8}
+timestamp=[2022-04-23 23:00:19], mode=BUILD, duration=0:00:00.497, duration_ms=497, data={name=test8, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 23:01:41], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=test8, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 23:09:35], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=test8, configuration=Debug, clean_build=true}
+timestamp=[2022-04-23 23:09:37], mode=BUILD, duration=0:00:00.440, duration_ms=440, data={name=test8, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 23:22:42], mode=APP_CREATION, duration=0:00:16.093, duration_ms=16093, data={name=test9, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper9, application_type=application}
+timestamp=[2022-04-23 23:23:16], mode=PLATFORM_GENERATION, duration=0:00:12.902, duration_ms=12902, data={name=design_1_wrapper9}
+timestamp=[2022-04-23 23:23:16], mode=BUILD, duration=0:00:00.693, duration_ms=693, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 23:24:38], mode=BUILD, duration=0:00:00.136, duration_ms=136, data={name=test9, configuration=Debug, clean_build=true}
+timestamp=[2022-04-23 23:24:45], mode=BUILD, duration=0:00:07.745, duration_ms=7745, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-04-23 23:29:29], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=test9, configuration=Debug, clean_build=false}

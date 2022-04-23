@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="experiment" location="C:/Users/vreys/OneDrive/school/spec/vitis_experiment/experiment" platform="C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/export/wrapper_experiment/wrapper_experiment.xpfm" platformUID="xilinx:pynq-z2::0.0(custom)" systemProject="experiment_system" sysConfig="wrapper_experiment" runtime="cpp" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="afe3fa7bdb1e2cb3011679dbc6f5afb4">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.2132900268" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1179679255" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

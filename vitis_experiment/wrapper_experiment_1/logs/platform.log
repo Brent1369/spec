@@ -1,0 +1,1510 @@
+TRACE::2022-04-23.12:46:00::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:00::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:00::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:00::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:00::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:00::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:00::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-04-23.12:46:02::SCWPlatform::Opened new HwDB with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:02::SCWWriter::formatted JSON is {
+	"platformName":	"wrapper_experiment_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"wrapper_experiment_1",
+	"platHandOff":	"C:/Users/vreys/OneDrive/school/spec/HDMI_experiment/wrapper_experiment.xsa",
+	"platIntHandOff":	"<platformDir>/hw/wrapper_experiment.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-04-23.12:46:02::SCWWriter::formatted JSON is {
+	"platformName":	"wrapper_experiment_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"wrapper_experiment_1",
+	"platHandOff":	"C:/Users/vreys/OneDrive/school/spec/HDMI_experiment/wrapper_experiment.xsa",
+	"platIntHandOff":	"<platformDir>/hw/wrapper_experiment.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"wrapper_experiment_1",
+	"systems":	[{
+			"systemName":	"wrapper_experiment_1",
+			"systemDesc":	"wrapper_experiment_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"wrapper_experiment_1"
+		}]
+}
+TRACE::2022-04-23.12:46:02::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-04-23.12:46:02::SCWDomain::checking for install qemu data   : 
+TRACE::2022-04-23.12:46:02::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-04-23.12:46:02::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-04-23.12:46:02::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:02::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:02::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:02::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:02::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:02::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:02::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:02::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:02::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:02::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2022-04-23.12:46:02::SCWPlatform::Generating the sources  .
+TRACE::2022-04-23.12:46:02::SCWBDomain::Generating boot domain sources.
+TRACE::2022-04-23.12:46:02::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2022-04-23.12:46:02::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:02::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:02::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:02::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:02::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-04-23.12:46:02::SCWMssOS::No sw design opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:02::SCWMssOS::mss does not exists at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:02::SCWMssOS::Creating sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:02::SCWMssOS::Adding the swdes entry, created swdb C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:02::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:02::SCWMssOS::Writing mss at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:02::SCWMssOS::Completed writing the mss file at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2022-04-23.12:46:02::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-04-23.12:46:02::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-04-23.12:46:02::SCWBDomain::Completed writing the mss file at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2022-04-23.12:46:08::SCWPlatform::Generating sources Done.
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:08::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-04-23.12:46:08::SCWMssOS::No sw design opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::mss exists loading the mss file  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::Opened the sw design from mss  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::Adding the swdes entry C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system_1
+TRACE::2022-04-23.12:46:08::SCWMssOS::updating the scw layer about changes
+TRACE::2022-04-23.12:46:08::SCWMssOS::Opened the sw design.  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::Saving the mss changes C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-23.12:46:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-23.12:46:08::SCWMssOS::Commit changes completed.
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:08::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:08::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:08::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:08::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:08::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:08::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWWriter::formatted JSON is {
+	"platformName":	"wrapper_experiment_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"wrapper_experiment_1",
+	"platHandOff":	"C:/Users/vreys/OneDrive/school/spec/HDMI_experiment/wrapper_experiment.xsa",
+	"platIntHandOff":	"<platformDir>/hw/wrapper_experiment.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"wrapper_experiment_1",
+	"systems":	[{
+			"systemName":	"wrapper_experiment_1",
+			"systemDesc":	"wrapper_experiment_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"wrapper_experiment_1",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"425248c04e60f00b19bed8ce36a660d7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-04-23.12:46:08::SCWMssOS::Saving the mss changes C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-23.12:46:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-23.12:46:08::SCWMssOS::Commit changes completed.
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:08::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:08::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:08::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:08::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:08::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:08::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWWriter::formatted JSON is {
+	"platformName":	"wrapper_experiment_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"wrapper_experiment_1",
+	"platHandOff":	"C:/Users/vreys/OneDrive/school/spec/HDMI_experiment/wrapper_experiment.xsa",
+	"platIntHandOff":	"<platformDir>/hw/wrapper_experiment.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"wrapper_experiment_1",
+	"systems":	[{
+			"systemName":	"wrapper_experiment_1",
+			"systemDesc":	"wrapper_experiment_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"wrapper_experiment_1",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"425248c04e60f00b19bed8ce36a660d7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:08::SCWDomain::checking for install qemu data   : 
+TRACE::2022-04-23.12:46:08::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2022-04-23.12:46:08::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:08::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:08::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:08::SCWMssOS::No sw design opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::mss does not exists at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::Creating sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::Adding the swdes entry, created swdb C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::Writing mss at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:08::SCWMssOS::Completed writing the mss file at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2022-04-23.12:46:08::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-04-23.12:46:08::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-04-23.12:46:08::SCWMssOS::Completed writing the mss file at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2022-04-23.12:46:08::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Saving the mss changes C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Commit changes completed.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Saving the mss changes C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_2
+TRACE::2022-04-23.12:46:09::SCWMssOS::Writing the mss file completed C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Commit changes completed.
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWWriter::formatted JSON is {
+	"platformName":	"wrapper_experiment_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"wrapper_experiment_1",
+	"platHandOff":	"C:/Users/vreys/OneDrive/school/spec/HDMI_experiment/wrapper_experiment.xsa",
+	"platIntHandOff":	"<platformDir>/hw/wrapper_experiment.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"wrapper_experiment_1",
+	"systems":	[{
+			"systemName":	"wrapper_experiment_1",
+			"systemDesc":	"wrapper_experiment_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"wrapper_experiment_1",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"425248c04e60f00b19bed8ce36a660d7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"79dbef26fb20434f8922d72ed25b6498",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-04-23.12:46:09::SCWPlatform::Started generating the artifacts platform wrapper_experiment_1
+TRACE::2022-04-23.12:46:09::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-04-23.12:46:09::SCWPlatform::Started generating the artifacts for system configuration wrapper_experiment_1
+LOG::2022-04-23.12:46:09::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-04-23.12:46:09::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-04-23.12:46:09::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-04-23.12:46:09::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2022-04-23.12:46:09::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2022-04-23.12:46:09::SCWSystem::Not a boot domain 
+LOG::2022-04-23.12:46:09::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2022-04-23.12:46:09::SCWDomain::Generating domain artifcats
+TRACE::2022-04-23.12:46:09::SCWMssOS::Generating standalone artifcats
+TRACE::2022-04-23.12:46:09::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/sw/wrapper_experiment_1/qemu/
+TRACE::2022-04-23.12:46:09::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/sw/wrapper_experiment_1/standalone_ps7_cortexa9_0/qemu/
+TRACE::2022-04-23.12:46:09::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Completed writing the mss file at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2022-04-23.12:46:09::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-04-23.12:46:09::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-04-23.12:46:09::SCWDomain::Skipping the build for domain :  standalone_ps7_cortexa9_0
+TRACE::2022-04-23.12:46:09::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-04-23.12:46:09::SCWMssOS::Copying to export directory.
+TRACE::2022-04-23.12:46:09::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-04-23.12:46:09::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2022-04-23.12:46:09::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2022-04-23.12:46:09::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2022-04-23.12:46:09::SCWSystem::Completed Processing the sysconfig wrapper_experiment_1
+LOG::2022-04-23.12:46:09::SCWPlatform::Completed generating the artifacts for system configuration wrapper_experiment_1
+TRACE::2022-04-23.12:46:09::SCWPlatform::Started preparing the platform 
+TRACE::2022-04-23.12:46:09::SCWSystem::Writing the bif file for system config wrapper_experiment_1
+TRACE::2022-04-23.12:46:09::SCWSystem::dir created 
+TRACE::2022-04-23.12:46:09::SCWSystem::Writing the bif 
+TRACE::2022-04-23.12:46:09::SCWPlatform::Started writing the spfm file 
+TRACE::2022-04-23.12:46:09::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-04-23.12:46:09::SCWPlatform::Completed generating the platform
+TRACE::2022-04-23.12:46:09::SCWMssOS::Saving the mss changes C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Commit changes completed.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Saving the mss changes C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Commit changes completed.
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWWriter::formatted JSON is {
+	"platformName":	"wrapper_experiment_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"wrapper_experiment_1",
+	"platHandOff":	"C:/Users/vreys/OneDrive/school/spec/HDMI_experiment/wrapper_experiment.xsa",
+	"platIntHandOff":	"<platformDir>/hw/wrapper_experiment.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"wrapper_experiment_1",
+	"systems":	[{
+			"systemName":	"wrapper_experiment_1",
+			"systemDesc":	"wrapper_experiment_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"wrapper_experiment_1",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"425248c04e60f00b19bed8ce36a660d7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"79dbef26fb20434f8922d72ed25b6498",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-04-23.12:46:09::SCWPlatform::updated the xpfm file.
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Saving the mss changes C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Commit changes completed.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Saving the mss changes C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Commit changes completed.
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWWriter::formatted JSON is {
+	"platformName":	"wrapper_experiment_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"wrapper_experiment_1",
+	"platHandOff":	"C:/Users/vreys/OneDrive/school/spec/HDMI_experiment/wrapper_experiment.xsa",
+	"platIntHandOff":	"<platformDir>/hw/wrapper_experiment.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"wrapper_experiment_1",
+	"systems":	[{
+			"systemName":	"wrapper_experiment_1",
+			"systemDesc":	"wrapper_experiment_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"wrapper_experiment_1",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"425248c04e60f00b19bed8ce36a660d7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"79dbef26fb20434f8922d72ed25b6498",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Saving the mss changes C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Commit changes completed.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Saving the mss changes C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Commit changes completed.
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWWriter::formatted JSON is {
+	"platformName":	"wrapper_experiment_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"wrapper_experiment_1",
+	"platHandOff":	"C:/Users/vreys/OneDrive/school/spec/HDMI_experiment/wrapper_experiment.xsa",
+	"platIntHandOff":	"<platformDir>/hw/wrapper_experiment.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"wrapper_experiment_1",
+	"systems":	[{
+			"systemName":	"wrapper_experiment_1",
+			"systemDesc":	"wrapper_experiment_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"wrapper_experiment_1",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"425248c04e60f00b19bed8ce36a660d7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"79dbef26fb20434f8922d72ed25b6498",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-04-23.12:46:09::SCWPlatform::Started generating the artifacts platform wrapper_experiment_1
+TRACE::2022-04-23.12:46:09::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-04-23.12:46:09::SCWPlatform::Started generating the artifacts for system configuration wrapper_experiment_1
+LOG::2022-04-23.12:46:09::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2022-04-23.12:46:09::SCWDomain::Generating domain artifcats
+TRACE::2022-04-23.12:46:09::SCWMssOS::Generating standalone artifcats
+TRACE::2022-04-23.12:46:09::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/sw/wrapper_experiment_1/qemu/
+TRACE::2022-04-23.12:46:09::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/export/wrapper_experiment_1/sw/wrapper_experiment_1/standalone_ps7_cortexa9_0/qemu/
+TRACE::2022-04-23.12:46:09::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Completed writing the mss file at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2022-04-23.12:46:09::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-04-23.12:46:09::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-04-23.12:46:09::SCWDomain::Building the domain as part of full build :  standalone_ps7_cortexa9_0
+TRACE::2022-04-23.12:46:09::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-04-23.12:46:09::SCWMssOS::Copying to export directory.
+TRACE::2022-04-23.12:46:09::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-04-23.12:46:09::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2022-04-23.12:46:09::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2022-04-23.12:46:09::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2022-04-23.12:46:09::SCWSystem::Completed Processing the sysconfig wrapper_experiment_1
+LOG::2022-04-23.12:46:09::SCWPlatform::Completed generating the artifacts for system configuration wrapper_experiment_1
+TRACE::2022-04-23.12:46:09::SCWPlatform::Started preparing the platform 
+TRACE::2022-04-23.12:46:09::SCWSystem::Writing the bif file for system config wrapper_experiment_1
+TRACE::2022-04-23.12:46:09::SCWSystem::dir created 
+TRACE::2022-04-23.12:46:09::SCWSystem::Writing the bif 
+TRACE::2022-04-23.12:46:09::SCWPlatform::Started writing the spfm file 
+TRACE::2022-04-23.12:46:09::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-04-23.12:46:09::SCWPlatform::Completed generating the platform
+TRACE::2022-04-23.12:46:09::SCWMssOS::Saving the mss changes C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Commit changes completed.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Saving the mss changes C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-23.12:46:09::SCWMssOS::Commit changes completed.
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to open the hw design at C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA given C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA absoulate path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform::DSA directory C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Platform Path C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/hw/wrapper_experiment.xsa
+TRACE::2022-04-23.12:46:09::SCWPlatform:: Unique name xilinx:pynq-z2::0.0
+TRACE::2022-04-23.12:46:09::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Opened existing hwdb design_1_wrapper_10
+TRACE::2022-04-23.12:46:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-23.12:46:09::SCWMssOS::Checking the sw design at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWMssOS::DEBUG:  swdes dump  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_2||
+C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_1||
+
+TRACE::2022-04-23.12:46:09::SCWMssOS::Sw design exists and opened at  C:/Users/vreys/OneDrive/school/spec/vitis_experiment/wrapper_experiment_1/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2022-04-23.12:46:09::SCWWriter::formatted JSON is {
+	"platformName":	"wrapper_experiment_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"wrapper_experiment_1",
+	"platHandOff":	"C:/Users/vreys/OneDrive/school/spec/HDMI_experiment/wrapper_experiment.xsa",
+	"platIntHandOff":	"<platformDir>/hw/wrapper_experiment.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"wrapper_experiment_1",
+	"systems":	[{
+			"systemName":	"wrapper_experiment_1",
+			"systemDesc":	"wrapper_experiment_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"wrapper_experiment_1",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"425248c04e60f00b19bed8ce36a660d7",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.6", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2021.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"79dbef26fb20434f8922d72ed25b6498",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-04-23.12:46:09::SCWPlatform::updated the xpfm file.

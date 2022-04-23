@@ -1,0 +1,68 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.939982",
+   "Default View_TopLeft":"2023,81",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 9 -x 3300 -y 640 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 9 -x 3300 -y 800 -defaultsOSRD
+preplace port TMDS_0 -pg 1 -lvl 9 -x 3300 -y 150 -defaultsOSRD
+preplace port HDMI_HPD -pg 1 -lvl 9 -x 3300 -y 710 -defaultsOSRD
+preplace port i2c -pg 1 -lvl 9 -x 3300 -y 390 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -x 970 -y 820 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 5 -x 2050 -y 440 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -x 1420 -y 380 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 3 -x 970 -y 480 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 2 -x 570 -y 800 -defaultsOSRD
+preplace inst rst_ps7_0_142M -pg 1 -lvl 1 -x 200 -y 770 -defaultsOSRD
+preplace inst axis_subset_converter_0 -pg 1 -lvl 6 -x 2460 -y 450 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 5 -x 2050 -y 620 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 7 -x 2820 -y 190 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 6 -x 2460 -y 150 -defaultsOSRD
+preplace inst rgb2dvi_0 -pg 1 -lvl 8 -x 3160 -y 150 -defaultsOSRD
+preplace inst axi_dynclk_0 -pg 1 -lvl 5 -x 2050 -y 230 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 8 -x 3160 -y 720 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 570 -y 510 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 8 -x 3160 -y 410 -defaultsOSRD
+preplace netloc axi_dynclk_0_LOCKED_O 1 5 3 2270J 300 2630J 40 3040
+preplace netloc axi_dynclk_0_PXL_CLK_5X_O 1 5 3 2260J 320 2640J 30 3030
+preplace netloc axi_dynclk_0_PXL_CLK_O 1 5 3 2290 310 2650 50 2990J
+preplace netloc axi_gpio_0_ip2intc_irpt 1 1 8 390 920 720J 710 NJ 710 NJ 710 NJ 710 NJ 710 2980J 810 3280
+preplace netloc axi_vdma_0_mm2s_introut 1 1 5 410 680 NJ 680 NJ 680 NJ 680 2220
+preplace netloc processing_system7_0_FCLK_CLK0 1 2 6 740 380 1210 170 1640 140 2280 340 NJ 340 3000J
+preplace netloc processing_system7_0_FCLK_CLK1 1 0 7 30 870 370 930 740 930 1240 580 1620 330 2240 330 2670J
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 4 20 670 NJ 670 720 670 1200
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 3 5 1240 180 1600 320 2250 370 NJ 370 2990J
+preplace netloc rst_ps7_0_142M_peripheral_aresetn 1 1 1 380 780n
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 5 3 2300 0 NJ 0 2980
+preplace netloc v_tc_0_irq 1 1 6 420 600 NJ 600 NJ 600 1640J 560 NJ 560 2620
+preplace netloc xlconcat_0_dout 1 2 1 730 510n
+preplace netloc xlconstant_0_dout 1 5 1 2270J 470n
+preplace netloc axi_iic_0_iic2intc_irpt 1 1 8 400 -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 3280
+preplace netloc axi_gpio_0_GPIO 1 8 1 NJ 710
+preplace netloc axi_mem_intercon_M00_AXI 1 2 1 N 800
+preplace netloc axi_vdma_0_M_AXIS_MM2S 1 5 1 N 430
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 1 5 370 130 NJ 130 NJ 130 NJ 130 2220
+preplace netloc axis_subset_converter_0_M_AXIS 1 6 1 2660 110n
+preplace netloc processing_system7_0_DDR 1 3 6 1230J 690 NJ 690 2260J 640 NJ 640 NJ 640 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 3 6 NJ 790 NJ 790 NJ 790 NJ 790 2970J 800 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 3 1 1220 240n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 4 1 1610 340n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 4 2 1570 60 NJ
+preplace netloc ps7_0_axi_periph_M02_AXI 1 4 1 1590 200n
+preplace netloc ps7_0_axi_periph_M03_AXI 1 4 4 1580 -10 NJ -10 NJ -10 3020J
+preplace netloc rgb2dvi_0_TMDS 1 8 1 NJ 150
+preplace netloc v_axi4s_vid_out_0_vid_io_out 1 7 1 N 120
+preplace netloc v_tc_0_vtiming_out 1 6 1 N 130
+preplace netloc axi_iic_0_IIC 1 8 1 N 390
+preplace netloc ps7_0_axi_periph_M04_AXI 1 4 4 1630J 340 2230J 350 NJ 350 3010
+levelinfo -pg 1 0 200 570 970 1420 2050 2460 2820 3160 3300
+pagesize -pg 1 -db -bbox -sgen 0 -30 3430 940
+"
+}
+{
+   "da_axi4_cnt":"9",
+   "da_clkrst_cnt":"2",
+   "da_ps7_cnt":"1"
+}
