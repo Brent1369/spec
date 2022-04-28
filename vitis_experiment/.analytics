@@ -61,3 +61,16 @@ timestamp=[2022-04-23 23:23:16], mode=BUILD, duration=0:00:00.693, duration_ms=6
 timestamp=[2022-04-23 23:24:38], mode=BUILD, duration=0:00:00.136, duration_ms=136, data={name=test9, configuration=Debug, clean_build=true}
 timestamp=[2022-04-23 23:24:45], mode=BUILD, duration=0:00:07.745, duration_ms=7745, data={name=test9, configuration=Debug, clean_build=false}
 timestamp=[2022-04-23 23:29:29], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-04-28 11:01:31], mode=WORKBENCH_START, duration=0:00:06.383, duration_ms=6383, data={}
+timestamp=[2022-04-28 11:01:32], mode=WORKBENCH_UI_INIT, duration=0:00:00.961, duration_ms=961, data={editors_count=51, platform_editors_count=12, projects_count=21, platform_projects_count=8, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper7,design_1_wrapper8,design_1_wrapper9,experiment,experiment4,experiment4_system,experiment5,experiment_system,test6,test6_system,test7,test7_system,test8,test8_system,test9,test9_system,wrapper3_experiment,wrapper4_experiment,wrapper_experiment,wrapper_experiment_1}
+timestamp=[2022-04-28 11:01:32], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.414, duration_ms=414, data={}
+timestamp=[2022-04-28 11:03:26], mode=BUILD, duration=0:00:00.273, duration_ms=273, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-04-28 11:04:18], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-04-28 11:12:09], mode=WORKBENCH_START, duration=0:00:08.873, duration_ms=8873, data={}
+timestamp=[2022-04-28 11:12:10], mode=WORKBENCH_UI_INIT, duration=0:00:01.155, duration_ms=1155, data={editors_count=51, platform_editors_count=12, projects_count=21, platform_projects_count=8, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper7,design_1_wrapper8,design_1_wrapper9,experiment,experiment4,experiment4_system,experiment5,experiment_system,test6,test6_system,test7,test7_system,test8,test8_system,test9,test9_system,wrapper3_experiment,wrapper4_experiment,wrapper_experiment,wrapper_experiment_1}
+timestamp=[2022-04-28 11:12:11], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.527, duration_ms=527, data={}
+timestamp=[2022-04-28 11:12:19], mode=BUILD, duration=0:00:00.509, duration_ms=509, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-04-28 11:17:55], mode=BUILD, duration=0:00:07.065, duration_ms=7065, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-04-28 11:18:05], mode=BUILD, duration=0:00:06.658, duration_ms=6658, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-04-28 11:19:43], mode=BUILD, duration=0:00:06.656, duration_ms=6656, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-04-28 11:21:24], mode=BUILD, duration=0:00:06.655, duration_ms=6655, data={name=test9, configuration=Debug, clean_build=false}

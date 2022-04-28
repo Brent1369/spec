@@ -272,11 +272,19 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 			//frame[linesStart + xcoi + 2] = Pixel_1280_1024[pixelIdx++];
 			//
 
-			// 1920 x 1080
-			frame[linesStart + xcoi    ] = Pixel_1920_1080[pixelIdx++];
-			frame[linesStart + xcoi + 1] = Pixel_1920_1080[pixelIdx++];
-			frame[linesStart + xcoi + 2] = Pixel_1920_1080[pixelIdx++];
+			if(ycoi >= 100 && ycoi <= 500 ){
 
+				frame[linesStart + xcoi    ] = 255;
+				frame[linesStart + xcoi + 1] = 255;
+				frame[linesStart + xcoi + 2] = 255;
+				pixelIdx +=3;
+			}else{
+
+				// 1920 x 1080
+				frame[linesStart + xcoi    ] = Pixel_1920_1080[pixelIdx++];
+				frame[linesStart + xcoi + 1] = Pixel_1920_1080[pixelIdx++];
+				frame[linesStart + xcoi + 2] = Pixel_1920_1080[pixelIdx++];
+			}
 			//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 		}
 
