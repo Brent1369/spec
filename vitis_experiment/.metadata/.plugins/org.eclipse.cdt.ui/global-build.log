@@ -1,6 +1,6 @@
 Nothing to build in platform 'design_1_wrapper9'
 
-11:21:17 **** Incremental Build of configuration Debug for project test9 ****
+22:25:30 **** Incremental Build of configuration Debug for project test9 ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -8,7 +8,7 @@ a9-linaro-pre-build-step
 make --no-print-directory main-build
 'Building file: ../src/display_demo.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/sw/design_1_wrapper9/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/sw/design_1_wrapper9/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
 ../src/display_demo.c: In function 'main':
 ../src/display_demo.c:185:14: warning: implicit declaration of function 'begin' [-Wimplicit-function-declaration]
   185 |      value = begin();
@@ -16,9 +16,6 @@ arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -m
 ../src/display_demo.c:188:6: warning: implicit declaration of function 'disableIndicator' [-Wimplicit-function-declaration]
   188 |      disableIndicator();
       |      ^~~~~~~~~~~~~~~~
-../src/display_demo.c:194:6: warning: implicit declaration of function 'takeMeasurementsWithBulb' [-Wimplicit-function-declaration]
-  194 |      takeMeasurementsWithBulb();
-      |      ^~~~~~~~~~~~~~~~~~~~~~~~
 ../src/display_demo.c:195:11: warning: implicit declaration of function 'getCalibratedA' [-Wimplicit-function-declaration]
   195 |   value = getCalibratedA();
       |           ^~~~~~~~~~~~~~
@@ -73,9 +70,6 @@ arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -m
 ../src/display_demo.c:231:11: warning: implicit declaration of function 'getCalibratedL' [-Wimplicit-function-declaration]
   231 |   value = getCalibratedL();
       |           ^~~~~~~~~~~~~~
-../src/display_demo.c:234:3: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
-  234 |   delay(5000);
-      |   ^~~~~
 ../src/display_demo.c:161:16: warning: unused variable 'tekst' [-Wunused-variable]
   161 |  unsigned char tekst[100] = {0};
       |                ^~~~~
@@ -86,7 +80,7 @@ arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -m
 ' '
 'Building target: test9.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/vreys/OneDrive/school/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/sw/design_1_wrapper9/standalone_ps7_cortexa9_0/bsplib/lib -o "test9.elf"  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/SparkFun_AS7265X.o ./src/display_demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/sw/design_1_wrapper9/standalone_ps7_cortexa9_0/bsplib/lib -o "test9.elf"  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/SparkFun_AS7265X.o ./src/display_demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: test9.elf'
 ' '
 'Invoking: ARM v7 Print Size'

@@ -1,4 +1,4 @@
-// --------------------------------------------------------------------
+ // --------------------------------------------------------------------
 // Copyright (c) 2019 by MicroPhase Technologies Inc.
 // --------------------------------------------------------------------
 //
@@ -191,7 +191,7 @@ int main(void)
 
 
    	 while(1){
-   		takeMeasurementsWithBulb();
+   		//takeMeasurementsWithBulb();
 		value = getCalibratedA();
 		printf("CALIVALUE = %f\n", value); //410nm
 		value = getCalibratedB();
@@ -231,7 +231,7 @@ int main(void)
 		value = getCalibratedL();
 		printf("CALIVALUE = %f\n", value); //940nm
 		printf("\n\nDONE\n\n");
-		delay(5000);
+		//delay(5000);
    	 }
 
 
@@ -272,18 +272,26 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 			//frame[linesStart + xcoi + 2] = Pixel_1280_1024[pixelIdx++];
 			//
 
-			if(ycoi >= 100 && ycoi <= 500 ){
+			if(((xcoi >= 400 && xcoi <= 520) && (ycoi >= 100 && ycoi <= 860 )) || ((ycoi >= 830 && ycoi <= 860 ) && (xcoi >= 400 && xcoi <= 7280))){
 
+
+					frame[linesStart + xcoi    ] = 0;
+					frame[linesStart + xcoi + 1] = 0;
+					frame[linesStart + xcoi + 2] = 0;
+					pixelIdx +=3;
+
+
+
+			}
+			else{
+
+				// 1920 x 1080
+				//frame[linesStart + xcoi    ] = Pixel_1920_1080[pixelIdx++];
+				//frame[linesStart + xcoi + 1] = Pixel_1920_1080[pixelIdx++];
+				//frame[linesStart + xcoi + 2] = Pixel_1920_1080[pixelIdx++];
 				frame[linesStart + xcoi    ] = 255;
 				frame[linesStart + xcoi + 1] = 255;
 				frame[linesStart + xcoi + 2] = 255;
-				pixelIdx +=3;
-			}else{
-
-				// 1920 x 1080
-				frame[linesStart + xcoi    ] = Pixel_1920_1080[pixelIdx++];
-				frame[linesStart + xcoi + 1] = Pixel_1920_1080[pixelIdx++];
-				frame[linesStart + xcoi + 2] = Pixel_1920_1080[pixelIdx++];
 			}
 			//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 		}
