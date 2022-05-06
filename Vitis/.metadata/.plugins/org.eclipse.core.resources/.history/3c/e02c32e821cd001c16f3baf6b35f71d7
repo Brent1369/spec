@@ -1,0 +1,344 @@
+ // --------------------------------------------------------------------
+// Copyright (c) 2019 by MicroPhase Technologies Inc.
+// --------------------------------------------------------------------
+//
+// Permission:
+//
+//   MicroPhase grants permission to use and modify this code for use
+//   in synthesis for all MicroPhase Development Boards.
+//   Other use of this code, including the selling
+//   ,duplication, or modification of any portion is strictly prohibited.
+//
+// Disclaimer:
+//
+//   This VHDL/Verilog or C/C++ source code is intended as a design reference
+//   which illustrates how these types of functions can be implemented.
+//   It is the user's responsibility to verify their design for
+//   consistency and functionality through the use of formal
+//   verification methods.  MicroPhase provides no warranty regarding the use
+//   or functionality of this code.
+//
+// --------------------------------------------------------------------
+//
+//                     MicroPhase Technologies Inc
+//                     Shanghai, China
+//
+//                     web: http://www.microphase.cn/
+//                     email: support@microphase.cn
+//
+// --------------------------------------------------------------------
+// --------------------------------------------------------------------
+//
+// Major Functions:
+//
+// --------------------------------------------------------------------
+// --------------------------------------------------------------------
+//
+//  Revision History:
+//  Date          By            Revision    Change	 Description
+//---------------------------------------------------------------------
+//2020-02-22      Wang			1.0          		Original
+//2020-                         1.1
+// --------------------------------------------------------------------
+// --------------------------------------------------------------------
+
+/* ------------------------------------------------------------ */
+/*				Include File Definitions						*/
+/* ------------------------------------------------------------ */
+
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+
+#include <stdio.h>
+#include <math.h>
+#include <ctype.h>
+#include <stdlib.h>
+#include "xil_types.h"
+#include "xil_cache.h"
+#include "xparameters.h"
+#include "display_demo.h"
+#include "display_ctrl/display_ctrl.h"
+#include "display_ctrl/vga_modes.h"
+
+#include "ASCI.h"
+
+
+
+
+
+// Image data for each resolution
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//#include "pic_800_600.h"
+//#include "pic_1280_720.h"
+//#include "pic_1280_1024.h"
+#include "pic_1920_1080.h"
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//XPAR_AXI_DYNCLK_0_BASEADDR
+/*
+ * XPAR redefines
+ */
+#define DYNCLK_BASEADDR     XPAR_DYNCLK_0_S_AXI_LITE_BASEADDR
+#define VGA_VDMA_ID         XPAR_AXIVDMA_0_DEVICE_ID
+#define DISP_VTC_ID         XPAR_VTC_0_DEVICE_ID
+
+/* ------------------------------------------------------------ */
+/*				Global Variables								*/
+/* ------------------------------------------------------------ */
+
+/*
+ * Display Driver struct
+ */
+DisplayCtrl dispCtrl;
+XAxiVdma vdma;
+
+/*
+ * Frame buffers for video data
+ */
+u8 frameBuf[DISPLAY_NUM_FRAMES][DEMO_MAX_FRAME];
+u8 *pFrames[DISPLAY_NUM_FRAMES];  // array of pointers to the frame buffers
+
+/* ------------------------------------------------------------ */
+/*				Procedure Definitions							*/
+/* ------------------------------------------------------------ */
+
+void displayCharacter(u8 *frame, int asciNumber, int x, int y);
+
+int main(void)
+{
+	init_platform();
+	int i;
+	int Status;
+	XAxiVdma_Config *vdmaConfig;
+
+	/*
+	 * Initialize an array of pointers to the 3 frame buffers
+	 */
+	for (i = 0; i < DISPLAY_NUM_FRAMES; i++)
+	{
+		pFrames[i] = frameBuf[i];
+	}
+
+	/*
+	 * Initialize VDMA driver, get the hardware VDMA configurations
+	 */
+	vdmaConfig = XAxiVdma_LookupConfig(VGA_VDMA_ID);
+	if (vdmaConfig == NULL)
+	{
+		xil_printf("No video DMA found for ID %d\r\n", VGA_VDMA_ID);
+	}
+
+	/*
+	 * Use hardware VDMA configurations to initialize the driver
+	 */
+	Status = XAxiVdma_CfgInitialize(&vdma, vdmaConfig, vdmaConfig->BaseAddress);
+	if (Status != XST_SUCCESS)
+	{
+		xil_printf("VDMA Configuration Initialization failed %d\r\n", Status);
+	}
+
+	/*
+	 * Initialize the Display controller and start it
+	 */
+
+	// Video Mode for each resolution
+	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	//VideoMode VMODE = VMODE_800x600;
+	//VideoMode VMODE = VMODE_1280x720;
+	//VideoMode VMODE = VMODE_1280x1024;
+	VideoMode VMODE = VMODE_1920x1080;
+	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+	Status = DisplayInitialize(&dispCtrl, &vdma, DISP_VTC_ID, DYNCLK_BASEADDR, pFrames, DEMO_STRIDE, VMODE);
+	if (Status != XST_SUCCESS)
+	{
+		xil_printf("Display Ctrl initialization failed during demo initialization%d\r\n", Status);
+	}
+
+	Status = DisplayStart(&dispCtrl);
+	if (Status != XST_SUCCESS)
+	{
+		xil_printf("Couldn't start display during demo initialization%d\r\n", Status);
+	}
+
+	DemoPrintTest(dispCtrl.framePtr[dispCtrl.curFrame], dispCtrl.vMode.width, dispCtrl.vMode.height, dispCtrl.stride);
+
+
+
+	// int test = 0;
+	unsigned char tekst[100] = {0};
+
+	float value = 0;
+
+
+    print("Hello World\n\r");
+    print("Successfully ran Hello World application1");
+
+
+
+
+	//deviceInstance.AddrOfSlave = 0x49;
+/*
+
+    test = XIic_Initialize(&deviceInstance, 0);
+	printf("\nInitialize = %d\n", test);
+	test = XIic_Start(&deviceInstance);
+	printf("Start = %d\n", test);
+
+	test = XIic_MasterRecv(&deviceInstance, tekst, 100);
+
+	printf("rec = %d\n", test);
+	printf("gekregen tekst = %s\n", tekst);
+*/
+
+    	value = begin();
+    	printf("BEGINvalue = %f\n\n", value);
+
+    	disableIndicator();
+
+    	//takeMeasurements();
+
+
+   	 while(1){
+   		//takeMeasurementsWithBulb();
+		value = getCalibratedA();
+		printf("CALIVALUE = %f\n", value); //410nm
+		value = getCalibratedB();
+		printf("CALIVALUE = %f\n", value); //435nm
+		value = getCalibratedC();
+		printf("CALIVALUE = %f\n", value); //460nm
+		value = getCalibratedD();
+		printf("CALIVALUE = %f\n", value); //485nm
+		value = getCalibratedE();
+		printf("CALIVALUE = %f\n", value); //510nm
+		value = getCalibratedF();
+		printf("CALIVALUE = %f\n", value); //535nm
+
+		value = getCalibratedG();
+		printf("CALIVALUE = %f\n", value); //560nm
+		value = getCalibratedH();
+		printf("CALIVALUE = %f\n", value); //585nm
+		value = getCalibratedR();
+		printf("CALIVALUE = %f\n", value); //610nm
+		value = getCalibratedI();
+		printf("CALIVALUE = %f\n", value); //645nm
+		value = getCalibratedS();
+		printf("CALIVALUE = %f\n", value); //680nm
+		value = getCalibratedJ();
+		printf("CALIVALUE = %f\n", value);//705nm
+
+		value = getCalibratedT();
+		printf("CALIVALUE = %f\n", value); //730nm
+		value = getCalibratedU();
+		printf("CALIVALUE = %f\n", value); //760nm
+		value = getCalibratedV();
+		printf("CALIVALUE = %f\n", value); //810nm
+		value = getCalibratedW();
+		printf("CALIVALUE = %f\n", value); //860nm
+		value = getCalibratedK();
+		printf("CALIVALUE = %f\n", value); //900nm
+		value = getCalibratedL();
+		printf("CALIVALUE = %f\n", value); //940nm
+		printf("\n\nDONE\n\n");
+		//delay(5000);
+   	 }
+
+
+	return 0;
+}
+
+void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
+{
+	u32 xcoi, ycoi;
+	u32 linesStart = 0;
+	u32 pixelIdx = 0;
+
+	for(ycoi = 0; ycoi < height; ycoi++)
+	{
+		for(xcoi = 0; xcoi < (width * 4); xcoi+=4)
+		{
+
+			//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+			/*
+			// 800 x 600
+			frame[linesStart + xcoi    ] = Pixel_800_600[pixelIdx++];  // Blue
+			frame[linesStart + xcoi + 1] = Pixel_800_600[pixelIdx++];  // Green
+			frame[linesStart + xcoi + 2] = Pixel_800_600[pixelIdx++];  // Red
+			*/
+
+
+			// 1280 x 720
+			//frame[linesStart + xcoi    ] = Pixel_1280_720[pixelIdx++];
+			//frame[linesStart + xcoi + 1] = Pixel_1280_720[pixelIdx++];
+			//frame[linesStart + xcoi + 2] = Pixel_1280_720[pixelIdx++];
+
+
+
+			// 1280 x 1024
+			//frame[linesStart + xcoi    ] = Pixel_1280_1024[pixelIdx++];
+			//frame[linesStart + xcoi + 1] = Pixel_1280_1024[pixelIdx++];
+			//frame[linesStart + xcoi + 2] = Pixel_1280_1024[pixelIdx++];
+			//
+
+			/*if(((xcoi >= 400 && xcoi <= 520) && (ycoi >= 100 && ycoi <= 860 )) || ((ycoi >= 830 && ycoi <= 860 ) && (xcoi >= 400 && xcoi <= 7280))){
+
+
+					frame[linesStart + xcoi    ] = 0;
+					frame[linesStart + xcoi + 1] = 0;
+					frame[linesStart + xcoi + 2] = 0;
+					pixelIdx +=3;
+
+
+
+			}
+			else{*/
+
+				// 1920 x 1080
+				//frame[linesStart + xcoi    ] = Pixel_1920_1080[pixelIdx++];
+				//frame[linesStart + xcoi + 1] = Pixel_1920_1080[pixelIdx++];
+				//frame[linesStart + xcoi + 2] = Pixel_1920_1080[pixelIdx++];
+				frame[linesStart + xcoi    ] = 255;
+				frame[linesStart + xcoi + 1] = 255;
+				frame[linesStart + xcoi + 2] = 255;
+			//}
+			//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		}
+
+		linesStart += stride;
+	}
+
+	displayCharacter(frame, 48, 100, 100);
+	displayCharacter(frame, 49, 500, 500);
+
+	/*
+	 * Flush the frame buffer memory range to ensure changes are written to the
+	 * actual memory, and therefore accessible by the VDMA.
+	 */
+	Xil_DCacheFlushRange((unsigned int) frame, DEMO_MAX_FRAME);
+}
+
+void displayCharacter(u8 *frame, int asciNumber, int x, int y){
+
+	for(int j = 0; j < 16; j++){
+
+		for(int i = 0; i < 16; i++){
+
+			if(asciTable[asciNumber][j][i] == 1){
+
+				frame[(y+j) * 7680 + x+i    ] = 0;
+				frame[(y+j) * 7680 + x+i + 1] = 0;
+				frame[(y+j) * 7680 + x+i + 2] = 0;
+
+			}
+
+		}
+
+	}
+
+
+
+}
+
+
+

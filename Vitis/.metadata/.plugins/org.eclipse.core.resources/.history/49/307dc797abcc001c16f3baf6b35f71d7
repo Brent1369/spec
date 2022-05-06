@@ -1,0 +1,18 @@
+byte asciTable[128][16][16];
+
+
+asciTable[0][0][0]=0;
+asciTable[0][0][1]=0;
+asciTable[0][0][2]=0;
+asciTable[0][0][3]=0;
+asciTable[0][0][1]=0;
+asciTable[0][0][2]=0;
+asciTable[0][0][3]=0;
+asciTable[0][0][4]=0;
+asciTable[0][0][2]=0;
+asciTable[0][0][3]=0;
+asciTable[0][0][4]=0;
+asciTable[0][0][5]=0;
+asciTable[0][0][3]=0;
+asciTable[0][0][4]=0;
+asciTable[0][0][5]=0;

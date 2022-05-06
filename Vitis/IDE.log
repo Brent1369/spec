@@ -1,0 +1,720 @@
+21:27:38 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\vreys\OneDrive\school\spec\Vitis\temp_xsdb_launch_script.tcl
+21:27:39 INFO  : Registering command handlers for Vitis TCF services
+21:27:39 INFO  : Platform repository initialization has completed.
+21:27:42 INFO  : XSCT server has started successfully.
+21:27:43 INFO  : Successfully done setting XSCT server connection channel  
+21:27:43 INFO  : plnx-install-location is set to ''
+21:27:43 INFO  : Successfully done query RDI_DATADIR 
+21:27:43 INFO  : Successfully done setting workspace for the tool. 
+21:30:52 INFO  : Result from executing command 'getProjects': design_1_wrapper9
+21:30:52 INFO  : Result from executing command 'getPlatforms': 
+21:30:52 WARN  : An unexpected exception occurred in the module 'platform project logging'
+21:30:53 INFO  : Platform 'design_1_wrapper9' is added to custom repositories.
+21:31:08 INFO  : Platform 'design_1_wrapper9' is added to custom repositories.
+21:33:00 INFO  : Result from executing command 'getProjects': design_1_wrapper9
+21:33:00 INFO  : Result from executing command 'getPlatforms': design_1_wrapper9|C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/design_1_wrapper9.xpfm
+21:33:01 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+21:41:11 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\vreys\OneDrive\school\spec\Vitis\temp_xsdb_launch_script.tcl
+21:41:16 INFO  : XSCT server has started successfully.
+21:41:16 INFO  : plnx-install-location is set to ''
+21:41:16 INFO  : Successfully done setting XSCT server connection channel  
+21:41:16 INFO  : Successfully done setting workspace for the tool. 
+21:41:19 INFO  : Platform repository initialization has completed.
+21:41:19 INFO  : Successfully done query RDI_DATADIR 
+21:41:22 INFO  : Registering command handlers for Vitis TCF services
+21:42:40 INFO  : Result from executing command 'getProjects': design_1_wrapper9
+21:42:40 INFO  : Result from executing command 'getPlatforms': design_1_wrapper9|C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/design_1_wrapper9.xpfm
+21:42:40 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+21:43:12 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+21:43:56 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+21:45:16 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+21:46:37 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+21:47:19 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+21:48:45 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:07:33 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:08:50 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:10:14 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:11:28 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:12:23 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:13:04 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:13:20 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:30:24 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:34:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:34:50 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:34:51 INFO  : 'jtag frequency' command is executed.
+11:34:51 INFO  : Context for 'APU' is selected.
+11:34:51 INFO  : System reset is completed.
+11:34:54 INFO  : 'after 3000' command is executed.
+11:34:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:34:58 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+11:35:00 INFO  : Context for 'APU' is selected.
+11:35:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+11:35:01 INFO  : 'configparams force-mem-access 1' command is executed.
+11:35:01 INFO  : Context for 'APU' is selected.
+11:35:01 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+11:35:10 INFO  : 'ps7_init' command is executed.
+11:35:10 INFO  : 'ps7_post_config' command is executed.
+11:35:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:35:26 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:35:27 INFO  : 'configparams force-mem-access 0' command is executed.
+11:35:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:35:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:35:34 INFO  : 'con' command is executed.
+11:35:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:35:34 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default.tcl'
+11:36:07 INFO  : Disconnected from the channel tcfchan#2.
+11:36:48 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:36:59 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:38:49 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:39:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:39:12 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:39:13 INFO  : 'jtag frequency' command is executed.
+11:39:13 INFO  : Context for 'APU' is selected.
+11:39:13 INFO  : System reset is completed.
+11:39:16 INFO  : 'after 3000' command is executed.
+11:39:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:39:20 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+11:39:20 INFO  : Context for 'APU' is selected.
+11:39:21 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+11:39:21 INFO  : 'configparams force-mem-access 1' command is executed.
+11:39:21 INFO  : Context for 'APU' is selected.
+11:39:21 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+11:39:30 INFO  : 'ps7_init' command is executed.
+11:39:31 INFO  : 'ps7_post_config' command is executed.
+11:39:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:39:46 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:39:47 INFO  : 'configparams force-mem-access 0' command is executed.
+11:39:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:39:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:39:50 INFO  : 'con' command is executed.
+11:39:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:39:50 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default.tcl'
+11:40:33 INFO  : Disconnected from the channel tcfchan#3.
+11:40:36 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:40:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:40:40 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:40:41 INFO  : 'jtag frequency' command is executed.
+11:40:41 INFO  : Context for 'APU' is selected.
+11:40:41 INFO  : System reset is completed.
+11:40:44 INFO  : 'after 3000' command is executed.
+11:40:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:40:47 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+11:40:48 INFO  : Context for 'APU' is selected.
+11:40:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+11:40:48 INFO  : 'configparams force-mem-access 1' command is executed.
+11:40:48 INFO  : Context for 'APU' is selected.
+11:40:48 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+11:40:57 INFO  : 'ps7_init' command is executed.
+11:40:57 INFO  : 'ps7_post_config' command is executed.
+11:40:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:41:13 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:41:14 INFO  : 'configparams force-mem-access 0' command is executed.
+11:41:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:41:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:41:17 INFO  : 'con' command is executed.
+11:41:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:41:17 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default.tcl'
+11:43:12 INFO  : Disconnected from the channel tcfchan#4.
+11:43:28 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:43:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:43:55 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:43:55 INFO  : 'jtag frequency' command is executed.
+11:43:56 INFO  : Context for 'APU' is selected.
+11:43:56 INFO  : System reset is completed.
+11:43:59 INFO  : 'after 3000' command is executed.
+11:43:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:44:03 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+11:44:03 INFO  : Context for 'APU' is selected.
+11:44:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+11:44:04 INFO  : 'configparams force-mem-access 1' command is executed.
+11:44:04 INFO  : Context for 'APU' is selected.
+11:44:04 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+11:44:12 INFO  : 'ps7_init' command is executed.
+11:44:12 INFO  : 'ps7_post_config' command is executed.
+11:44:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:44:27 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:44:28 INFO  : 'configparams force-mem-access 0' command is executed.
+11:44:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:44:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:44:32 INFO  : 'con' command is executed.
+11:44:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:44:32 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default.tcl'
+11:45:55 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:46:13 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:46:35 INFO  : Disconnected from the channel tcfchan#5.
+11:47:19 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:47:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:47:52 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:47:53 INFO  : 'jtag frequency' command is executed.
+11:47:53 INFO  : Context for 'APU' is selected.
+11:47:53 INFO  : System reset is completed.
+11:47:56 INFO  : 'after 3000' command is executed.
+11:47:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:48:00 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+11:48:00 INFO  : Context for 'APU' is selected.
+11:48:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+11:48:01 INFO  : 'configparams force-mem-access 1' command is executed.
+11:48:01 INFO  : Context for 'APU' is selected.
+11:48:01 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+11:48:12 INFO  : 'ps7_init' command is executed.
+11:48:12 INFO  : 'ps7_post_config' command is executed.
+11:48:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:48:28 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:48:29 INFO  : 'configparams force-mem-access 0' command is executed.
+11:48:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:48:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:48:32 INFO  : 'con' command is executed.
+11:48:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:48:32 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default.tcl'
+11:50:09 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:50:27 INFO  : Disconnected from the channel tcfchan#6.
+11:50:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:50:30 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:50:31 INFO  : 'jtag frequency' command is executed.
+11:50:34 ERROR : no targets found with "name =~"APU*"". available targets: none
+11:50:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+----------------End of Script----------------
+
+11:50:34 ERROR : no targets found with "name =~"APU*"". available targets: none
+11:50:46 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:50:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:50:49 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:50:50 INFO  : 'jtag frequency' command is executed.
+11:50:50 INFO  : Context for 'APU' is selected.
+11:50:50 INFO  : System reset is completed.
+11:50:53 INFO  : 'after 3000' command is executed.
+11:50:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:50:57 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+11:50:57 INFO  : Context for 'APU' is selected.
+11:50:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+11:50:58 INFO  : 'configparams force-mem-access 1' command is executed.
+11:50:58 INFO  : Context for 'APU' is selected.
+11:50:58 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+11:51:07 INFO  : 'ps7_init' command is executed.
+11:51:08 INFO  : 'ps7_post_config' command is executed.
+11:51:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:51:23 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:51:24 INFO  : 'configparams force-mem-access 0' command is executed.
+11:51:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:51:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:51:27 INFO  : 'con' command is executed.
+11:51:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:51:27 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default.tcl'
+11:58:17 INFO  : Disconnected from the channel tcfchan#7.
+11:58:31 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+11:58:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:58:37 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:58:38 INFO  : 'jtag frequency' command is executed.
+11:58:38 INFO  : Context for 'APU' is selected.
+11:58:38 INFO  : System reset is completed.
+11:58:41 INFO  : 'after 3000' command is executed.
+11:58:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:58:44 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+11:58:45 INFO  : Context for 'APU' is selected.
+11:58:45 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+11:58:45 INFO  : 'configparams force-mem-access 1' command is executed.
+11:58:45 INFO  : Context for 'APU' is selected.
+11:58:45 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+11:58:55 INFO  : 'ps7_init' command is executed.
+11:58:56 INFO  : 'ps7_post_config' command is executed.
+11:58:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:59:11 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:59:12 INFO  : 'configparams force-mem-access 0' command is executed.
+11:59:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:59:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:59:15 INFO  : 'con' command is executed.
+11:59:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:59:15 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default.tcl'
+12:05:39 INFO  : Disconnected from the channel tcfchan#8.
+12:06:09 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+12:08:15 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+12:08:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:08:33 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:08:34 INFO  : 'jtag frequency' command is executed.
+12:08:34 INFO  : Context for 'APU' is selected.
+12:08:34 INFO  : System reset is completed.
+12:08:37 INFO  : 'after 3000' command is executed.
+12:08:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:08:40 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+12:08:40 INFO  : Context for 'APU' is selected.
+12:08:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:08:40 INFO  : 'configparams force-mem-access 1' command is executed.
+12:08:40 INFO  : Context for 'APU' is selected.
+12:08:40 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+12:08:45 INFO  : 'ps7_init' command is executed.
+12:08:46 INFO  : 'ps7_post_config' command is executed.
+12:08:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:09:01 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:09:02 INFO  : 'configparams force-mem-access 0' command is executed.
+12:09:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:09:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:09:05 INFO  : 'con' command is executed.
+12:09:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:09:05 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default.tcl'
+12:09:23 INFO  : Disconnected from the channel tcfchan#9.
+12:11:02 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+12:12:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:12:10 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:12:11 INFO  : 'jtag frequency' command is executed.
+12:12:11 INFO  : Context for 'APU' is selected.
+12:12:11 INFO  : System reset is completed.
+12:12:14 INFO  : 'after 3000' command is executed.
+12:12:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:12:17 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+12:12:17 INFO  : Context for 'APU' is selected.
+12:12:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:12:18 INFO  : 'configparams force-mem-access 1' command is executed.
+12:12:18 INFO  : Context for 'APU' is selected.
+12:12:18 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+12:12:23 INFO  : 'ps7_init' command is executed.
+12:12:23 INFO  : 'ps7_post_config' command is executed.
+12:12:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:12:38 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:12:40 INFO  : 'configparams force-mem-access 0' command is executed.
+12:12:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:12:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:12:43 INFO  : 'con' command is executed.
+12:12:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:12:43 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default_1.tcl'
+12:12:57 INFO  : Disconnected from the channel tcfchan#10.
+12:17:33 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+12:18:45 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+12:20:59 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+12:22:39 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+12:23:31 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+12:23:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:23:55 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:23:55 INFO  : 'jtag frequency' command is executed.
+12:23:56 INFO  : Context for 'APU' is selected.
+12:23:56 INFO  : System reset is completed.
+12:23:59 INFO  : 'after 3000' command is executed.
+12:23:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:24:02 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+12:24:03 INFO  : Context for 'APU' is selected.
+12:24:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:24:03 INFO  : 'configparams force-mem-access 1' command is executed.
+12:24:03 INFO  : Context for 'APU' is selected.
+12:24:03 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+12:24:12 INFO  : 'ps7_init' command is executed.
+12:24:12 INFO  : 'ps7_post_config' command is executed.
+12:24:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:24:26 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:24:27 INFO  : 'configparams force-mem-access 0' command is executed.
+12:24:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:24:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:24:31 INFO  : 'con' command is executed.
+12:24:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:24:31 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default.tcl'
+12:25:00 INFO  : Disconnected from the channel tcfchan#11.
+12:25:01 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+12:25:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:25:22 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:25:22 INFO  : 'jtag frequency' command is executed.
+12:25:22 INFO  : Context for 'APU' is selected.
+12:25:23 INFO  : System reset is completed.
+12:25:26 INFO  : 'after 3000' command is executed.
+12:25:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:25:28 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+12:25:30 INFO  : Context for 'APU' is selected.
+12:25:30 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:25:30 INFO  : 'configparams force-mem-access 1' command is executed.
+12:25:30 INFO  : Context for 'APU' is selected.
+12:25:30 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+12:25:36 INFO  : 'ps7_init' command is executed.
+12:25:37 INFO  : 'ps7_post_config' command is executed.
+12:25:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:25:52 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:25:53 INFO  : 'configparams force-mem-access 0' command is executed.
+12:25:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:25:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:25:56 INFO  : 'con' command is executed.
+12:25:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:25:56 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default.tcl'
+12:33:33 INFO  : Disconnected from the channel tcfchan#12.
+12:34:22 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+12:34:42 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+12:35:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:35:00 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:35:01 INFO  : 'jtag frequency' command is executed.
+12:35:01 INFO  : Context for 'APU' is selected.
+12:35:01 INFO  : System reset is completed.
+12:35:04 INFO  : 'after 3000' command is executed.
+12:35:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:35:07 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+12:35:07 INFO  : Context for 'APU' is selected.
+12:35:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:35:08 INFO  : 'configparams force-mem-access 1' command is executed.
+12:35:08 INFO  : Context for 'APU' is selected.
+12:35:08 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+12:35:16 INFO  : 'ps7_init' command is executed.
+12:35:16 INFO  : 'ps7_post_config' command is executed.
+12:35:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:35:32 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:35:33 INFO  : 'configparams force-mem-access 0' command is executed.
+12:35:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:35:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:35:36 INFO  : 'con' command is executed.
+12:35:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:35:36 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default.tcl'
+12:36:16 INFO  : Disconnected from the channel tcfchan#13.
+12:36:25 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+12:36:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:36:41 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:36:42 INFO  : 'jtag frequency' command is executed.
+12:36:42 INFO  : Context for 'APU' is selected.
+12:36:43 INFO  : System reset is completed.
+12:36:46 INFO  : 'after 3000' command is executed.
+12:36:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:36:48 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+12:36:50 INFO  : Context for 'APU' is selected.
+12:36:50 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:36:50 INFO  : 'configparams force-mem-access 1' command is executed.
+12:36:50 INFO  : Context for 'APU' is selected.
+12:36:50 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+12:36:58 INFO  : 'ps7_init' command is executed.
+12:36:59 INFO  : 'ps7_post_config' command is executed.
+12:36:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:37:14 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:37:16 INFO  : 'configparams force-mem-access 0' command is executed.
+12:37:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:37:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:37:19 INFO  : 'con' command is executed.
+12:37:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:37:19 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default_1.tcl'
+12:39:02 INFO  : Checking for BSP changes to sync application flags for project 'Spectroscopy'...
+12:39:35 INFO  : Disconnected from the channel tcfchan#14.
+12:39:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:39:38 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:39:39 INFO  : 'jtag frequency' command is executed.
+12:39:39 INFO  : Context for 'APU' is selected.
+12:39:39 INFO  : System reset is completed.
+12:39:42 INFO  : 'after 3000' command is executed.
+12:39:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:39:45 INFO  : Device configured successfully with "C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit"
+12:39:45 INFO  : Context for 'APU' is selected.
+12:39:46 INFO  : Hardware design and registers information is loaded from 'C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:39:46 INFO  : 'configparams force-mem-access 1' command is executed.
+12:39:46 INFO  : Context for 'APU' is selected.
+12:39:46 INFO  : Sourcing of 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl' is done.
+12:39:55 INFO  : 'ps7_init' command is executed.
+12:39:55 INFO  : 'ps7_post_config' command is executed.
+12:39:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:40:11 INFO  : The application 'C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:40:12 INFO  : 'configparams force-mem-access 0' command is executed.
+12:40:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/vreys/OneDrive/school/spec/Vitis/Spectroscopy/Debug/Spectroscopy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:40:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:40:15 INFO  : 'con' command is executed.
+12:40:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:40:15 INFO  : Launch script is exported to file 'C:\Users\vreys\OneDrive\school\spec\Vitis\Spectroscopy_system\_ide\scripts\debugger_spectroscopy-default.tcl'
+12:42:17 INFO  : Disconnected from the channel tcfchan#15.
+12:43:26 INFO  : Projects exported to 'C:\Users\vreys\OneDrive\school\spec\6mei.ide.zip'

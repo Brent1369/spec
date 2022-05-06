@@ -2170,3 +2170,23 @@ con
 11:09:27 WARN  : An unexpected exception occurred in the module 'platform project logging'
 11:09:30 ERROR : An unexpected exception occurred in the module 'reading platform'
 11:09:30 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:25:13 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\vreys\OneDrive\school\spec\vitis_experiment\temp_xsdb_launch_script.tcl
+19:25:31 INFO  : Registering command handlers for Vitis TCF services
+19:25:31 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+19:25:31 INFO  : Platform repository initialization has completed.
+19:25:35 INFO  : XSCT server has started successfully.
+19:26:04 INFO  : Successfully done setting XSCT server connection channel  
+19:26:04 INFO  : plnx-install-location is set to ''
+19:26:04 INFO  : Successfully done query RDI_DATADIR 
+19:26:04 INFO  : Successfully done setting workspace for the tool. 
+21:12:04 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+21:12:04 ERROR : Failed to get platform details for the project 'test9'. Cannot sync application flags.
+21:12:38 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+21:12:38 ERROR : Failed to get platform details for the project 'test9'. Cannot sync application flags.
+21:14:16 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+21:14:16 ERROR : Failed to get platform details for the project 'test9'. Cannot sync application flags.
+21:16:48 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+21:16:48 ERROR : Failed to get platform details for the project 'test9'. Cannot sync application flags.
