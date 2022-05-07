@@ -61,10 +61,12 @@
 #include "display_ctrl/display_ctrl.h"
 #include "display_ctrl/vga_modes.h"
 
+#include <string.h>
+
 #include "ASCI.h"
 
 
-
+char tekstBuf[100];
 
 
 // Image data for each resolution
@@ -92,6 +94,7 @@
 DisplayCtrl dispCtrl;
 XAxiVdma vdma;
 
+
 /*
  * Frame buffers for video data
  */
@@ -101,6 +104,10 @@ u8 *pFrames[DISPLAY_NUM_FRAMES];  // array of pointers to the frame buffers
 /* ------------------------------------------------------------ */
 /*				Procedure Definitions							*/
 /* ------------------------------------------------------------ */
+
+void displayCharacter(u8 *frame, int asciNumber, int x, int y);
+void displayString(u8 *frame, char* stringToDisplay, int x, int y);
+void displayFloat(u8 *frame, float number, int x, int y);
 
 int main(void)
 {
@@ -158,36 +165,13 @@ int main(void)
 	{
 		xil_printf("Couldn't start display during demo initialization%d\r\n", Status);
 	}
+	float array[18] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+	DemoPrintTest(dispCtrl.framePtr[dispCtrl.curFrame], dispCtrl.vMode.width, dispCtrl.vMode.height, dispCtrl.stride, array);
 
-	DemoPrintTest(dispCtrl.framePtr[dispCtrl.curFrame], dispCtrl.vMode.width, dispCtrl.vMode.height, dispCtrl.stride);
 
-
-
-	int test = 0;
-	unsigned char tekst[100] = {0};
 	float value = 0;
 
-
-    print("Hello World\n\r");
-    print("Successfully ran Hello World application1");
-
-
-
-
-	//deviceInstance.AddrOfSlave = 0x49;
-/*
-
-    test = XIic_Initialize(&deviceInstance, 0);
-	printf("\nInitialize = %d\n", test);
-	test = XIic_Start(&deviceInstance);
-	printf("Start = %d\n", test);
-
-	test = XIic_MasterRecv(&deviceInstance, tekst, 100);
-
-	printf("rec = %d\n", test);
-	printf("gekregen tekst = %s\n", tekst);
-*/
-
+	;
     	value = begin();
     	printf("BEGINvalue = %f\n\n", value);
 
@@ -197,46 +181,48 @@ int main(void)
 
 
    	 while(1){
-   		//takeMeasurementsWithBulb();
-		value = getCalibratedA();
-		printf("CALIVALUE = %f\n", value); //410nm
-		value = getCalibratedB();
-		printf("CALIVALUE = %f\n", value); //435nm
-		value = getCalibratedC();
-		printf("CALIVALUE = %f\n", value); //460nm
-		value = getCalibratedD();
-		printf("CALIVALUE = %f\n", value); //485nm
-		value = getCalibratedE();
-		printf("CALIVALUE = %f\n", value); //510nm
-		value = getCalibratedF();
-		printf("CALIVALUE = %f\n", value); //535nm
+   		takeMeasurementsWithBulb();
+   		array[0] = getCalibratedA();
+		printf("CALIVALUE = %f\n", array[0]); //410nm
+		array[1] = getCalibratedB();
+		printf("CALIVALUE = %f\n", array[1]); //435nm
+		array[2] = getCalibratedC();
+		printf("CALIVALUE = %f\n", array[2]); //460nm
+		array[3] = getCalibratedD();
+		printf("CALIVALUE = %f\n", array[3]); //485nm
+		array[4] = getCalibratedE();
+		printf("CALIVALUE = %f\n", array[4]); //510nm
+		array[5] = getCalibratedF();
+		printf("CALIVALUE = %f\n", array[5]); //535nm
 
-		value = getCalibratedG();
-		printf("CALIVALUE = %f\n", value); //560nm
-		value = getCalibratedH();
-		printf("CALIVALUE = %f\n", value); //585nm
-		value = getCalibratedR();
-		printf("CALIVALUE = %f\n", value); //610nm
-		value = getCalibratedI();
-		printf("CALIVALUE = %f\n", value); //645nm
-		value = getCalibratedS();
-		printf("CALIVALUE = %f\n", value); //680nm
-		value = getCalibratedJ();
-		printf("CALIVALUE = %f\n", value);//705nm
+		array[6] = getCalibratedG();
+		printf("CALIVALUE = %f\n", array[6]); //560nm
+		array[7] = getCalibratedH();
+		printf("CALIVALUE = %f\n", array[7]); //585nm
+		array[8] = getCalibratedR();
+		printf("CALIVALUE = %f\n", array[8]); //610nm
+		array[9] = getCalibratedI();
+		printf("CALIVALUE = %f\n", array[9]); //645nm
+		array[10] = getCalibratedS();
+		printf("CALIVALUE = %f\n", array[10]); //680nm
+		array[11] = getCalibratedJ();
+		printf("CALIVALUE = %f\n", array[11]);//705nm
 
-		value = getCalibratedT();
-		printf("CALIVALUE = %f\n", value); //730nm
-		value = getCalibratedU();
-		printf("CALIVALUE = %f\n", value); //760nm
-		value = getCalibratedV();
-		printf("CALIVALUE = %f\n", value); //810nm
-		value = getCalibratedW();
-		printf("CALIVALUE = %f\n", value); //860nm
-		value = getCalibratedK();
-		printf("CALIVALUE = %f\n", value); //900nm
-		value = getCalibratedL();
-		printf("CALIVALUE = %f\n", value); //940nm
+		array[12] = getCalibratedT();
+		printf("CALIVALUE = %f\n", array[12]); //730nm
+		array[13] = getCalibratedU();
+		printf("CALIVALUE = %f\n", array[13]); //760nm
+		array[14] = getCalibratedV();
+		printf("CALIVALUE = %f\n", array[14]); //810nm
+		array[15] = getCalibratedW();
+		printf("CALIVALUE = %f\n", array[15]); //860nm
+		array[16] = getCalibratedK();
+		printf("CALIVALUE = %f\n", array[16]); //900nm
+		array[17] = getCalibratedL();
+		printf("CALIVALUE = %f\n", array[17]); //940nm
 		printf("\n\nDONE\n\n");
+
+		DemoPrintTest(dispCtrl.framePtr[dispCtrl.curFrame], dispCtrl.vMode.width, dispCtrl.vMode.height, dispCtrl.stride,array);
 		//delay(5000);
    	 }
 
@@ -244,7 +230,7 @@ int main(void)
 	return 0;
 }
 
-void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
+void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride, float *array)
 {
 	u32 xcoi, ycoi;
 	u32 linesStart = 0;
@@ -255,30 +241,11 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 		for(xcoi = 0; xcoi < (width * 4); xcoi+=4)
 		{
 
-			//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-			/*
-			// 800 x 600
-			frame[linesStart + xcoi    ] = Pixel_800_600[pixelIdx++];  // Blue
-			frame[linesStart + xcoi + 1] = Pixel_800_600[pixelIdx++];  // Green
-			frame[linesStart + xcoi + 2] = Pixel_800_600[pixelIdx++];  // Red
-			*/
-
-
-			// 1280 x 720
-			//frame[linesStart + xcoi    ] = Pixel_1280_720[pixelIdx++];
-			//frame[linesStart + xcoi + 1] = Pixel_1280_720[pixelIdx++];
-			//frame[linesStart + xcoi + 2] = Pixel_1280_720[pixelIdx++];
 
 
 
-			// 1280 x 1024
-			//frame[linesStart + xcoi    ] = Pixel_1280_1024[pixelIdx++];
-			//frame[linesStart + xcoi + 1] = Pixel_1280_1024[pixelIdx++];
-			//frame[linesStart + xcoi + 2] = Pixel_1280_1024[pixelIdx++];
-			//
-
-			if(((xcoi >= 400 && xcoi <= 520) && (ycoi >= 100 && ycoi <= 860 )) || ((ycoi >= 830 && ycoi <= 860 ) && (xcoi >= 400 && xcoi <= 7280))){
+			// create graph
+			if(((xcoi >= 400 && xcoi <= 480) && (ycoi >= 200 && ycoi <= 860 )) || ((ycoi >= 840 && ycoi <= 860 ) && (xcoi >= 400 && xcoi <= 6080))){
 
 
 					frame[linesStart + xcoi    ] = 0;
@@ -305,11 +272,99 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 		linesStart += stride;
 	}
 
+
+
+	//displayFloat(frame, array[1], 800, 800);
+
+	//displayCharacter(frame, 48, 100, 100);
+	//displayCharacter(frame, 49, 500, 500);
+
+
+
+	// print the sensor values on hdmi
+	char SensorValuePrint[18][50];
+	int y;
+	int ascichar = 65;
+	for ( int i = 0; i < 18 ; i++)
+	{
+		snprintf(SensorValuePrint[i], sizeof(SensorValuePrint[i]), " %c=  %f", ascichar, array[i]);
+		displayString(frame , SensorValuePrint[i], 1550, 100 + y);
+		y= y+35;
+		ascichar++;
+	}
+
+	//display sensor range under graph
+	char * sensorRange[18]= {"410","435","460","485","510","535","560","585","610","645","680","705","730","760","810","860","900","940"};
+	int l = 0;
+	int b = 18;
+	for ( int k = 0; k < 18 ; k++)
+	{
+
+		displayCharacter(frame, 73, 130 + (l + b), 830);
+		displayString(frame, sensorRange[k], 130 + l, 870 );
+		l = l+76;
+
+
+
+	}
+
+
+
 	/*
 	 * Flush the frame buffer memory range to ensure changes are written to the
 	 * actual memory, and therefore accessible by the VDMA.
 	 */
 	Xil_DCacheFlushRange((unsigned int) frame, DEMO_MAX_FRAME);
 }
+
+
+
+void displayFloat(u8 *frame, float number, int x, int y){
+
+
+	gcvt(number, 10, tekstBuf);
+
+	displayString(frame , tekstBuf, x, y);
+
+
+}
+
+
+void displayString(u8 *frame, char* stringToDisplay, int x, int y){
+
+	int stringLength = strlen(stringToDisplay);
+
+	for(int i = 0; i < stringLength; i++){
+
+
+		displayCharacter(frame, stringToDisplay[i], x + i*16, y);
+
+	}
+
+
+}
+
+void displayCharacter(u8 *frame, int asciNumber, int x, int y){
+
+	for(int j = 0; j < 16; j++){
+
+		for(int i = 0; i < 16; i++){
+
+			if(asciTable[asciNumber][j][i] == 1){
+
+				frame[(y+j) * 7680 + (i+x)*4    ] = 0;
+				frame[(y+j) * 7680 + (i+x)*4 + 1] = 0;
+				frame[(y+j) * 7680 + (i+x)*4 + 2] = 0;
+
+			}
+
+		}
+
+	}
+
+
+
+}
+
 
 
