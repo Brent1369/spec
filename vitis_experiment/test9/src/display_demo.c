@@ -60,6 +60,7 @@
 #include "display_demo.h"
 #include "display_ctrl/display_ctrl.h"
 #include "display_ctrl/vga_modes.h"
+#include "SparkFun_AS7265X.h"
 
 #include <string.h>
 
@@ -223,7 +224,7 @@ int main(void)
 		printf("\n\nDONE\n\n");
 
 		DemoPrintTest(dispCtrl.framePtr[dispCtrl.curFrame], dispCtrl.vMode.width, dispCtrl.vMode.height, dispCtrl.stride,array);
-		//delay(5000);
+		//delay(100);
    	 }
 
 
@@ -288,27 +289,63 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride, float *array)
 	for ( int i = 0; i < 18 ; i++)
 	{
 		snprintf(SensorValuePrint[i], sizeof(SensorValuePrint[i]), " %c=  %f", ascichar, array[i]);
-		displayString(frame , SensorValuePrint[i], 1550, 100 + y);
+		displayString(frame , SensorValuePrint[i], 1650, 100 + y);
 		y= y+35;
 		ascichar++;
 	}
 
 	//display sensor range under graph
-	char * sensorRange[18]= {"410","435","460","485","510","535","560","585","610","645","680","705","730","760","810","860","900","940"};
+	char * sensorRange[19]= {"410","435","460","485","510","535","560","585","610","645","680","705","730","760","810","860","900","940", "Wavelength (nm)"};
+	char * sensorY[5] = {"1","10","100","1000", "10000"};
 	int l = 0;
 	int b = 18;
-	for ( int k = 0; k < 18 ; k++)
+	int j = 0;
+	for ( int k = 0; k < 19 ; k++)
 	{
 
-		displayCharacter(frame, 73, 130 + (l + b), 830);
+		if ( k != 18)
+		{
+			for (int i = 0; i < 22; i++)
+					{
+
+						displayCharacter(frame, 73, 130 + (l + b), 830 - (i * 30));
+
+
+					}
+
+
+
+		}
+
+
 		displayString(frame, sensorRange[k], 130 + l, 870 );
+
 		l = l+76;
 
 
 
 	}
+	for (int i = 0; i < 5 ; i++)
+	{
 
 
+		for (int k = 0; k < 47; k++)
+				{
+
+					displayCharacter(frame, 95,110 + (k*30) , 810 - (i * 150 ));
+
+
+				}
+
+
+
+
+		displayString(frame, sensorY[i], 80 - (j*16), 810 - (i * 145 ));
+		j++;
+
+	}
+
+	displayDot(frame, 1,860);
 
 	/*
 	 * Flush the frame buffer memory range to ensure changes are written to the
@@ -365,6 +402,28 @@ void displayCharacter(u8 *frame, int asciNumber, int x, int y){
 
 
 }
+void displayDot(u8 *frame, int x, int y){
+
+	for(int j = 0; j < 16; j++){
+
+		for(int i = 0; i < 16; i++){
+
+
+
+				frame[(y+j) * 7680 + (i+x)*4    ] = 0;
+				frame[(y+j) * 7680 + (i+x)*4 + 1] = 0;
+				frame[(y+j) * 7680 + (i+x)*4 + 2] = 0;
+
+
+
+		}
+
+	}
+
+
+
+}
+
 
 
 

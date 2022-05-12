@@ -4311,3 +4311,1754 @@ con
 
 18:37:59 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_9.tcl'
 18:39:28 INFO  : Disconnected from the channel tcfchan#45.
+11:27:28 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\temp_xsdb_launch_script.tcl
+11:27:32 INFO  : XSCT server has started successfully.
+11:27:32 INFO  : plnx-install-location is set to ''
+11:27:32 INFO  : Successfully done setting XSCT server connection channel  
+11:27:32 INFO  : Successfully done setting workspace for the tool. 
+11:27:33 INFO  : Registering command handlers for Vitis TCF services
+11:27:33 INFO  : Platform repository initialization has completed.
+11:27:37 INFO  : Successfully done query RDI_DATADIR 
+11:36:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:36:56 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:36:56 INFO  : 'jtag frequency' command is executed.
+11:36:56 INFO  : Context for 'APU' is selected.
+11:36:56 INFO  : System reset is completed.
+11:36:59 INFO  : 'after 3000' command is executed.
+11:37:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:37:02 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+11:37:02 INFO  : Context for 'APU' is selected.
+11:37:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+11:37:03 INFO  : 'configparams force-mem-access 1' command is executed.
+11:37:03 INFO  : Context for 'APU' is selected.
+11:37:03 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+11:37:04 INFO  : 'ps7_init' command is executed.
+11:37:04 INFO  : 'ps7_post_config' command is executed.
+11:37:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:37:18 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:37:18 INFO  : 'configparams force-mem-access 0' command is executed.
+11:37:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:37:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:37:19 INFO  : 'con' command is executed.
+11:37:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:37:19 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_9.tcl'
+11:37:45 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+11:38:03 INFO  : Disconnected from the channel tcfchan#1.
+11:38:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:38:05 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:38:05 INFO  : 'jtag frequency' command is executed.
+11:38:07 INFO  : Context for 'APU' is selected.
+11:38:07 INFO  : System reset is completed.
+11:38:10 INFO  : 'after 3000' command is executed.
+11:38:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:38:12 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+11:38:12 INFO  : Context for 'APU' is selected.
+11:38:16 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+11:38:16 INFO  : 'configparams force-mem-access 1' command is executed.
+11:38:16 INFO  : Context for 'APU' is selected.
+11:38:16 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+11:38:18 INFO  : 'ps7_init' command is executed.
+11:38:18 INFO  : 'ps7_post_config' command is executed.
+11:38:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:38:32 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:38:32 INFO  : 'configparams force-mem-access 0' command is executed.
+11:38:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:38:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:38:33 INFO  : 'con' command is executed.
+11:38:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:38:33 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_9.tcl'
+11:39:12 INFO  : Disconnected from the channel tcfchan#2.
+11:39:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:39:13 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:39:13 INFO  : 'jtag frequency' command is executed.
+11:39:13 INFO  : Context for 'APU' is selected.
+11:39:13 INFO  : System reset is completed.
+11:39:16 INFO  : 'after 3000' command is executed.
+11:39:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:39:18 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+11:39:18 INFO  : Context for 'APU' is selected.
+11:39:22 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+11:39:22 INFO  : 'configparams force-mem-access 1' command is executed.
+11:39:22 INFO  : Context for 'APU' is selected.
+11:39:22 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+11:39:24 INFO  : 'ps7_init' command is executed.
+11:39:24 INFO  : 'ps7_post_config' command is executed.
+11:39:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:39:38 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:39:38 INFO  : 'configparams force-mem-access 0' command is executed.
+11:39:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:39:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:39:38 INFO  : 'con' command is executed.
+11:39:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:39:38 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_9.tcl'
+11:53:38 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+11:54:08 INFO  : Disconnected from the channel tcfchan#3.
+11:54:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:54:09 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:54:09 INFO  : 'jtag frequency' command is executed.
+11:54:09 INFO  : Context for 'APU' is selected.
+11:54:10 INFO  : System reset is completed.
+11:54:13 INFO  : 'after 3000' command is executed.
+11:54:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:54:15 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+11:54:15 INFO  : Context for 'APU' is selected.
+11:54:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+11:54:18 INFO  : 'configparams force-mem-access 1' command is executed.
+11:54:18 INFO  : Context for 'APU' is selected.
+11:54:18 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+11:54:20 INFO  : 'ps7_init' command is executed.
+11:54:20 INFO  : 'ps7_post_config' command is executed.
+11:54:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:54:33 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:54:34 INFO  : 'configparams force-mem-access 0' command is executed.
+11:54:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:54:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:54:34 INFO  : 'con' command is executed.
+11:54:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:54:34 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_9.tcl'
+11:56:33 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+11:56:50 INFO  : Disconnected from the channel tcfchan#4.
+11:56:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:56:51 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:56:51 INFO  : 'jtag frequency' command is executed.
+11:56:53 INFO  : Context for 'APU' is selected.
+11:56:53 INFO  : System reset is completed.
+11:56:56 INFO  : 'after 3000' command is executed.
+11:56:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:56:59 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+11:56:59 INFO  : Context for 'APU' is selected.
+11:57:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+11:57:02 INFO  : 'configparams force-mem-access 1' command is executed.
+11:57:02 INFO  : Context for 'APU' is selected.
+11:57:02 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+11:57:03 INFO  : 'ps7_init' command is executed.
+11:57:03 INFO  : 'ps7_post_config' command is executed.
+11:57:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:57:17 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:57:17 INFO  : 'configparams force-mem-access 0' command is executed.
+11:57:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:57:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:57:17 INFO  : 'con' command is executed.
+11:57:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:57:17 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_9.tcl'
+11:58:09 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+11:58:20 INFO  : Disconnected from the channel tcfchan#5.
+11:58:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:58:21 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:58:21 INFO  : 'jtag frequency' command is executed.
+11:58:21 INFO  : Context for 'APU' is selected.
+11:58:21 INFO  : System reset is completed.
+11:58:24 INFO  : 'after 3000' command is executed.
+11:58:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:58:27 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+11:58:27 INFO  : Context for 'APU' is selected.
+11:58:30 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+11:58:30 INFO  : 'configparams force-mem-access 1' command is executed.
+11:58:30 INFO  : Context for 'APU' is selected.
+11:58:30 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+11:58:31 INFO  : 'ps7_init' command is executed.
+11:58:31 INFO  : 'ps7_post_config' command is executed.
+11:58:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:58:44 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:58:45 INFO  : 'configparams force-mem-access 0' command is executed.
+11:58:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:58:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:58:45 INFO  : 'con' command is executed.
+11:58:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:58:45 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_9.tcl'
+11:59:36 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+11:59:52 INFO  : Disconnected from the channel tcfchan#6.
+11:59:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:59:54 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:59:54 INFO  : 'jtag frequency' command is executed.
+11:59:54 INFO  : Context for 'APU' is selected.
+11:59:54 INFO  : System reset is completed.
+11:59:57 INFO  : 'after 3000' command is executed.
+11:59:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:00:00 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:00:00 INFO  : Context for 'APU' is selected.
+12:00:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:00:03 INFO  : 'configparams force-mem-access 1' command is executed.
+12:00:03 INFO  : Context for 'APU' is selected.
+12:00:03 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:00:04 INFO  : 'ps7_init' command is executed.
+12:00:04 INFO  : 'ps7_post_config' command is executed.
+12:00:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:00:18 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:00:18 INFO  : 'configparams force-mem-access 0' command is executed.
+12:00:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:00:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:00:18 INFO  : 'con' command is executed.
+12:00:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:00:18 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_9.tcl'
+12:01:03 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:01:14 INFO  : Disconnected from the channel tcfchan#7.
+12:01:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:01:15 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:01:15 INFO  : 'jtag frequency' command is executed.
+12:01:17 INFO  : Context for 'APU' is selected.
+12:01:17 INFO  : System reset is completed.
+12:01:20 INFO  : 'after 3000' command is executed.
+12:01:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:01:23 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:01:23 INFO  : Context for 'APU' is selected.
+12:01:26 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:01:26 INFO  : 'configparams force-mem-access 1' command is executed.
+12:01:26 INFO  : Context for 'APU' is selected.
+12:01:26 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:01:27 INFO  : 'ps7_init' command is executed.
+12:01:27 INFO  : 'ps7_post_config' command is executed.
+12:01:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:01:41 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:01:41 INFO  : 'configparams force-mem-access 0' command is executed.
+12:01:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:01:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:01:41 INFO  : 'con' command is executed.
+12:01:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:01:41 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_9.tcl'
+12:01:55 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:02:01 INFO  : Disconnected from the channel tcfchan#8.
+12:02:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:02:02 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:02:02 INFO  : 'jtag frequency' command is executed.
+12:02:05 INFO  : Context for 'APU' is selected.
+12:02:05 INFO  : System reset is completed.
+12:02:08 INFO  : 'after 3000' command is executed.
+12:02:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:02:10 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:02:10 INFO  : Context for 'APU' is selected.
+12:02:13 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:02:13 INFO  : 'configparams force-mem-access 1' command is executed.
+12:02:13 INFO  : Context for 'APU' is selected.
+12:02:13 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:02:14 INFO  : 'ps7_init' command is executed.
+12:02:15 INFO  : 'ps7_post_config' command is executed.
+12:02:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:02:28 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:02:28 INFO  : 'configparams force-mem-access 0' command is executed.
+12:02:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:02:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:02:28 INFO  : 'con' command is executed.
+12:02:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:02:28 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_9.tcl'
+12:03:34 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:04:01 INFO  : Disconnected from the channel tcfchan#9.
+12:04:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:04:02 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:04:02 INFO  : 'jtag frequency' command is executed.
+12:04:04 INFO  : Context for 'APU' is selected.
+12:04:04 INFO  : System reset is completed.
+12:04:07 INFO  : 'after 3000' command is executed.
+12:04:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:04:10 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:04:10 INFO  : Context for 'APU' is selected.
+12:04:13 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:04:13 INFO  : 'configparams force-mem-access 1' command is executed.
+12:04:13 INFO  : Context for 'APU' is selected.
+12:04:13 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:04:14 INFO  : 'ps7_init' command is executed.
+12:04:14 INFO  : 'ps7_post_config' command is executed.
+12:04:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:04:28 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:04:28 INFO  : 'configparams force-mem-access 0' command is executed.
+12:04:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:04:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:04:29 INFO  : 'con' command is executed.
+12:04:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:04:29 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+12:04:53 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:05:16 INFO  : Disconnected from the channel tcfchan#10.
+12:05:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:05:17 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:05:17 INFO  : 'jtag frequency' command is executed.
+12:05:17 INFO  : Context for 'APU' is selected.
+12:05:17 INFO  : System reset is completed.
+12:05:20 INFO  : 'after 3000' command is executed.
+12:05:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:05:23 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:05:23 INFO  : Context for 'APU' is selected.
+12:05:26 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:05:26 INFO  : 'configparams force-mem-access 1' command is executed.
+12:05:26 INFO  : Context for 'APU' is selected.
+12:05:26 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:05:28 INFO  : 'ps7_init' command is executed.
+12:05:28 INFO  : 'ps7_post_config' command is executed.
+12:05:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:05:41 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:05:41 INFO  : 'configparams force-mem-access 0' command is executed.
+12:05:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:05:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:05:42 INFO  : 'con' command is executed.
+12:05:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:05:42 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+12:05:59 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:06:30 INFO  : Disconnected from the channel tcfchan#11.
+12:06:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:32 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:06:32 INFO  : 'jtag frequency' command is executed.
+12:06:32 INFO  : Context for 'APU' is selected.
+12:06:32 INFO  : System reset is completed.
+12:06:35 INFO  : 'after 3000' command is executed.
+12:06:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:06:37 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:06:37 INFO  : Context for 'APU' is selected.
+12:06:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:06:40 INFO  : 'configparams force-mem-access 1' command is executed.
+12:06:40 INFO  : Context for 'APU' is selected.
+12:06:40 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:06:41 INFO  : 'ps7_init' command is executed.
+12:06:41 INFO  : 'ps7_post_config' command is executed.
+12:06:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:06:55 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:06:55 INFO  : 'configparams force-mem-access 0' command is executed.
+12:06:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:06:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:06:56 INFO  : 'con' command is executed.
+12:06:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:06:56 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+12:07:17 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:08:05 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:08:26 INFO  : Disconnected from the channel tcfchan#12.
+12:08:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:08:27 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:08:27 INFO  : 'jtag frequency' command is executed.
+12:08:29 INFO  : Context for 'APU' is selected.
+12:08:29 INFO  : System reset is completed.
+12:08:32 INFO  : 'after 3000' command is executed.
+12:08:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:08:34 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:08:34 INFO  : Context for 'APU' is selected.
+12:08:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:08:37 INFO  : 'configparams force-mem-access 1' command is executed.
+12:08:37 INFO  : Context for 'APU' is selected.
+12:08:37 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:08:39 INFO  : 'ps7_init' command is executed.
+12:08:39 INFO  : 'ps7_post_config' command is executed.
+12:08:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:08:52 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:08:53 INFO  : 'configparams force-mem-access 0' command is executed.
+12:08:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:08:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:08:53 INFO  : 'con' command is executed.
+12:08:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:08:53 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+12:11:48 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:13:08 INFO  : Disconnected from the channel tcfchan#13.
+12:13:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:13:10 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:13:10 INFO  : 'jtag frequency' command is executed.
+12:13:10 INFO  : Context for 'APU' is selected.
+12:13:10 INFO  : System reset is completed.
+12:13:13 INFO  : 'after 3000' command is executed.
+12:13:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:13:16 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:13:16 INFO  : Context for 'APU' is selected.
+12:13:19 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:13:19 INFO  : 'configparams force-mem-access 1' command is executed.
+12:13:19 INFO  : Context for 'APU' is selected.
+12:13:19 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:13:20 INFO  : 'ps7_init' command is executed.
+12:13:20 INFO  : 'ps7_post_config' command is executed.
+12:13:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:13:34 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:13:34 INFO  : 'configparams force-mem-access 0' command is executed.
+12:13:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:13:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:13:34 INFO  : 'con' command is executed.
+12:13:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:13:34 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+12:13:57 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:14:11 INFO  : Disconnected from the channel tcfchan#14.
+12:14:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:14:12 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:14:12 INFO  : 'jtag frequency' command is executed.
+12:14:12 INFO  : Context for 'APU' is selected.
+12:14:12 INFO  : System reset is completed.
+12:14:15 INFO  : 'after 3000' command is executed.
+12:14:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:14:17 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:14:17 INFO  : Context for 'APU' is selected.
+12:14:20 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:14:20 INFO  : 'configparams force-mem-access 1' command is executed.
+12:14:20 INFO  : Context for 'APU' is selected.
+12:14:20 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:14:22 INFO  : 'ps7_init' command is executed.
+12:14:22 INFO  : 'ps7_post_config' command is executed.
+12:14:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:14:36 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:14:36 INFO  : 'configparams force-mem-access 0' command is executed.
+12:14:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:14:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:14:36 INFO  : 'con' command is executed.
+12:14:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:14:36 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+12:15:16 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:15:30 INFO  : Disconnected from the channel tcfchan#15.
+12:15:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:15:31 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:15:31 INFO  : 'jtag frequency' command is executed.
+12:15:31 INFO  : Context for 'APU' is selected.
+12:15:31 INFO  : System reset is completed.
+12:15:34 INFO  : 'after 3000' command is executed.
+12:15:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:15:37 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:15:37 INFO  : Context for 'APU' is selected.
+12:15:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:15:40 INFO  : 'configparams force-mem-access 1' command is executed.
+12:15:40 INFO  : Context for 'APU' is selected.
+12:15:40 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:15:41 INFO  : 'ps7_init' command is executed.
+12:15:41 INFO  : 'ps7_post_config' command is executed.
+12:15:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:15:55 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:15:55 INFO  : 'configparams force-mem-access 0' command is executed.
+12:15:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:15:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:15:56 INFO  : 'con' command is executed.
+12:15:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:15:56 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+12:16:47 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:18:11 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:18:35 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:18:52 INFO  : Disconnected from the channel tcfchan#16.
+12:18:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:18:53 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:18:53 INFO  : 'jtag frequency' command is executed.
+12:18:53 INFO  : Context for 'APU' is selected.
+12:18:53 INFO  : System reset is completed.
+12:18:56 INFO  : 'after 3000' command is executed.
+12:18:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:18:58 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:18:58 INFO  : Context for 'APU' is selected.
+12:19:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:19:01 INFO  : 'configparams force-mem-access 1' command is executed.
+12:19:01 INFO  : Context for 'APU' is selected.
+12:19:01 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:19:03 INFO  : 'ps7_init' command is executed.
+12:19:03 INFO  : 'ps7_post_config' command is executed.
+12:19:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:19:17 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:19:18 INFO  : 'configparams force-mem-access 0' command is executed.
+12:19:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:19:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:19:18 INFO  : 'con' command is executed.
+12:19:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:19:18 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+12:19:27 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:19:40 INFO  : Disconnected from the channel tcfchan#17.
+12:19:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:19:42 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:19:42 INFO  : 'jtag frequency' command is executed.
+12:19:44 INFO  : Context for 'APU' is selected.
+12:19:44 INFO  : System reset is completed.
+12:19:47 INFO  : 'after 3000' command is executed.
+12:19:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:19:49 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:19:49 INFO  : Context for 'APU' is selected.
+12:19:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:19:53 INFO  : 'configparams force-mem-access 1' command is executed.
+12:19:53 INFO  : Context for 'APU' is selected.
+12:19:53 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:19:54 INFO  : 'ps7_init' command is executed.
+12:19:54 INFO  : 'ps7_post_config' command is executed.
+12:19:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:20:00 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:20:08 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:20:08 INFO  : 'configparams force-mem-access 0' command is executed.
+12:20:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:20:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:20:08 INFO  : 'con' command is executed.
+12:20:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:20:08 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+12:20:25 INFO  : Disconnected from the channel tcfchan#18.
+12:20:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:20:26 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:20:26 INFO  : 'jtag frequency' command is executed.
+12:20:28 INFO  : Context for 'APU' is selected.
+12:20:28 INFO  : System reset is completed.
+12:20:31 INFO  : 'after 3000' command is executed.
+12:20:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:20:34 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:20:34 INFO  : Context for 'APU' is selected.
+12:20:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:20:37 INFO  : 'configparams force-mem-access 1' command is executed.
+12:20:37 INFO  : Context for 'APU' is selected.
+12:20:37 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:20:38 INFO  : 'ps7_init' command is executed.
+12:20:38 INFO  : 'ps7_post_config' command is executed.
+12:20:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:20:52 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:20:53 INFO  : 'configparams force-mem-access 0' command is executed.
+12:20:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:20:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:20:53 INFO  : 'con' command is executed.
+12:20:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:20:53 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+12:30:10 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+12:30:30 INFO  : Disconnected from the channel tcfchan#19.
+12:30:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:30:32 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+12:30:32 INFO  : 'jtag frequency' command is executed.
+12:30:34 INFO  : Context for 'APU' is selected.
+12:30:34 INFO  : System reset is completed.
+12:30:37 INFO  : 'after 3000' command is executed.
+12:30:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+12:30:39 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+12:30:39 INFO  : Context for 'APU' is selected.
+12:30:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+12:30:42 INFO  : 'configparams force-mem-access 1' command is executed.
+12:30:42 INFO  : Context for 'APU' is selected.
+12:30:43 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+12:30:44 INFO  : 'ps7_init' command is executed.
+12:30:44 INFO  : 'ps7_post_config' command is executed.
+12:30:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:30:58 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:30:58 INFO  : 'configparams force-mem-access 0' command is executed.
+12:30:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:30:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:30:59 INFO  : 'con' command is executed.
+12:30:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:30:59 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+13:58:01 INFO  : Disconnected from the channel tcfchan#20.
+13:58:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:58:02 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+13:58:02 INFO  : 'jtag frequency' command is executed.
+13:58:04 INFO  : Context for 'APU' is selected.
+13:58:04 INFO  : System reset is completed.
+13:58:07 INFO  : 'after 3000' command is executed.
+13:58:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+13:58:10 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+13:58:10 INFO  : Context for 'APU' is selected.
+13:58:13 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+13:58:13 INFO  : 'configparams force-mem-access 1' command is executed.
+13:58:13 INFO  : Context for 'APU' is selected.
+13:58:13 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+13:58:14 INFO  : 'ps7_init' command is executed.
+13:58:14 INFO  : 'ps7_post_config' command is executed.
+13:58:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:58:28 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:58:28 INFO  : 'configparams force-mem-access 0' command is executed.
+13:58:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:58:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:58:28 INFO  : 'con' command is executed.
+13:58:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:58:28 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:04:21 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:04:39 INFO  : Disconnected from the channel tcfchan#21.
+14:04:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:04:40 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:04:40 INFO  : 'jtag frequency' command is executed.
+14:04:40 INFO  : Context for 'APU' is selected.
+14:04:40 INFO  : System reset is completed.
+14:04:43 INFO  : 'after 3000' command is executed.
+14:04:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:04:45 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:04:45 INFO  : Context for 'APU' is selected.
+14:04:49 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:04:49 INFO  : 'configparams force-mem-access 1' command is executed.
+14:04:49 INFO  : Context for 'APU' is selected.
+14:04:49 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:04:50 INFO  : 'ps7_init' command is executed.
+14:04:50 INFO  : 'ps7_post_config' command is executed.
+14:04:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:05:03 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:05:03 INFO  : 'configparams force-mem-access 0' command is executed.
+14:05:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:05:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:05:04 INFO  : 'con' command is executed.
+14:05:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:05:04 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:06:14 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:12:34 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:12:49 INFO  : Disconnected from the channel tcfchan#22.
+14:12:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:12:51 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:12:51 INFO  : 'jtag frequency' command is executed.
+14:12:53 INFO  : Context for 'APU' is selected.
+14:12:53 INFO  : System reset is completed.
+14:12:56 INFO  : 'after 3000' command is executed.
+14:12:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:12:58 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:12:58 INFO  : Context for 'APU' is selected.
+14:13:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:13:01 INFO  : 'configparams force-mem-access 1' command is executed.
+14:13:01 INFO  : Context for 'APU' is selected.
+14:13:01 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:13:03 INFO  : 'ps7_init' command is executed.
+14:13:03 INFO  : 'ps7_post_config' command is executed.
+14:13:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:13:16 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:13:16 INFO  : 'configparams force-mem-access 0' command is executed.
+14:13:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:13:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:13:17 INFO  : 'con' command is executed.
+14:13:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:13:17 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:24:13 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:24:49 INFO  : Disconnected from the channel tcfchan#23.
+14:24:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:24:50 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:24:50 INFO  : 'jtag frequency' command is executed.
+14:24:50 INFO  : Context for 'APU' is selected.
+14:24:50 INFO  : System reset is completed.
+14:24:53 INFO  : 'after 3000' command is executed.
+14:24:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:24:55 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:24:56 INFO  : Context for 'APU' is selected.
+14:24:59 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:24:59 INFO  : 'configparams force-mem-access 1' command is executed.
+14:24:59 INFO  : Context for 'APU' is selected.
+14:24:59 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:25:00 INFO  : 'ps7_init' command is executed.
+14:25:00 INFO  : 'ps7_post_config' command is executed.
+14:25:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:25:14 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:25:14 INFO  : 'configparams force-mem-access 0' command is executed.
+14:25:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:25:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:25:15 INFO  : 'con' command is executed.
+14:25:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:25:15 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:26:38 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:26:52 INFO  : Disconnected from the channel tcfchan#24.
+14:26:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:26:53 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:26:53 INFO  : 'jtag frequency' command is executed.
+14:26:53 INFO  : Context for 'APU' is selected.
+14:26:53 INFO  : System reset is completed.
+14:26:56 INFO  : 'after 3000' command is executed.
+14:26:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:26:59 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:26:59 INFO  : Context for 'APU' is selected.
+14:27:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:27:02 INFO  : 'configparams force-mem-access 1' command is executed.
+14:27:02 INFO  : Context for 'APU' is selected.
+14:27:02 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:27:03 INFO  : 'ps7_init' command is executed.
+14:27:03 INFO  : 'ps7_post_config' command is executed.
+14:27:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:27:18 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:27:18 INFO  : 'configparams force-mem-access 0' command is executed.
+14:27:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:27:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:27:18 INFO  : 'con' command is executed.
+14:27:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:27:18 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:29:08 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:29:34 INFO  : Disconnected from the channel tcfchan#25.
+14:29:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:29:36 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:29:36 INFO  : 'jtag frequency' command is executed.
+14:29:36 INFO  : Context for 'APU' is selected.
+14:29:36 INFO  : System reset is completed.
+14:29:39 INFO  : 'after 3000' command is executed.
+14:29:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:29:41 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:29:41 INFO  : Context for 'APU' is selected.
+14:29:44 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:29:44 INFO  : 'configparams force-mem-access 1' command is executed.
+14:29:44 INFO  : Context for 'APU' is selected.
+14:29:44 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:29:46 INFO  : 'ps7_init' command is executed.
+14:29:46 INFO  : 'ps7_post_config' command is executed.
+14:29:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:29:59 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:30:00 INFO  : 'configparams force-mem-access 0' command is executed.
+14:30:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:30:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:30:00 INFO  : 'con' command is executed.
+14:30:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:30:00 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:30:46 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:31:36 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:32:05 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:32:17 INFO  : Disconnected from the channel tcfchan#26.
+14:32:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:32:18 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:32:18 INFO  : 'jtag frequency' command is executed.
+14:32:18 INFO  : Context for 'APU' is selected.
+14:32:18 INFO  : System reset is completed.
+14:32:21 INFO  : 'after 3000' command is executed.
+14:32:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:32:23 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:32:23 INFO  : Context for 'APU' is selected.
+14:32:27 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:32:27 INFO  : 'configparams force-mem-access 1' command is executed.
+14:32:27 INFO  : Context for 'APU' is selected.
+14:32:27 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:32:28 INFO  : 'ps7_init' command is executed.
+14:32:28 INFO  : 'ps7_post_config' command is executed.
+14:32:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:32:42 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:32:42 INFO  : 'configparams force-mem-access 0' command is executed.
+14:32:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:32:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:32:42 INFO  : 'con' command is executed.
+14:32:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:32:42 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:33:58 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:34:17 INFO  : Disconnected from the channel tcfchan#27.
+14:34:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:34:19 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:34:19 INFO  : 'jtag frequency' command is executed.
+14:34:20 INFO  : Context for 'APU' is selected.
+14:34:21 INFO  : System reset is completed.
+14:34:24 INFO  : 'after 3000' command is executed.
+14:34:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:34:26 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:34:26 INFO  : Context for 'APU' is selected.
+14:34:30 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:34:30 INFO  : 'configparams force-mem-access 1' command is executed.
+14:34:30 INFO  : Context for 'APU' is selected.
+14:34:30 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:34:31 INFO  : 'ps7_init' command is executed.
+14:34:31 INFO  : 'ps7_post_config' command is executed.
+14:34:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:34:44 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:34:45 INFO  : 'configparams force-mem-access 0' command is executed.
+14:34:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:34:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:34:45 INFO  : 'con' command is executed.
+14:34:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:34:45 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:42:58 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:43:14 INFO  : Disconnected from the channel tcfchan#28.
+14:43:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:43:15 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:43:15 INFO  : 'jtag frequency' command is executed.
+14:43:16 INFO  : Context for 'APU' is selected.
+14:43:16 INFO  : System reset is completed.
+14:43:19 INFO  : 'after 3000' command is executed.
+14:43:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:43:21 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:43:21 INFO  : Context for 'APU' is selected.
+14:43:24 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:43:24 INFO  : 'configparams force-mem-access 1' command is executed.
+14:43:24 INFO  : Context for 'APU' is selected.
+14:43:24 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:43:26 INFO  : 'ps7_init' command is executed.
+14:43:26 INFO  : 'ps7_post_config' command is executed.
+14:43:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:43:40 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:43:40 INFO  : 'configparams force-mem-access 0' command is executed.
+14:43:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:43:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:43:40 INFO  : 'con' command is executed.
+14:43:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:43:40 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:44:48 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:45:27 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:45:45 INFO  : Disconnected from the channel tcfchan#29.
+14:45:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:45:46 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:45:46 INFO  : 'jtag frequency' command is executed.
+14:45:47 INFO  : Context for 'APU' is selected.
+14:45:47 INFO  : System reset is completed.
+14:45:50 INFO  : 'after 3000' command is executed.
+14:45:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:45:52 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:45:52 INFO  : Context for 'APU' is selected.
+14:45:56 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:45:56 INFO  : 'configparams force-mem-access 1' command is executed.
+14:45:56 INFO  : Context for 'APU' is selected.
+14:45:56 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:45:57 INFO  : 'ps7_init' command is executed.
+14:45:57 INFO  : 'ps7_post_config' command is executed.
+14:45:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:46:11 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:46:12 INFO  : 'configparams force-mem-access 0' command is executed.
+14:46:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:46:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:46:12 INFO  : 'con' command is executed.
+14:46:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:46:12 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:46:40 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:46:59 INFO  : Disconnected from the channel tcfchan#30.
+14:47:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:47:00 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:47:00 INFO  : 'jtag frequency' command is executed.
+14:47:00 INFO  : Context for 'APU' is selected.
+14:47:00 INFO  : System reset is completed.
+14:47:03 INFO  : 'after 3000' command is executed.
+14:47:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:47:05 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:47:05 INFO  : Context for 'APU' is selected.
+14:47:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:47:08 INFO  : 'configparams force-mem-access 1' command is executed.
+14:47:08 INFO  : Context for 'APU' is selected.
+14:47:08 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:47:09 INFO  : 'ps7_init' command is executed.
+14:47:09 INFO  : 'ps7_post_config' command is executed.
+14:47:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:47:23 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:47:23 INFO  : 'configparams force-mem-access 0' command is executed.
+14:47:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:47:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:47:23 INFO  : 'con' command is executed.
+14:47:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:47:23 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:51:26 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:51:41 INFO  : Disconnected from the channel tcfchan#31.
+14:51:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:51:42 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:51:42 INFO  : 'jtag frequency' command is executed.
+14:51:44 INFO  : Context for 'APU' is selected.
+14:51:44 INFO  : System reset is completed.
+14:51:47 INFO  : 'after 3000' command is executed.
+14:51:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:51:50 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:51:50 INFO  : Context for 'APU' is selected.
+14:51:53 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:51:53 INFO  : 'configparams force-mem-access 1' command is executed.
+14:51:53 INFO  : Context for 'APU' is selected.
+14:51:53 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:51:55 INFO  : 'ps7_init' command is executed.
+14:51:55 INFO  : 'ps7_post_config' command is executed.
+14:51:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:52:09 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:52:09 INFO  : 'configparams force-mem-access 0' command is executed.
+14:52:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:52:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:52:09 INFO  : 'con' command is executed.
+14:52:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:52:09 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:53:04 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:53:27 INFO  : Disconnected from the channel tcfchan#32.
+14:53:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:53:28 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:53:28 INFO  : 'jtag frequency' command is executed.
+14:53:28 INFO  : Context for 'APU' is selected.
+14:53:28 INFO  : System reset is completed.
+14:53:31 INFO  : 'after 3000' command is executed.
+14:53:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:53:34 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:53:34 INFO  : Context for 'APU' is selected.
+14:53:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:53:37 INFO  : 'configparams force-mem-access 1' command is executed.
+14:53:37 INFO  : Context for 'APU' is selected.
+14:53:37 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:53:38 INFO  : 'ps7_init' command is executed.
+14:53:38 INFO  : 'ps7_post_config' command is executed.
+14:53:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:53:52 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:53:52 INFO  : 'configparams force-mem-access 0' command is executed.
+14:53:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:53:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:53:53 INFO  : 'con' command is executed.
+14:53:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:53:53 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:54:18 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:54:31 INFO  : Disconnected from the channel tcfchan#33.
+14:54:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:54:32 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:54:32 INFO  : 'jtag frequency' command is executed.
+14:54:34 INFO  : Context for 'APU' is selected.
+14:54:34 INFO  : System reset is completed.
+14:54:37 INFO  : 'after 3000' command is executed.
+14:54:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:54:40 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:54:40 INFO  : Context for 'APU' is selected.
+14:54:43 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:54:43 INFO  : 'configparams force-mem-access 1' command is executed.
+14:54:43 INFO  : Context for 'APU' is selected.
+14:54:43 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:54:44 INFO  : 'ps7_init' command is executed.
+14:54:45 INFO  : 'ps7_post_config' command is executed.
+14:54:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:54:59 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:54:59 INFO  : 'configparams force-mem-access 0' command is executed.
+14:54:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:54:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:54:59 INFO  : 'con' command is executed.
+14:54:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:54:59 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+14:58:04 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+14:58:16 INFO  : Disconnected from the channel tcfchan#34.
+14:58:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:58:17 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+14:58:17 INFO  : 'jtag frequency' command is executed.
+14:58:18 INFO  : Context for 'APU' is selected.
+14:58:18 INFO  : System reset is completed.
+14:58:21 INFO  : 'after 3000' command is executed.
+14:58:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+14:58:23 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+14:58:23 INFO  : Context for 'APU' is selected.
+14:58:27 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+14:58:27 INFO  : 'configparams force-mem-access 1' command is executed.
+14:58:27 INFO  : Context for 'APU' is selected.
+14:58:27 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+14:58:28 INFO  : 'ps7_init' command is executed.
+14:58:28 INFO  : 'ps7_post_config' command is executed.
+14:58:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:58:43 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:58:43 INFO  : 'configparams force-mem-access 0' command is executed.
+14:58:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:58:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:58:43 INFO  : 'con' command is executed.
+14:58:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:58:43 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+15:00:13 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+15:00:31 INFO  : Disconnected from the channel tcfchan#35.
+15:00:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:00:33 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:00:33 INFO  : 'jtag frequency' command is executed.
+15:00:33 INFO  : Context for 'APU' is selected.
+15:00:33 INFO  : System reset is completed.
+15:00:36 INFO  : 'after 3000' command is executed.
+15:00:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+15:00:38 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+15:00:38 INFO  : Context for 'APU' is selected.
+15:00:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+15:00:42 INFO  : 'configparams force-mem-access 1' command is executed.
+15:00:42 INFO  : Context for 'APU' is selected.
+15:00:42 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+15:00:43 INFO  : 'ps7_init' command is executed.
+15:00:43 INFO  : 'ps7_post_config' command is executed.
+15:00:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:00:57 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:00:57 INFO  : 'configparams force-mem-access 0' command is executed.
+15:00:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:00:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:00:57 INFO  : 'con' command is executed.
+15:00:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:00:57 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+15:01:16 INFO  : Checking for BSP changes to sync application flags for project 'test9'...
+15:01:30 INFO  : Disconnected from the channel tcfchan#36.
+15:01:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:01:31 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+15:01:31 INFO  : 'jtag frequency' command is executed.
+15:01:31 INFO  : Context for 'APU' is selected.
+15:01:31 INFO  : System reset is completed.
+15:01:34 INFO  : 'after 3000' command is executed.
+15:01:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+15:01:37 INFO  : Device configured successfully with "C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit"
+15:01:37 INFO  : Context for 'APU' is selected.
+15:01:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa'.
+15:01:40 INFO  : 'configparams force-mem-access 1' command is executed.
+15:01:40 INFO  : Context for 'APU' is selected.
+15:01:40 INFO  : Sourcing of 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl' is done.
+15:01:41 INFO  : 'ps7_init' command is executed.
+15:01:41 INFO  : 'ps7_post_config' command is executed.
+15:01:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:01:55 INFO  : The application 'C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:01:55 INFO  : 'configparams force-mem-access 0' command is executed.
+15:01:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/bitstream/design_1_wrapper9.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/hw/design_1_wrapper9.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/test9/Debug/test9.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:01:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:01:55 INFO  : 'con' command is executed.
+15:01:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:01:55 INFO  : Launch script is exported to file 'C:\Users\Administrator\Documents\Gitkraken\spec\vitis_experiment\test9_system\_ide\scripts\debugger_test9-default_11.tcl'
+15:11:10 INFO  : Disconnected from the channel tcfchan#37.

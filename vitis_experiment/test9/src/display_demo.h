@@ -53,6 +53,7 @@
 //void DemoCRMenu();
 //void DemoInvertFrame(u8 *srcFrame, u8 *destFrame, u32 width, u32 height, u32 stride);
 void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride, float *array);
+void displayDot(u8 *frame, int x, int y);
 
 /* ------------------------------------------------------------ */
 

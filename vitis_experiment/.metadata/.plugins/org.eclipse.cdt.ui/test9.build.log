@@ -1,4 +1,4 @@
-18:37:19 **** Incremental Build of configuration Debug for project test9 ****
+15:01:16 **** Incremental Build of configuration Debug for project test9 ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -7,73 +7,9 @@ make --no-print-directory main-build
 'Building file: ../src/display_demo.c'
 'Invoking: ARM v7 gcc compiler'
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Administrator/Documents/Gitkraken/spec/vitis_experiment/design_1_wrapper9/export/design_1_wrapper9/sw/design_1_wrapper9/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
-../src/display_demo.c: In function 'main':
-../src/display_demo.c:175:14: warning: implicit declaration of function 'begin' [-Wimplicit-function-declaration]
-  175 |      value = begin();
-      |              ^~~~~
-../src/display_demo.c:178:6: warning: implicit declaration of function 'disableIndicator' [-Wimplicit-function-declaration]
-  178 |      disableIndicator();
-      |      ^~~~~~~~~~~~~~~~
-../src/display_demo.c:184:6: warning: implicit declaration of function 'takeMeasurementsWithBulb' [-Wimplicit-function-declaration]
-  184 |      takeMeasurementsWithBulb();
-      |      ^~~~~~~~~~~~~~~~~~~~~~~~
-../src/display_demo.c:185:17: warning: implicit declaration of function 'getCalibratedA' [-Wimplicit-function-declaration]
-  185 |      array[0] = getCalibratedA();
-      |                 ^~~~~~~~~~~~~~
-../src/display_demo.c:187:14: warning: implicit declaration of function 'getCalibratedB' [-Wimplicit-function-declaration]
-  187 |   array[1] = getCalibratedB();
-      |              ^~~~~~~~~~~~~~
-../src/display_demo.c:189:14: warning: implicit declaration of function 'getCalibratedC' [-Wimplicit-function-declaration]
-  189 |   array[2] = getCalibratedC();
-      |              ^~~~~~~~~~~~~~
-../src/display_demo.c:191:14: warning: implicit declaration of function 'getCalibratedD' [-Wimplicit-function-declaration]
-  191 |   array[3] = getCalibratedD();
-      |              ^~~~~~~~~~~~~~
-../src/display_demo.c:193:14: warning: implicit declaration of function 'getCalibratedE' [-Wimplicit-function-declaration]
-  193 |   array[4] = getCalibratedE();
-      |              ^~~~~~~~~~~~~~
-../src/display_demo.c:195:14: warning: implicit declaration of function 'getCalibratedF' [-Wimplicit-function-declaration]
-  195 |   array[5] = getCalibratedF();
-      |              ^~~~~~~~~~~~~~
-../src/display_demo.c:198:14: warning: implicit declaration of function 'getCalibratedG' [-Wimplicit-function-declaration]
-  198 |   array[6] = getCalibratedG();
-      |              ^~~~~~~~~~~~~~
-../src/display_demo.c:200:14: warning: implicit declaration of function 'getCalibratedH' [-Wimplicit-function-declaration]
-  200 |   array[7] = getCalibratedH();
-      |              ^~~~~~~~~~~~~~
-../src/display_demo.c:202:14: warning: implicit declaration of function 'getCalibratedR' [-Wimplicit-function-declaration]
-  202 |   array[8] = getCalibratedR();
-      |              ^~~~~~~~~~~~~~
-../src/display_demo.c:204:14: warning: implicit declaration of function 'getCalibratedI' [-Wimplicit-function-declaration]
-  204 |   array[9] = getCalibratedI();
-      |              ^~~~~~~~~~~~~~
-../src/display_demo.c:206:15: warning: implicit declaration of function 'getCalibratedS' [-Wimplicit-function-declaration]
-  206 |   array[10] = getCalibratedS();
-      |               ^~~~~~~~~~~~~~
-../src/display_demo.c:208:15: warning: implicit declaration of function 'getCalibratedJ' [-Wimplicit-function-declaration]
-  208 |   array[11] = getCalibratedJ();
-      |               ^~~~~~~~~~~~~~
-../src/display_demo.c:211:15: warning: implicit declaration of function 'getCalibratedT' [-Wimplicit-function-declaration]
-  211 |   array[12] = getCalibratedT();
-      |               ^~~~~~~~~~~~~~
-../src/display_demo.c:213:15: warning: implicit declaration of function 'getCalibratedU' [-Wimplicit-function-declaration]
-  213 |   array[13] = getCalibratedU();
-      |               ^~~~~~~~~~~~~~
-../src/display_demo.c:215:15: warning: implicit declaration of function 'getCalibratedV' [-Wimplicit-function-declaration]
-  215 |   array[14] = getCalibratedV();
-      |               ^~~~~~~~~~~~~~
-../src/display_demo.c:217:15: warning: implicit declaration of function 'getCalibratedW' [-Wimplicit-function-declaration]
-  217 |   array[15] = getCalibratedW();
-      |               ^~~~~~~~~~~~~~
-../src/display_demo.c:219:15: warning: implicit declaration of function 'getCalibratedK' [-Wimplicit-function-declaration]
-  219 |   array[16] = getCalibratedK();
-      |               ^~~~~~~~~~~~~~
-../src/display_demo.c:221:15: warning: implicit declaration of function 'getCalibratedL' [-Wimplicit-function-declaration]
-  221 |   array[17] = getCalibratedL();
-      |               ^~~~~~~~~~~~~~
 ../src/display_demo.c: In function 'displayFloat':
-../src/display_demo.c:325:2: warning: implicit declaration of function 'gcvt' [-Wimplicit-function-declaration]
-  325 |  gcvt(number, 10, tekstBuf);
+../src/display_demo.c:362:2: warning: implicit declaration of function 'gcvt' [-Wimplicit-function-declaration]
+  362 |  gcvt(number, 10, tekstBuf);
       |  ^~~~
 'Finished building: ../src/display_demo.c'
 ' '
@@ -85,9 +21,9 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size test9.elf  |tee "test9.elf.size"
    text	   data	    bss	    dec	    hex	filename
-6332215	  36020	24909040	31277275	1dd40db	test9.elf
+6332863	  36020	24909040	31277923	1dd4363	test9.elf
 'Finished building: test9.elf.size'
 ' '
 
-18:37:28 Build Finished (took 9s.107ms)
+15:01:25 Build Finished (took 9s.574ms)
 
