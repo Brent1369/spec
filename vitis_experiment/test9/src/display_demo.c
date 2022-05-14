@@ -167,7 +167,8 @@ int main(void)
 		xil_printf("Couldn't start display during demo initialization%d\r\n", Status);
 	}
 	float array[18] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
-	DemoPrintTest(dispCtrl.framePtr[dispCtrl.curFrame], dispCtrl.vMode.width, dispCtrl.vMode.height, dispCtrl.stride, array);
+	char arrayName[19] = {'A','B','C','D','E','F','G','H','R','I','S','J','T','U','V','W','K','L'};
+	DemoPrintTest(dispCtrl.framePtr[dispCtrl.curFrame], dispCtrl.vMode.width, dispCtrl.vMode.height, dispCtrl.stride,array, arrayName);
 
 
 	float value = 0;
@@ -223,7 +224,7 @@ int main(void)
 		printf("CALIVALUE = %f\n", array[17]); //940nm
 		printf("\n\nDONE\n\n");
 
-		DemoPrintTest(dispCtrl.framePtr[dispCtrl.curFrame], dispCtrl.vMode.width, dispCtrl.vMode.height, dispCtrl.stride,array);
+		DemoPrintTest(dispCtrl.framePtr[dispCtrl.curFrame], dispCtrl.vMode.width, dispCtrl.vMode.height, dispCtrl.stride,array,arrayName);
 		//delay(100);
    	 }
 
@@ -231,7 +232,7 @@ int main(void)
 	return 0;
 }
 
-void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride, float *array)
+void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride, float *array , char * arrayName)
 {
 	u32 xcoi, ycoi;
 	u32 linesStart = 0;
@@ -288,7 +289,7 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride, float *array)
 	int ascichar = 65;
 	for ( int i = 0; i < 18 ; i++)
 	{
-		snprintf(SensorValuePrint[i], sizeof(SensorValuePrint[i]), " %c=  %f", ascichar, array[i]);
+		snprintf(SensorValuePrint[i], sizeof(SensorValuePrint[i]), " %c=  %f", arrayName[i] , array[i]);
 		displayString(frame , SensorValuePrint[i], 1650, 100 + y);
 		y= y+35;
 		ascichar++;
@@ -325,6 +326,7 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride, float *array)
 
 
 	}
+	// y graph
 	for (int i = 0; i < 5 ; i++)
 	{
 
@@ -345,7 +347,20 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride, float *array)
 
 	}
 
-	displayDot(frame, 1,860);
+	// display values on graph
+	int xhight = 0;
+	int yhight = 500;
+	for( int i = 0; i < 18; i++)
+	{
+		//displayString(frame, array[i], 130 + l, 500 );
+		displayDot(frame, 149 + (i * 76),yhight);
+		displayCharacter(frame, arrayName[i] , 165 + (i * 76), yhight - 20 );
+
+
+
+	}
+
+
 
 	/*
 	 * Flush the frame buffer memory range to ensure changes are written to the
