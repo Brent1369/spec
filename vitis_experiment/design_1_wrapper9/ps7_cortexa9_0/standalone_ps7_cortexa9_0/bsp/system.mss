@@ -6,6 +6,7 @@ BEGIN OS
  PARAMETER OS_NAME = standalone
  PARAMETER OS_VER = 7.6
  PARAMETER PROC_INSTANCE = ps7_cortexa9_0
+ PARAMETER enable_sw_intrusive_profiling = true
  PARAMETER stdin = ps7_uart_0
  PARAMETER stdout = ps7_uart_0
 END
@@ -15,6 +16,7 @@ BEGIN PROCESSOR
  PARAMETER DRIVER_NAME = cpu_cortexa9
  PARAMETER DRIVER_VER = 2.11
  PARAMETER HW_INSTANCE = ps7_cortexa9_0
+ PARAMETER extra_compiler_flags = -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns  -lm
 END
 
 
