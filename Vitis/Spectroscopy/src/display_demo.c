@@ -49,6 +49,7 @@
 #include <stdio.h>
 #include "platform.h"
 #include "xil_printf.h"
+#include <limits.h>
 
 #include <stdio.h>
 #include <math.h>
@@ -60,10 +61,13 @@
 #include "display_demo.h"
 #include "display_ctrl/display_ctrl.h"
 #include "display_ctrl/vga_modes.h"
+#include "SparkFun_AS7265X.h"
 
 #include <string.h>
 
 #include "ASCI.h"
+
+#include <math.h>
 
 
 char tekstBuf[100];
@@ -94,6 +98,7 @@ char tekstBuf[100];
 DisplayCtrl dispCtrl;
 XAxiVdma vdma;
 
+
 /*
  * Frame buffers for video data
  */
@@ -103,10 +108,15 @@ u8 *pFrames[DISPLAY_NUM_FRAMES];  // array of pointers to the frame buffers
 /* ------------------------------------------------------------ */
 /*				Procedure Definitions							*/
 /* ------------------------------------------------------------ */
+float array[18] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+char arrayName[19] = {'A','B','C','D','E','F','G','H','R','I','S','J','T','U','V','W','K','L'};
+int Colors[18][3] = {{0,0,255}, {0,0,255}, {0,0,255}, {0,0,255}, {0,0,255}, {0,0,255}, {255,0,0}, {255,0,0}, {0,255,0}, {255,0,0}, {0,255,0}, {255,0,0}, {0,255,0}, {0,255,0}, {0,255,0}, {0,255,0}, {255,0,0}, {255,0,0}};
+void displayCharacter(u8 *frame, int asciNumber, int x, int y, int Red, int Green , int Blue);
+void displayString(u8 *frame, char* stringToDisplay, int x, int y,int Red, int Green , int Blue);
+void printtest(u8 *frame);
+void copyArray(float arr[], float copy[], int size);
+//void displayFloat(u8 *frame, float number, int x, int y);
 
-void displayCharacter(u8 *frame, int asciNumber, int x, int y);
-void displayString(u8 *frame, char* stringToDisplay, int x, int y);
-void displayFloat(u8 *frame, float number, int x, int y);
 
 int main(void)
 {
@@ -165,12 +175,13 @@ int main(void)
 		xil_printf("Couldn't start display during demo initialization%d\r\n", Status);
 	}
 
+
 	DemoPrintTest(dispCtrl.framePtr[dispCtrl.curFrame], dispCtrl.vMode.width, dispCtrl.vMode.height, dispCtrl.stride);
 
 
 	float value = 0;
 
-
+	;
     	value = begin();
     	printf("BEGINvalue = %f\n\n", value);
 
@@ -180,47 +191,49 @@ int main(void)
 
 
    	 while(1){
-   		//takeMeasurementsWithBulb();
-		value = getCalibratedA();
-		printf("CALIVALUE = %f\n", value); //410nm
-		value = getCalibratedB();
-		printf("CALIVALUE = %f\n", value); //435nm
-		value = getCalibratedC();
-		printf("CALIVALUE = %f\n", value); //460nm
-		value = getCalibratedD();
-		printf("CALIVALUE = %f\n", value); //485nm
-		value = getCalibratedE();
-		printf("CALIVALUE = %f\n", value); //510nm
-		value = getCalibratedF();
-		printf("CALIVALUE = %f\n", value); //535nm
+   		takeMeasurementsWithBulb();
+   		array[0] = getCalibratedA();
+		printf(" A : CALIVALUE = %f\n", array[0]); //410nm
+		array[1] = getCalibratedB();
+		printf(" B : CALIVALUE = %f\n", array[1]); //435nm
+		array[2] = getCalibratedC();
+		printf(" C : CALIVALUE = %f\n", array[2]); //460nm
+		array[3] = getCalibratedD();
+		printf(" D : CALIVALUE = %f\n", array[3]); //485nm
+		array[4] = getCalibratedE();
+		printf(" E : CALIVALUE = %f\n", array[4]); //510nm
+		array[5] = getCalibratedF();
+		printf(" F : CALIVALUE = %f\n", array[5]); //535nm
 
-		value = getCalibratedG();
-		printf("CALIVALUE = %f\n", value); //560nm
-		value = getCalibratedH();
-		printf("CALIVALUE = %f\n", value); //585nm
-		value = getCalibratedR();
-		printf("CALIVALUE = %f\n", value); //610nm
-		value = getCalibratedI();
-		printf("CALIVALUE = %f\n", value); //645nm
-		value = getCalibratedS();
-		printf("CALIVALUE = %f\n", value); //680nm
-		value = getCalibratedJ();
-		printf("CALIVALUE = %f\n", value);//705nm
+		array[6] = getCalibratedG();
+		printf(" G : CALIVALUE = %f\n", array[6]); //560nm
+		array[7] = getCalibratedH();
+		printf(" H : CALIVALUE = %f\n", array[7]); //585nm
+		array[8] = getCalibratedR();
+		printf(" R : CALIVALUE = %f\n", array[8]); //610nm
+		array[9] = getCalibratedI();
+		printf(" I : CALIVALUE = %f\n", array[9]); //645nm
+		array[10] = getCalibratedS();
+		printf(" S : CALIVALUE = %f\n", array[10]); //680nm
+		array[11] = getCalibratedJ();
+		printf(" J : CALIVALUE = %f\n", array[11]);//705nm
 
-		value = getCalibratedT();
-		printf("CALIVALUE = %f\n", value); //730nm
-		value = getCalibratedU();
-		printf("CALIVALUE = %f\n", value); //760nm
-		value = getCalibratedV();
-		printf("CALIVALUE = %f\n", value); //810nm
-		value = getCalibratedW();
-		printf("CALIVALUE = %f\n", value); //860nm
-		value = getCalibratedK();
-		printf("CALIVALUE = %f\n", value); //900nm
-		value = getCalibratedL();
-		printf("CALIVALUE = %f\n", value); //940nm
+		array[12] = getCalibratedT();
+		printf(" T : CALIVALUE = %f\n", array[12]); //730nm
+		array[13] = getCalibratedU();
+		printf(" U : CALIVALUE = %f\n", array[13]); //760nm
+		array[14] = getCalibratedV();
+		printf(" V : CALIVALUE = %f\n", array[14]); //810nm
+		array[15] = getCalibratedW();
+		printf(" W : CALIVALUE = %f\n", array[15]); //860nm
+		array[16] = getCalibratedK();
+		printf(" K : CALIVALUE = %f\n", array[16]); //900nm
+		array[17] = getCalibratedL();
+		printf(" L : CALIVALUE = %f\n", array[17]); //940nm
 		printf("\n\nDONE\n\n");
-		//delay(5000);
+
+		DemoPrintTest(dispCtrl.framePtr[dispCtrl.curFrame], dispCtrl.vMode.width, dispCtrl.vMode.height, dispCtrl.stride);
+		//delay(100);
    	 }
 
 
@@ -238,7 +251,11 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 		for(xcoi = 0; xcoi < (width * 4); xcoi+=4)
 		{
 
-			/*if(((xcoi >= 400 && xcoi <= 520) && (ycoi >= 100 && ycoi <= 860 )) || ((ycoi >= 830 && ycoi <= 860 ) && (xcoi >= 400 && xcoi <= 7280))){
+
+
+
+			// create graph
+			if(((xcoi >= 400 && xcoi <= 480) && (ycoi >= 200 && ycoi <= 860 )) || ((ycoi >= 840 && ycoi <= 860 ) && (xcoi >= 400 && xcoi <= 6080))){
 
 
 					frame[linesStart + xcoi    ] = 0;
@@ -249,7 +266,7 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 
 
 			}
-			else{*/
+			else{
 
 				// 1920 x 1080
 				//frame[linesStart + xcoi    ] = Pixel_1920_1080[pixelIdx++];
@@ -258,23 +275,116 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 				frame[linesStart + xcoi    ] = 255;
 				frame[linesStart + xcoi + 1] = 255;
 				frame[linesStart + xcoi + 2] = 255;
-			//}
+			}
 			//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 		}
 
 		linesStart += stride;
 	}
 
-	float testOk = 10.0/3;
 
-	displayFloat(frame, testOk, 800, 800);
 
-	displayCharacter(frame, 48, 100, 100);
-	displayCharacter(frame, 49, 500, 500);
 
-	char idk[] = "hallo gamers";
 
-	displayString(frame , idk, 1000, 500);
+	//displayCharacter(frame, 48, 100, 100);
+	//displayCharacter(frame, 49, 500, 500);
+
+
+
+	// print the sensor values on hdmi
+	char SensorValuePrint[18][50];
+	int y=0;
+
+	for ( int i = 0; i < 18 ; i++)
+	{
+
+		snprintf(SensorValuePrint[i], sizeof(SensorValuePrint[i]), " %c=  %.2f", arrayName[i] , array[i]);
+		displayString(frame , SensorValuePrint[i], 1650, 100 + y, Colors[i][0] , Colors[i][1], Colors[i][2]);
+		y= y+35;
+
+	}
+
+	//display sensor range under graph
+	char * sensorRange[19]= {"410","435","460","485","510","535","560","585","610","645","680","705","730","760","810","860","900","940", "Wavelength (nm)"};
+	char * sensorY[5] = {"1","10","100","1000", "10000"};
+	int l = 0;
+	int b = 18;
+	int j = 0;
+	for ( int k = 0; k < 19 ; k++)
+	{
+
+		if ( k != 18)
+		{
+			for (int i = 0; i < 22; i++)
+					{
+
+						displayCharacter(frame, 73, 130 + (l + b), 830 - (i * 30),  0 , 0 ,0);
+
+
+					}
+
+
+
+		}
+
+
+		displayString(frame, sensorRange[k], 130 + l, 870 ,  0 , 0 ,0);
+
+		l = l+76;
+
+
+
+	}
+	// y graph
+	for (int i = 0; i < 5 ; i++)
+	{
+
+
+		for (int k = 0; k < 47; k++)
+				{
+
+					displayCharacter(frame, 95,110 + (k*30) , 810 - (i * 150 ),  0 , 0 ,0);
+
+
+				}
+
+
+
+
+		displayString(frame, sensorY[i], 80 - (j*16), 810 - (i * 150 ),  0 , 0 ,0);
+		j++;
+
+	}
+
+	// display values on graph
+
+	int yhight = 210;
+
+	for( int i = 0; i < 18; i++)
+	{
+		if(array[i] == 0){
+			yhight = 820;
+		}else{
+		yhight = 820-(log10(array[i]) * (600/4)) ;
+		}
+		//displayString(frame, array[i], 130 + l, 500 );
+		displayDot(frame, 149 + (i * 76),yhight,Colors[i][0] , Colors[i][1], Colors[i][2]);
+		displayCharacter(frame, arrayName[i] , 165 + (i * 76), yhight - 20 , Colors[i][0] , Colors[i][1], Colors[i][2] );
+
+
+
+	}
+
+
+	printtest(frame);
+
+
+
+
+
+
+
+
 
 	/*
 	 * Flush the frame buffer memory range to ensure changes are written to the
@@ -284,7 +394,7 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 }
 
 
-
+/*
 void displayFloat(u8 *frame, float number, int x, int y){
 
 
@@ -294,23 +404,23 @@ void displayFloat(u8 *frame, float number, int x, int y){
 
 
 }
+*/
 
-
-void displayString(u8 *frame, char* stringToDisplay, int x, int y){
+void displayString(u8 *frame, char* stringToDisplay, int x, int y, int Red, int Green, int Blue){
 
 	int stringLength = strlen(stringToDisplay);
 
 	for(int i = 0; i < stringLength; i++){
 
 
-		displayCharacter(frame, stringToDisplay[i], x + i*16, y);
+		displayCharacter(frame, stringToDisplay[i], x + i*16, y,  Red,  Green, Blue);
 
 	}
 
 
 }
 
-void displayCharacter(u8 *frame, int asciNumber, int x, int y){
+void displayCharacter(u8 *frame, int asciNumber, int x, int y, int Red, int Green, int Blue){
 
 	for(int j = 0; j < 16; j++){
 
@@ -318,9 +428,9 @@ void displayCharacter(u8 *frame, int asciNumber, int x, int y){
 
 			if(asciTable[asciNumber][j][i] == 1){
 
-				frame[(y+j) * 7680 + (i+x)*4    ] = 0;
-				frame[(y+j) * 7680 + (i+x)*4 + 1] = 0;
-				frame[(y+j) * 7680 + (i+x)*4 + 2] = 0;
+				frame[(y+j) * 7680 + (i+x)*4    ] = Blue;
+				frame[(y+j) * 7680 + (i+x)*4 + 1] = Green;
+				frame[(y+j) * 7680 + (i+x)*4 + 2] = Red;
 
 			}
 
@@ -331,6 +441,94 @@ void displayCharacter(u8 *frame, int asciNumber, int x, int y){
 
 
 }
+void displayDot(u8 *frame, int x, int y , int Red, int Green, int Blue){
+
+	for(int j = 0; j < 16; j++){
+
+		for(int i = 0; i < 16; i++){
+
+
+
+				frame[(y+j) * 7680 + (i+x)*4    ] = Blue;
+				frame[(y+j) * 7680 + (i+x)*4 + 1] = Green;
+				frame[(y+j) * 7680 + (i+x)*4 + 2] = Red;
+
+
+
+		}
+
+	}
+
+
+
+}
+
+void printtest(u8 *frame)
+{
+
+		int n=18;
+	    float temp=0.0;
+	    float temparray[18]= {0};
+	    char temp2 = '0';
+	    char tempChararray[18]= {0};
+	    copyArray(array, temparray, 18);
+		strncpy(tempChararray, arrayName, 18);
+	    for(int i=0;i<n;i++)
+	    {
+	        for(int j=0;j<n-i-1;j++)
+	        {
+	            if(temparray[j]<temparray[j+1])
+	            {
+	                temp=temparray[j+1];//swaping value
+	                temparray[j+1]=temparray[j];
+	                temparray[j]=temp;
+
+	                temp2=tempChararray[j+1];//swaping value name
+	                tempChararray[j+1]=tempChararray[j];
+	                tempChararray[j]=temp2;
+
+
+	            }
+	        }
+	    }
+
+	    char HighestValues[18][50];
+	    	int y=0;
+
+	    	for ( int i = 0; i < 3 ; i++)
+	    	{
+
+	    		snprintf(HighestValues[i], sizeof(HighestValues[i]), " %c=  %.2f", tempChararray[i] , temparray[i]);
+	    		displayString(frame , HighestValues[i], 700, 950 + y,  0 , 0 ,0);
+	    		y= y+35;
+
+	    	}
+/*
+	    //printing output of program
+	    for(int i= 0; i< 18; i++)
+	    {
+	        printf("%f  ", temparray[i]);
+	    }
+	    printf("\n\n");
+	    for(int i= 0; i< 18; i++)
+		{
+			printf("%c  ", tempChararray[i]);
+		}
+		printf("\n\n");
+*/
+
+
+}
+
+void copyArray(float arr[], float copy[], int size)
+{
+  // loop to iterate through array
+  for (int i = 0; i < size; ++i)
+  {
+    copy[i] = arr[i];
+  }
+}
+
 
 
 

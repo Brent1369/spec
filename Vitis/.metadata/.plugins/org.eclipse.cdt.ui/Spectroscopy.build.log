@@ -1,94 +1,17 @@
-12:39:02 **** Incremental Build of configuration Debug for project Spectroscopy ****
+10:54:52 **** Incremental Build of configuration Debug for project Spectroscopy ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
-'Building file: ../src/display_demo.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/sw/design_1_wrapper9/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
-../src/display_demo.c: In function 'main':
-../src/display_demo.c:174:14: warning: implicit declaration of function 'begin' [-Wimplicit-function-declaration]
-  174 |      value = begin();
-      |              ^~~~~
-../src/display_demo.c:177:6: warning: implicit declaration of function 'disableIndicator' [-Wimplicit-function-declaration]
-  177 |      disableIndicator();
-      |      ^~~~~~~~~~~~~~~~
-../src/display_demo.c:184:11: warning: implicit declaration of function 'getCalibratedA' [-Wimplicit-function-declaration]
-  184 |   value = getCalibratedA();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:186:11: warning: implicit declaration of function 'getCalibratedB' [-Wimplicit-function-declaration]
-  186 |   value = getCalibratedB();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:188:11: warning: implicit declaration of function 'getCalibratedC' [-Wimplicit-function-declaration]
-  188 |   value = getCalibratedC();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:190:11: warning: implicit declaration of function 'getCalibratedD' [-Wimplicit-function-declaration]
-  190 |   value = getCalibratedD();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:192:11: warning: implicit declaration of function 'getCalibratedE' [-Wimplicit-function-declaration]
-  192 |   value = getCalibratedE();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:194:11: warning: implicit declaration of function 'getCalibratedF' [-Wimplicit-function-declaration]
-  194 |   value = getCalibratedF();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:197:11: warning: implicit declaration of function 'getCalibratedG' [-Wimplicit-function-declaration]
-  197 |   value = getCalibratedG();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:199:11: warning: implicit declaration of function 'getCalibratedH' [-Wimplicit-function-declaration]
-  199 |   value = getCalibratedH();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:201:11: warning: implicit declaration of function 'getCalibratedR' [-Wimplicit-function-declaration]
-  201 |   value = getCalibratedR();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:203:11: warning: implicit declaration of function 'getCalibratedI' [-Wimplicit-function-declaration]
-  203 |   value = getCalibratedI();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:205:11: warning: implicit declaration of function 'getCalibratedS' [-Wimplicit-function-declaration]
-  205 |   value = getCalibratedS();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:207:11: warning: implicit declaration of function 'getCalibratedJ' [-Wimplicit-function-declaration]
-  207 |   value = getCalibratedJ();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:210:11: warning: implicit declaration of function 'getCalibratedT' [-Wimplicit-function-declaration]
-  210 |   value = getCalibratedT();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:212:11: warning: implicit declaration of function 'getCalibratedU' [-Wimplicit-function-declaration]
-  212 |   value = getCalibratedU();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:214:11: warning: implicit declaration of function 'getCalibratedV' [-Wimplicit-function-declaration]
-  214 |   value = getCalibratedV();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:216:11: warning: implicit declaration of function 'getCalibratedW' [-Wimplicit-function-declaration]
-  216 |   value = getCalibratedW();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:218:11: warning: implicit declaration of function 'getCalibratedK' [-Wimplicit-function-declaration]
-  218 |   value = getCalibratedK();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c:220:11: warning: implicit declaration of function 'getCalibratedL' [-Wimplicit-function-declaration]
-  220 |   value = getCalibratedL();
-      |           ^~~~~~~~~~~~~~
-../src/display_demo.c: In function 'DemoPrintTest':
-../src/display_demo.c:234:6: warning: unused variable 'pixelIdx' [-Wunused-variable]
-  234 |  u32 pixelIdx = 0;
-      |      ^~~~~~~~
-../src/display_demo.c: In function 'displayFloat':
-../src/display_demo.c:291:2: warning: implicit declaration of function 'gcvt' [-Wimplicit-function-declaration]
-  291 |  gcvt(number, 10, tekstBuf);
-      |  ^~~~
-'Finished building: ../src/display_demo.c'
-' '
 'Building target: Spectroscopy.elf'
 'Invoking: ARM v7 gcc linker'
 arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/vreys/OneDrive/school/spec/Vitis/design_1_wrapper9/export/design_1_wrapper9/sw/design_1_wrapper9/standalone_ps7_cortexa9_0/bsplib/lib -o "Spectroscopy.elf"  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/SparkFun_AS7265X.o ./src/display_demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: Spectroscopy.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size Spectroscopy.elf  |tee "Spectroscopy.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-6321399	  36020	24909040	31266459	1dd169b	Spectroscopy.elf
-'Finished building: Spectroscopy.elf.size'
-' '
+d:/vitis/2021.2/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/bin/arm-xilinx-eabi/../../libexec/arm-xilinx-eabi/gcc/arm-xilinx-eabi/10.2.0/real-ld.exe: ./src/display_demo.o: in function `DemoPrintTest':
+C:\Users\vreys\Desktop\spec\Vitis\Spectroscopy\Debug/../src/display_demo.c:368: undefined reference to `log10'
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [makefile:45: Spectroscopy.elf] Error 1
+make: *** [makefile:36: all] Error 2
 
-12:39:13 Build Finished (took 11s.195ms)
+10:54:53 Build Finished (took 791ms)
 

@@ -63,6 +63,9 @@
 #include "display_ctrl/vga_modes.h"
 #include "SparkFun_AS7265X.h"
 
+//#include <iostream>
+//#include <vector>
+//#include <cmath>
 #include <string.h>
 
 #include "ASCI.h"
@@ -72,6 +75,7 @@
 
 char tekstBuf[100];
 
+#define degToRad(angleInDegrees) ((angleInDegrees) * M_PI / 180.0)
 
 // Image data for each resolution
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -116,6 +120,9 @@ void displayString(u8 *frame, char* stringToDisplay, int x, int y,int Red, int G
 void printtest(u8 *frame);
 void copyArray(float arr[], float copy[], int size);
 //void displayFloat(u8 *frame, float number, int x, int y);
+void displayDotSmall(u8 *frame, int x, int y , int Red, int Green, int Blue);
+
+
 
 
 int main(void)
@@ -240,6 +247,17 @@ int main(void)
 	return 0;
 }
 
+/*
+void FillSin( vector<double>& v )
+{
+static const double PI = 4*atan(1.0);
+for( int n=0; n < output.size(); ++n )
+{
+v[ n ] = sin( 2*PI / n );
+}
+}
+*/
+
 void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 {
 	u32 xcoi, ycoi;
@@ -298,8 +316,13 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 	for ( int i = 0; i < 18 ; i++)
 	{
 
-		snprintf(SensorValuePrint[i], sizeof(SensorValuePrint[i]), " %c=  %.2f", arrayName[i] , array[i]);
+		snprintf(SensorValuePrint[i], sizeof(SensorValuePrint[i]), " %c=  ", arrayName[i]);
+
 		displayString(frame , SensorValuePrint[i], 1650, 100 + y, Colors[i][0] , Colors[i][1], Colors[i][2]);
+
+		snprintf(SensorValuePrint[i], sizeof(SensorValuePrint[i]), "%.2f", array[i]);
+
+		displayString(frame , SensorValuePrint[i], 1650-16*(strlen(SensorValuePrint[i])-11), 100 + y, Colors[i][0] , Colors[i][1], Colors[i][2]);
 		y= y+35;
 
 	}
@@ -359,7 +382,7 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 	// display values on graph
 
 	int yhight = 210;
-
+	int yhight2 = 210;
 	for( int i = 0; i < 18; i++)
 	{
 		if(array[i] == 0){
@@ -367,8 +390,39 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 		}else{
 		yhight = 820-(log10(array[i]) * (600/4)) ;
 		}
+		if(i != 17){
+			if(array[i+1] == 0){
+				yhight2 = 820;
+			}else{
+				yhight2= 820-(log10(array[i+1]) * (600/4)) ;
+			}
+		}
 		//displayString(frame, array[i], 130 + l, 500 );
 		displayDot(frame, 149 + (i * 76),yhight,Colors[i][0] , Colors[i][1], Colors[i][2]);
+
+		//vector<double> output( 100 );
+		//FillSin( output );
+		//for( int n=0; n < output.size(); ++n )
+		//{
+		//cout << output[n] << '\n';
+		//}
+
+		int distanceBetweenPoints = 76;
+		float test1;
+		if(i != 17){
+			for(int j = 0; j <distanceBetweenPoints; j++){
+
+
+				test1 = yhight+(((float)yhight2-(float)yhight)*((float)j/76.0));
+
+				//test1=1;
+				//int calculatedHeight = yhight / 2 + sin(degToRad(j / 2 + 1)) * yhight2 / 2;
+
+				displayDotSmall(frame, 149 + (i * 76)+j+7,test1+7,0x6a , 0x0d, 0xad);
+
+			}
+		}
+
 		displayCharacter(frame, arrayName[i] , 165 + (i * 76), yhight - 20 , Colors[i][0] , Colors[i][1], Colors[i][2] );
 
 
@@ -463,6 +517,29 @@ void displayDot(u8 *frame, int x, int y , int Red, int Green, int Blue){
 
 }
 
+
+void displayDotSmall(u8 *frame, int x, int y , int Red, int Green, int Blue){
+
+	for(int j = 0; j < 4; j++){
+
+		for(int i = 0; i < 4; i++){
+
+
+
+				frame[(y+j) * 7680 + (i+x)*4    ] = Blue;
+				frame[(y+j) * 7680 + (i+x)*4 + 1] = Green;
+				frame[(y+j) * 7680 + (i+x)*4 + 2] = Red;
+
+
+
+		}
+
+	}
+
+
+
+}
+
 void printtest(u8 *frame)
 {
 
@@ -494,12 +571,37 @@ void printtest(u8 *frame)
 
 	    char HighestValues[18][50];
 	    	int y=0;
+	    	int charNumber;
 
 	    	for ( int i = 0; i < 3 ; i++)
 	    	{
 
-	    		snprintf(HighestValues[i], sizeof(HighestValues[i]), " %c=  %.2f", tempChararray[i] , temparray[i]);
-	    		displayString(frame , HighestValues[i], 700, 950 + y,  0 , 0 ,0);
+	    		for(int j =0; j<16; j++){
+
+	    			if(tempChararray[i]==arrayName[j]){
+
+	    				charNumber=j;
+	    				break;
+	    			}
+	    		}
+
+	    		snprintf(HighestValues[i], sizeof(HighestValues[i]), " %c=  ", tempChararray[i]);
+
+	    		displayString(frame , HighestValues[i], 700, 950 + y,  Colors[charNumber][0] , Colors[charNumber][1], Colors[charNumber][2]);
+
+
+
+	    		snprintf(HighestValues[i], sizeof(HighestValues[i]), "%.2f",temparray[i]);
+
+	    		displayString(frame , HighestValues[i], 700-16*(strlen(HighestValues[i])-11), 950 + y, Colors[charNumber][0] , Colors[charNumber][1], Colors[charNumber][2]);
+
+
+
+
+
+
+
+
 	    		y= y+35;
 
 	    	}

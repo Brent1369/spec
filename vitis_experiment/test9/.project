@@ -3,7 +3,6 @@
 	<name>test9</name>
 	<comment>Created by Vitis v2021.2</comment>
 	<projects>
-		<project>design_1_wrapper9</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
