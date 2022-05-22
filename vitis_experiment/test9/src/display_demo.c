@@ -46,6 +46,8 @@
 /*				Include File Definitions						*/
 /* ------------------------------------------------------------ */
 
+#define sinus_insteadOf_linear 1
+
 #include <stdio.h>
 #include "platform.h"
 #include "xil_printf.h"
@@ -123,6 +125,15 @@ void copyArray(float arr[], float copy[], int size);
 void displayDotSmall(u8 *frame, int x, int y , int Red, int Green, int Blue);
 
 
+double CosineInterpolate(
+   double y1,double y2,
+   double mu)
+{
+   double mu2;
+
+   mu2 = (1-cos(mu*M_PI))/2;
+   return(y1*(1-mu2)+y2*mu2);
+}
 
 
 int main(void)
@@ -290,9 +301,12 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 				//frame[linesStart + xcoi    ] = Pixel_1920_1080[pixelIdx++];
 				//frame[linesStart + xcoi + 1] = Pixel_1920_1080[pixelIdx++];
 				//frame[linesStart + xcoi + 2] = Pixel_1920_1080[pixelIdx++];
+
+
 				frame[linesStart + xcoi    ] = 255;
 				frame[linesStart + xcoi + 1] = 255;
 				frame[linesStart + xcoi + 2] = 255;
+
 			}
 			//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 		}
@@ -390,6 +404,8 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 		}else{
 		yhight = 820-(log10(array[i]) * (600/4)) ;
 		}
+
+
 		if(i != 17){
 			if(array[i+1] == 0){
 				yhight2 = 820;
@@ -397,38 +413,26 @@ void DemoPrintTest(u8 *frame, u32 width, u32 height, u32 stride)
 				yhight2= 820-(log10(array[i+1]) * (600/4)) ;
 			}
 		}
-		//displayString(frame, array[i], 130 + l, 500 );
-		displayDot(frame, 149 + (i * 76),yhight,Colors[i][0] , Colors[i][1], Colors[i][2]);
 
-		//vector<double> output( 100 );
-		//FillSin( output );
-		//for( int n=0; n < output.size(); ++n )
-		//{
-		//cout << output[n] << '\n';
-		//}
+		//displayString(frame, array[i], 130 + l, 500 );
 
 		int distanceBetweenPoints = 76;
 		float test1;
 		if(i != 17){
 			for(int j = 0; j <distanceBetweenPoints; j++){
-
-
+#ifdef	 sinus_insteadOf_linear
+				test1 = CosineInterpolate(yhight, yhight2, (1.0/distanceBetweenPoints)*j);
+#else
 				test1 = yhight+(((float)yhight2-(float)yhight)*((float)j/76.0));
-
-				//test1=1;
-				//int calculatedHeight = yhight / 2 + sin(degToRad(j / 2 + 1)) * yhight2 / 2;
-
+#endif
 				displayDotSmall(frame, 149 + (i * 76)+j+7,test1+7,0x6a , 0x0d, 0xad);
-
 			}
 		}
-
 		displayCharacter(frame, arrayName[i] , 165 + (i * 76), yhight - 20 , Colors[i][0] , Colors[i][1], Colors[i][2] );
 
-
+		displayDot(frame, 149 + (i * 76),yhight,Colors[i][0] , Colors[i][1], Colors[i][2]);
 
 	}
-
 
 	printtest(frame);
 
@@ -539,6 +543,8 @@ void displayDotSmall(u8 *frame, int x, int y , int Red, int Green, int Blue){
 
 
 }
+
+
 
 void printtest(u8 *frame)
 {

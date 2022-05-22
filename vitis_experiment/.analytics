@@ -407,3 +407,28 @@ timestamp=[2022-05-20 13:36:34], mode=BUILD, duration=0:00:09.286, duration_ms=9
 timestamp=[2022-05-20 13:37:27], mode=BUILD, duration=0:00:14.056, duration_ms=14056, data={name=test9, configuration=Debug, clean_build=false}
 timestamp=[2022-05-20 13:38:04], mode=BUILD, duration=0:00:00.489, duration_ms=489, data={name=test9, configuration=Debug, clean_build=false}
 timestamp=[2022-05-20 13:41:27], mode=BUILD, duration=0:00:14.842, duration_ms=14842, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 17:48:01], mode=WORKBENCH_START, duration=0:00:30.860, duration_ms=30860, data={}
+timestamp=[2022-05-22 17:48:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.909, duration_ms=909, data={editors_count=8, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper9,test9,test9_system}
+timestamp=[2022-05-22 17:48:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.738, duration_ms=738, data={}
+timestamp=[2022-05-22 17:48:54], mode=BUILD, duration=0:00:01.056, duration_ms=1056, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 17:53:50], mode=BUILD, duration=0:00:00.448, duration_ms=448, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 17:58:03], mode=BUILD, duration=0:00:14.592, duration_ms=14592, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:00:16], mode=BUILD, duration=0:00:11.275, duration_ms=11275, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:02:46], mode=BUILD, duration=0:00:11.273, duration_ms=11273, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:07:42], mode=BUILD, duration=0:00:08.176, duration_ms=8176, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:08:15], mode=BUILD, duration=0:00:08.119, duration_ms=8119, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:09:42], mode=BUILD, duration=0:00:08.317, duration_ms=8317, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:10:59], mode=BUILD, duration=0:00:08.120, duration_ms=8120, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:13:05], mode=BUILD, duration=0:00:11.440, duration_ms=11440, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:16:51], mode=BUILD, duration=0:00:11.824, duration_ms=11824, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:19:40], mode=BUILD, duration=0:00:11.375, duration_ms=11375, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:22:50], mode=BUILD, duration=0:00:12.280, duration_ms=12280, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:23:31], mode=BUILD, duration=0:00:00.442, duration_ms=442, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:28:19], mode=BUILD, duration=0:00:11.124, duration_ms=11124, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:29:19], mode=BUILD, duration=0:00:00.435, duration_ms=435, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:30:24], mode=BUILD, duration=0:00:11.229, duration_ms=11229, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:31:14], mode=BUILD, duration=0:00:00.424, duration_ms=424, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:31:52], mode=BUILD, duration=0:00:11.402, duration_ms=11402, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:31:56], mode=BUILD, duration=0:00:00.372, duration_ms=372, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:32:53], mode=BUILD, duration=0:00:11.224, duration_ms=11224, data={name=test9, configuration=Debug, clean_build=false}
+timestamp=[2022-05-22 18:33:07], mode=BUILD, duration=0:00:11.179, duration_ms=11179, data={name=test9, configuration=Debug, clean_build=false}
